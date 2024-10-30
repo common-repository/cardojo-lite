@@ -1,0 +1,5368 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CarDojo Lite\n"
+"POT-Creation-Date: 2017-09-19 12:39+0300\n"
+"PO-Revision-Date: 2017-09-19 12:39+0300\n"
+"Last-Translator: Alex Gurghis <agurghis@yahoo.com>\n"
+"Language-Team: Alex Gurghis <agurghis@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cardojo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-cardojo-admin.php:130
+#: includes/class-cardojo-car-metaboxes.php:912
+#: includes/class-cardojo-car-metaboxes.php:919
+#: includes/class-cardojo-car-metaboxes.php:926
+#: includes/class-cardojo-car-metaboxes.php:933
+#: includes/class-cardojo-car-metaboxes.php:1486
+#: includes/class-cardojo-car-metaboxes.php:1493
+#: includes/class-cardojo-car-metaboxes.php:1507
+#: includes/class-cardojo-car-metaboxes.php:2746
+#: includes/class-cardojo-car-metaboxes.php:2773
+#: includes/forms/financial-application.php:782
+#: includes/forms/financial-application.php:840
+#: includes/forms/financial-application.php:1074
+#: includes/forms/financial-application.php:1131
+#: includes/forms/financial-application.php:1373
+#: includes/forms/pre-qualify-form.php:571
+#: includes/forms/pre-qualify-form.php:620
+#: includes/forms/pre-qualify-form.php:862
+#: includes/forms/search-horizontal-filter.php:414
+#: includes/forms/test-drive-form.php:542
+#: includes/forms/test-drive-form.php:678
+#: includes/forms/test-drive-form.php:752 includes/forms/trade-in-form.php:651
+#: includes/forms/trade-in-form.php:787 includes/forms/trade-in-form.php:836
+#: includes/public/class-cardojo-public.php:119
+#: templates/cardojo-inventory.php:80 templates/cardojo-inventory.php:107
+#: templates/cardojo-submit.php:959 templates/cardojo-submit.php:966
+#: templates/cardojo-submit.php:973 templates/cardojo-submit.php:980
+#: templates/cardojo-submit.php:1503 templates/cardojo-submit.php:1510
+#: templates/cardojo-submit.php:1524 templates/cardojo-submit.php:2742
+#: templates/cardojo-submit.php:2769 templates/content-single-vehicle.php:819
+#: templates/content-single-vehicle.php:868
+#: templates/content-single-vehicle.php:875
+#: templates/content-single-vehicle.php:927
+msgid "in"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:135
+#: includes/class-cardojo-car-metaboxes.php:1638
+#: includes/class-cardojo-car-metaboxes.php:1687
+#: includes/class-cardojo-car-metaboxes.php:1759
+#: includes/class-cardojo-car-metaboxes.php:1811
+#: includes/class-cardojo-car-metaboxes.php:1873
+#: includes/class-cardojo-car-metaboxes.php:1927
+#: includes/class-cardojo-car-metaboxes.php:1991
+#: includes/class-cardojo-car-metaboxes.php:2043
+#: includes/class-cardojo-car-metaboxes.php:2099
+#: includes/class-cardojo-car-metaboxes.php:2185
+#: includes/class-cardojo-car-metaboxes.php:2314
+#: includes/class-cardojo-car-metaboxes.php:2373
+#: includes/class-cardojo-car-metaboxes.php:2446
+#: includes/class-cardojo-car-metaboxes.php:2519
+#: includes/class-cardojo-car-metaboxes.php:2605
+#: includes/class-cardojo-car-metaboxes.php:2654
+#: includes/class-cardojo-car-metaboxes.php:2687
+#: includes/public/class-cardojo-public.php:124
+#: templates/cardojo-submit.php:1643 templates/cardojo-submit.php:1692
+#: templates/cardojo-submit.php:1764 templates/cardojo-submit.php:1816
+#: templates/cardojo-submit.php:1878 templates/cardojo-submit.php:1932
+#: templates/cardojo-submit.php:1996 templates/cardojo-submit.php:2048
+#: templates/cardojo-submit.php:2104 templates/cardojo-submit.php:2190
+#: templates/cardojo-submit.php:2319 templates/cardojo-submit.php:2378
+#: templates/cardojo-submit.php:2451 templates/cardojo-submit.php:2524
+#: templates/cardojo-submit.php:2610 templates/cardojo-submit.php:2659
+#: templates/cardojo-submit.php:2692
+msgid "Remove Image"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:136
+#: includes/class-cardojo-car-metaboxes.php:1629
+#: includes/class-cardojo-car-metaboxes.php:1678
+#: includes/class-cardojo-car-metaboxes.php:1750
+#: includes/class-cardojo-car-metaboxes.php:1802
+#: includes/class-cardojo-car-metaboxes.php:1864
+#: includes/class-cardojo-car-metaboxes.php:1918
+#: includes/class-cardojo-car-metaboxes.php:1982
+#: includes/class-cardojo-car-metaboxes.php:2034
+#: includes/class-cardojo-car-metaboxes.php:2090
+#: includes/class-cardojo-car-metaboxes.php:2176
+#: includes/class-cardojo-car-metaboxes.php:2305
+#: includes/class-cardojo-car-metaboxes.php:2364
+#: includes/class-cardojo-car-metaboxes.php:2437
+#: includes/class-cardojo-car-metaboxes.php:2510
+#: includes/class-cardojo-car-metaboxes.php:2596
+#: includes/class-cardojo-car-metaboxes.php:2645
+#: includes/class-cardojo-car-metaboxes.php:2678
+#: includes/public/class-cardojo-public.php:125
+#: templates/cardojo-submit.php:1634 templates/cardojo-submit.php:1683
+#: templates/cardojo-submit.php:1755 templates/cardojo-submit.php:1807
+#: templates/cardojo-submit.php:1869 templates/cardojo-submit.php:1923
+#: templates/cardojo-submit.php:1987 templates/cardojo-submit.php:2039
+#: templates/cardojo-submit.php:2095 templates/cardojo-submit.php:2181
+#: templates/cardojo-submit.php:2310 templates/cardojo-submit.php:2369
+#: templates/cardojo-submit.php:2442 templates/cardojo-submit.php:2515
+#: templates/cardojo-submit.php:2601 templates/cardojo-submit.php:2650
+#: templates/cardojo-submit.php:2683
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:137
+#: includes/class-cardojo-car-metaboxes.php:2746
+#: includes/class-cardojo-car-metaboxes.php:2773
+#: includes/public/class-cardojo-public.php:126 templates/cardojo-deals.php:335
+#: templates/cardojo-filter-subscriptions.php:69
+#: templates/cardojo-filter-subscriptions.php:165
+#: templates/cardojo-inventory.php:80 templates/cardojo-inventory.php:107
+#: templates/cardojo-submit.php:1495 templates/cardojo-submit.php:2742
+#: templates/cardojo-submit.php:2769
+msgid "Price"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:139
+#: includes/admin/class-cardojo-setup-wizard.php:294
+#: includes/class-cardojo-car-metaboxes.php:2753
+#: includes/class-cardojo-car-metaboxes.php:2780
+#: includes/public/class-cardojo-public.php:128
+#: templates/cardojo-inventory.php:87 templates/cardojo-inventory.php:114
+#: templates/cardojo-submit.php:577 templates/cardojo-submit.php:2749
+#: templates/cardojo-submit.php:2776
+msgid "Description"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:140
+#: includes/class-cardojo-car-metaboxes.php:2754
+#: includes/class-cardojo-car-metaboxes.php:2781
+#: includes/public/class-cardojo-public.php:129
+#: templates/cardojo-inventory.php:88 templates/cardojo-inventory.php:115
+#: templates/cardojo-submit.php:2750 templates/cardojo-submit.php:2777
+msgid "Write down vehicle’s expense description here..."
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:141
+#: includes/class-cardojo-car-metaboxes.php:2760
+#: includes/class-cardojo-car-metaboxes.php:2787
+#: includes/public/class-cardojo-public.php:130
+#: templates/cardojo-inventory.php:94 templates/cardojo-inventory.php:121
+#: templates/cardojo-inventory.php:773 templates/cardojo-notifications.php:81
+#: templates/cardojo-submit.php:2756 templates/cardojo-submit.php:2783
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:170
+msgid "CarDojo Lite Settings"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:177
+msgid "CarDojo Pro & Extensions"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:177
+msgid "Extensions"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:199
+msgid "CarDojo Premium Plugin"
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:200
+msgid ""
+"CarDojo Premium Plugin includes exclusive features as <strong>Leads</"
+"strong>, <strong>Deals</strong>, <strong>Monetization</strong>, submit form "
+"with automatic completion using <strong>Make</strong>, <strong>Model</"
+"strong>, <strong>Year and Trim</strong> database, <strong>Loan Calculator</"
+"strong>, <strong>Amortization Schedule Table</strong> and many more."
+msgstr ""
+
+#: includes/admin/class-cardojo-admin.php:202
+msgid "From: $69"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:49
+msgid "Main Settings"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:54
+#: includes/admin/class-cardojo-setup-wizard.php:65
+#: includes/admin/class-cardojo-setup-wizard.php:237
+msgid "Website Type"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:57
+msgid "Vehicles shop (Car dealer)"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:58
+#: includes/admin/class-cardojo-setup-wizard.php:253
+msgid "Marketplace"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:64
+msgid "System of Measurement"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:67
+#: includes/admin/class-cardojo-setup-wizard.php:407
+msgid "Metric"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:68
+#: includes/admin/class-cardojo-setup-wizard.php:408
+msgid "U.S."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:74
+#: includes/admin/class-cardojo-setup-wizard.php:413
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:81
+msgid "Currency Position"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:84
+msgid "Left ($99.99)"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:85
+msgid "Right (99.99$)"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:86
+msgid "Left with space ($ 99.99)"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:87
+msgid "Right with space (99.99 $)"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:94
+msgid "Thousand Separator"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:101
+msgid "Decimal Separator"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:108
+msgid "Number of Decimals"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:114
+msgid "SSL Verification"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:115
+msgid "Verify SSL Certification"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:116
+msgid "If enabled and missing https, sensitive fileds will be hidden."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:124
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:129
+msgid ""
+"The following terms of agreement apply to all of our online applications; "
+"we, us, our and ours as used below refer to the dealer and to the Financial "
+"Institutions selected to receive your application. You authorize the dealer, "
+"as part of the credit underwriting process, to submit this application and "
+"any other application submitted in connection with the proposed transaction "
+"to the Financial Institutions disclosed to you by the dealer, for review. In "
+"addition, in accordance with the Fair Credit Reporting Act, you authorize "
+"that such Financial Institutions may submit your applications for review to "
+"other Financial Institutions that may want to purchase your contract.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\tYou agree that we and any Financial Institutions to which "
+"your application is submitted may obtain a consumer credit report "
+"periodically from one or more consumer reporting agencies (credit bureaus) "
+"in connection with the proposed transaction and any update, renewal, "
+"refinancing, modification or extension of that transaction. You agree that "
+"we may verify your employment, pay, assets and debts, and that anyone "
+"receiving a copy of this is authorized to provide us with such information. "
+"You further authorize us to gather whatever credit and employment history we "
+"consider necessary and appropriate in reviewing this application and any "
+"other applications submitted in connection with the proposed transaction. We "
+"may keep this application and any other application submitted to us, and "
+"information about you whether or not the application is approved. You "
+"certify that the information on this application and in any other "
+"application submitted to us, is true and complete. You understand that false "
+"statements may subject you to criminal penalties.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>FEDERAL NOTICES</strong>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>IMPORTANT INFORMATION ABOUT PROCEDURES FOR OPENING A "
+"NEW ACCOUNT</strong>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\tTo help the government fight the funding of terrorism and "
+"money laundering activities, Federal law requires all financial institutions "
+"to obtain, verify, and record information that identifies each person who "
+"opens an account. What this means for you: When you open an account, we will "
+"ask for your name, address, date of birth, and other information that will "
+"allow us to identify you. We may also ask to see your driver's license or "
+"other identifying documents.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>STATE NOTICES</strong>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>Arizona, California, Idaho, Louisiana, Nevada, New "
+"Mexico, Texas, Washington or Wisconsin Residents</strong>: If you, the "
+"applicant, are married and live in a community property state, you should "
+"also provide the personal credit information on your spouse in the co-buyer "
+"section. Your spouse is not required to be a co-buyer for the credit "
+"requested unless he/she wishes to be a co-buyer.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>California Residents</strong>: An applicant, if "
+"married, may apply for a separate account.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>Ohio Residents</strong>: Ohio laws against "
+"discrimination require that all creditors make credit equally available to "
+"all creditworthy customers and that credit reporting agencies maintain "
+"separate credit histories on each individual upon request. The Ohio Civil "
+"Rights Commission administers compliance with this law.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>New Hampshire Residents</strong>: If this is an "
+"application for balloon financing, you are entitled to receive, upon "
+"request, a written estimate of the monthly payment amount that would be "
+"required to refinance the balloon payment at the time such payment is due "
+"based on the creditor's current refinancing programs.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>New Hampshire Residents</strong>: In connection with "
+"your application for credit, we may request a consumer report that contains "
+"information on your credit worthiness, credit standing, personal "
+"characteristics and general reputation. If we grant you credit, we or our "
+"servicer may order additional consumer reports in connection with any "
+"update, renewal or extension of the credit. If you ask us, we will tell you "
+"whether we obtained a consumer report and if we did, we will tell you the "
+"name and address of the consumer reporting agency that gave us the report.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>Vermont Residents</strong>: By clicking on Submit, "
+"you authorize us and our employees or agents to obtain and verify "
+"information about you (including one or more credit reports, information "
+"about your employment and banking and credit relationships) that we may deem "
+"necessary or appropriate in reviewing your application. If your application "
+"is approved and credit is extended, you also authorize us, and our employees "
+"and agents, to obtain additional credit reports and other information about "
+"you in connection with reviewing the account, increasing the available "
+"credit on the account (if applicable), taking collection on the account, or "
+"for any other legitimate purpose.\n"
+"\n"
+"\t\t\t\t\t\t\t\t<br><br>\n"
+"\n"
+"\t\t\t\t\t\t\t\t<strong>Married Wisconsin Residents</strong>: Wisconsin law "
+"provides that no provision of any marital property agreement, or unilateral "
+"statement, or court order applied to marital property will adversely affect "
+"a creditor's interests unless, prior to the time that the credit is granted, "
+"the creditor is furnished with a copy of the agreement, statement or decree, "
+"or has actual  knowledge of the adverse provision. If you are making this "
+"application individually, and not jointly with your spouse, the full name "
+"and current address of your spouse must be properly disclosed in the co-"
+"buyer section of this application.\n"
+"\t"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:180
+msgid "Financial Disclaimer"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:187
+msgid "Contact Form"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:191
+msgid ""
+"Use the contact form to get in touch, whether you want to schedule for a "
+"test-drive, make an offer for this vehicle, trade-in your vehicle for this "
+"one or you want us to call you back."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:193
+msgid "Intro text"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:199
+msgid "Thank you for contacting us. We will get back to you shortly."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:201
+msgid "Thank you text"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:207
+msgid "Please add a name."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:209
+msgid "Name error text"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:215
+msgid "Please use a valid email."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:217
+msgid "Email error text"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:223
+msgid "Please add a phone number."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:225
+msgid "Phone error text"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:231
+msgid ""
+"I am interested in getting a price quote for this vehicle. Please let me "
+"know at your earliest convenience the best price for this vehicle."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:233
+msgid "Default message text"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:240
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:245
+msgid "Add/Edit Vehicle Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:246
+msgid ""
+"Select the page where you have placed the [cardojo_submit] shortcode. This "
+"lets the plugin know where the form is located."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:252
+msgid "Dealer Dashboard Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:253
+msgid ""
+"Select the page where you have placed the [cardojo_dashboard] shortcode. "
+"This lets the plugin know where the dashboard is located."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:259
+msgid "Dealer Inventory Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:260
+msgid ""
+"Select the page where you have placed the [cardojo_inventory] shortcode. "
+"This lets the plugin know where the my inventory is located."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:266
+msgid "Browse all Cars Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:267
+msgid ""
+"Select the page where you have placed the [cardojo_cars] shortcode. This "
+"lets the plugin know where the car listings page is located."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:273
+msgid "User Profile Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:274
+msgid ""
+"Select the page where you have placed the [cardojo_dealer_page] shortcode. "
+"This lets the plugin know where the user profile page is located (for "
+"marketplace only)."
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:326
+msgid "Settings successfully saved"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:386
+msgid "--no page--"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:391
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/admin/class-cardojo-settings.php:437
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:60
+msgid "Introduction"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:70
+#: includes/admin/class-cardojo-setup.php:155
+msgid "Page Setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:75
+msgid "Website Locale"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:80
+#: includes/admin/class-cardojo-setup.php:212
+msgid "All Done!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:93
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:94
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:95
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:96
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:97
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:98
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:99
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:100
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:101
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:102
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:164
+msgid "CarDojo &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:174
+msgid "Quick Setup Wizard"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:221
+msgid "Overview!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:222
+msgid ""
+"This quick setup wizard will help you <strong>configure the basic settings</"
+"strong> of the CarDojo WordPress Plugin. It shouldn’t take more than 5 "
+"minutes and it’s optional, though recomendable."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:223
+msgid ""
+"If you’re in a hurry now, don’t worry, just skip it and return to the "
+"WordPress Admin Dashboard. You can get back to this when you have the time."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:224
+#: includes/admin/class-cardojo-setup-wizard.php:497
+msgid ""
+"Thank you for choosing CarDojo WordPress Plugin to power your vehicles shop "
+"or automotive marketplace."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:226
+msgid "Let’s do this!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:227
+msgid "Not now, I’ll do this later"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:239
+msgid ""
+"Here you will select the type of your website, a vehicles shop (car dealer) "
+"or automotive marketplace."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:246
+msgid "Vehicles Shop"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:261
+#: includes/admin/class-cardojo-setup-wizard.php:364
+#: includes/admin/class-cardojo-setup-wizard.php:456
+msgid "Continue"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:262
+#: includes/admin/class-cardojo-setup-wizard.php:365
+#: includes/admin/class-cardojo-setup-wizard.php:457
+#: includes/admin/class-cardojo-setup.php:202
+msgid "Skip this step"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:287
+msgid "Page setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:289
+#, php-format
+msgid ""
+"Your store needs a few essential <a href=\"%s\" target=\"_blank\">pages</a>. "
+"The following will be created automatically (if they do not already exist):"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:293
+msgid "Page name"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:299
+#: includes/class-cardojo-install.php:236
+msgctxt "Page title"
+msgid "Add/Edit Vehicle"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:300
+msgid "This is front-end submit/edit vehicle page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:303
+msgctxt "Page title"
+msgid "Dealer Dashboard Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:304
+msgid "This is front-end dealer dashboard page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:307
+msgctxt "Page title"
+msgid "Dealer Inventory Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:308
+msgid "This is front-end dealer inventory page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:311
+msgctxt "Page title"
+msgid "Browse All Cars Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:312
+msgid "This is front-end all cars page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:315
+#: includes/class-cardojo-install.php:256
+msgctxt "Page title"
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:316
+msgid "This is front-end reports page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:319
+#: includes/class-cardojo-install.php:261
+msgctxt "Page title"
+msgid "Notifications"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:320
+msgid "This is front-end notifications page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:323
+#: includes/class-cardojo-install.php:266
+msgctxt "Page title"
+msgid "My Favorites"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:324
+msgid "This is front-end my favorites page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:327
+msgctxt "Page title"
+msgid "Login/Register"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:328
+msgid "This is front-end login/register page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:336
+#: includes/class-cardojo-install.php:271
+msgctxt "Page title"
+msgid "Filter Subscriptions"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:337
+msgid "This is front-end filter subscriptions page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:346
+msgctxt "Page title"
+msgid "User Profile Page"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:347
+msgid "This is front-end user profile page (for marketplace only)."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:350
+msgctxt "Page title"
+msgid "Account Funds"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:351
+msgid "This is front-end account funds page (for marketplace only)."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:354
+#: includes/class-cardojo-install.php:281
+msgctxt "Page title"
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:355
+msgid "This is front-end settings page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:361
+#, php-format
+msgid ""
+"Once created, these pages can be managed from your admin dashboard on the <a "
+"href=\"%1$s\" target=\"_blank\">Pages screen</a>. You can control which "
+"pages are shown on your website via <a href=\"%2$s\" target=\"_blank"
+"\">Appearance > Menus</a>."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:400
+msgid "Store locale setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:404
+msgid "Systems of Measurement"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:415
+#: includes/admin/class-cardojo-setup-wizard.php:416
+msgid "Choose a currency&hellip;"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:419
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:426
+msgid "Currency position"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:429
+msgid "Left"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:430
+msgid "Right"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:431
+msgid "Left with space"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:432
+msgid "Right with space"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:437
+msgid "Thousand separator"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:443
+msgid "Decimal separator"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:449
+msgid "Number of decimals"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:495
+msgid "Well Done!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:499
+msgid "Submit your first vehicle!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup-wizard.php:500
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:32
+msgid "Setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:131
+msgid "CarDojo Setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:134
+msgid "1. Introduction"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:135
+msgid "2. Page Setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:136
+msgid "3. Done"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:141
+msgid "Setup Wizard Introduction"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:143
+msgid "Thanks for installing <em>CarDojo</em>!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:144
+msgid ""
+"This setup wizard will help you get started by creating the pages for car "
+"submission, car management, and listing your cars."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:145
+#, php-format
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, the process is still relatively simple. Refer to the "
+"%sdocumentation%s for help."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:148
+msgid "Continue to page setup"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:149
+msgid "Skip setup. I will setup the plugin manually"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:157
+#, php-format
+msgid ""
+"<em>CarDojo</em> includes %1$sshortcodes%2$s which can be used within your "
+"%3$spages%2$s to output content. These can be created for you below. For "
+"more information on the car shortcodes view the %4$sshortcode documentation"
+"%2$s."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:165
+msgid "Page Title"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:166
+msgid "Page Description"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:167
+msgid "Content Shortcode"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:173
+msgctxt "Default page title (wizard)"
+msgid "Post a car"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:175
+msgid ""
+"This page allows employers to post cars to your website from the front-end."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:177
+msgid ""
+"If you do not want to accept submissions from users in this way (for example "
+"you just want to post cars from the admin dashboard) you can skip creating "
+"this page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:183
+msgctxt "Default page title (wizard)"
+msgid "car Dashboard"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:185
+msgid ""
+"This page allows employers to manage and edit their own cars from the front-"
+"end."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:187
+msgid ""
+"If you plan on managing all listings from the admin dashboard you can skip "
+"creating this page."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:193
+msgctxt "Default page title (wizard)"
+msgid "cars"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:194
+msgid ""
+"This page allows users to browse, search, and filter car listings on the "
+"front-end of your site."
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:214
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:217
+msgid "Tweak the plugin settings"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:218
+msgid "Add a car via the back-end"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:221
+msgid "Add a car via the front-end"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:223
+msgid "Find out more about the front-end car submission form"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:227
+msgid "View submitted car listings"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:229
+msgid "Add the [cars] shortcode to a page to list cars"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:233
+msgid "View the car dashboard"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:235
+msgid "Find out more about the front-end car dashboard"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:239
+#, php-format
+msgid ""
+"And don't forget, if you need any more help using <em>CarDojo</em> you can "
+"consult the %1$sdocumentation%2$s or %3$spost on the forums%2$s!"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:242
+msgid "Support the Ongoing Development of this Plugin"
+msgstr ""
+
+#: includes/admin/class-cardojo-setup.php:243
+msgid ""
+"There are many ways to support open-source projects such as CarDojo, for "
+"example code contribution, translation, or even telling your friends how "
+"awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:169
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:170
+msgid "Afghan afghani"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:171
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:172
+msgid "Armenian dram"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:173
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:174
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:175
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:176
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:177
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:178
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:179
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:180
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:181
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:182
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:183
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:184
+msgid "Burundian franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:185
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:186
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:187
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:188
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:189
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:190
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:191
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:192
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:193
+msgid "Belarusian ruble"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:194
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:195
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:196
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:197
+msgid "Swiss franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:198
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:199
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:200
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:201
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:202
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:203
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:204
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:205
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:206
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:207
+msgid "Danish krone"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:208
+msgid "Dominican peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:209
+msgid "Algerian dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:210
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:211
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:212
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:213
+msgid "Euro"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:214
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:215
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:216
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:217
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:218
+msgid "Guernsey pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:219
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:220
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:221
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:222
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:223
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:224
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:225
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:226
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:227
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:228
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:229
+msgid "Hungarian forint"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:230
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:231
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:232
+msgid "Manx pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:233
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:234
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:235
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:236
+msgid "Iranian toman"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:237
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:238
+msgid "Jersey pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:239
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:240
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:241
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:242
+msgid "Kenyan shilling"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:243
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:244
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:245
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:246
+msgid "North Korean won"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:247
+msgid "South Korean won"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:248
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:249
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:250
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:251
+msgid "Lao kip"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:252
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:253
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:254
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:255
+msgid "Lesotho loti"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:256
+msgid "Libyan dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:257
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:258
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:259
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:260
+msgid "Macedonian denar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:261
+msgid "Burmese kyat"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:262
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:263
+msgid "Macanese pataca"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:264
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:265
+msgid "Mauritian rupee"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:266
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:267
+msgid "Malawian kwacha"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:268
+msgid "Mexican peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:269
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:270
+msgid "Mozambican metical"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:271
+msgid "Namibian dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:272
+msgid "Nigerian naira"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:273
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:274
+msgid "Norwegian krone"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:275
+msgid "Nepalese rupee"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:276
+msgid "New Zealand dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:277
+msgid "Omani rial"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:278
+msgid "Panamanian balboa"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:279
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:280
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:281
+msgid "Philippine peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:282
+msgid "Pakistani rupee"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:283
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:284
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:285
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:286
+msgid "Qatari riyal"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:287
+msgid "Romanian leu"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:288
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:289
+msgid "Russian ruble"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:290
+msgid "Rwandan franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:291
+msgid "Saudi riyal"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:292
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:293
+msgid "Seychellois rupee"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:294
+msgid "Sudanese pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:295
+msgid "Swedish krona"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:296
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:297
+msgid "Saint Helena pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:298
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:299
+msgid "Somali shilling"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:300
+msgid "Surinamese dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:301
+msgid "South Sudanese pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:302
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:303
+msgid "Syrian pound"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:304
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:305
+msgid "Thai baht"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:306
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:307
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:308
+msgid "Tunisian dinar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:309
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:310
+msgid "Turkish lira"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:311
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:312
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:313
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:314
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:315
+msgid "Ugandan shilling"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:316
+msgid "United States dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:317
+msgid "Uruguayan peso"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:318
+msgid "Uzbekistani som"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:319
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:320
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:321
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:322
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:323
+msgid "Central African CFA franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:324
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:325
+msgid "West African CFA franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:326
+msgid "CFP franc"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:327
+msgid "Yemeni rial"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:328
+msgid "South African rand"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:329
+msgid "Zambian kwacha"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:1270
+msgid "Select File"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:1274
+msgid "Please Login To Upload"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:1287
+#, php-format
+msgid "Edited: %s"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:1288
+#, php-format
+msgid "New post: %s"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:2960
+msgid "<span class=\"error-title\">Error</span>Error with email or password."
+msgstr ""
+
+#: includes/cardojo-core-functions.php:2962
+msgid "<span class=\"error-title\">Error</span>Email and password required."
+msgstr ""
+
+#: includes/cardojo-core-functions.php:2988
+msgid ""
+"<span class=\"success-title\">Succes</span>Passwords has been reset. Check "
+"your email inbox for new password."
+msgstr ""
+
+#: includes/cardojo-core-functions.php:2994
+msgid "<span class='error-title'>Error</span>Email doesn't exist."
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3006
+msgid "<span class=\"error-title\">Error</span>Email is in use already."
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3225
+msgid "Vehicle notification from "
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3231
+msgid "New vehicle added matching your criteria"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3368
+msgid "Filter notification from "
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+msgid "New filter subscription"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+#: includes/class-cardojo-car-metaboxes.php:1431
+#: includes/forms/financial-application.php:333
+#: includes/forms/financial-application.php:458
+#: includes/forms/pre-qualify-form.php:251
+#: includes/forms/test-drive-form.php:235 includes/forms/trade-in-form.php:251
+#: templates/cardojo-filter-subscriptions.php:63
+#: templates/cardojo-filter-subscriptions.php:160
+#: templates/cardojo-login.php:60 templates/cardojo-login.php:84
+#: templates/cardojo-login.php:125 templates/cardojo-submit.php:1464
+msgid "Email"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+#: includes/class-cardojo-car-metaboxes.php:57
+#: includes/forms/financial-application.php:530
+#: includes/forms/financial-application.php:568
+#: includes/forms/financial-application.php:1397
+#: includes/forms/pre-qualify-form.php:325
+#: includes/forms/pre-qualify-form.php:363
+#: includes/forms/pre-qualify-form.php:886
+#: includes/forms/search-horizontal-filter.php:122
+#: includes/forms/test-drive-form.php:328 includes/forms/trade-in-form.php:325
+#: includes/forms/trade-in-form.php:363 includes/forms/trade-in-form.php:459
+#: templates/cardojo-dashboard.php:356
+#: templates/cardojo-filter-subscriptions.php:66
+#: templates/cardojo-filter-subscriptions.php:162
+#: templates/cardojo-submit.php:201
+msgid "Make"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+#: includes/class-cardojo-car-metaboxes.php:64
+#: includes/class-cardojo-car-post-types.php:50
+#: includes/forms/financial-application.php:534
+#: includes/forms/financial-application.php:572
+#: includes/forms/financial-application.php:1398
+#: includes/forms/pre-qualify-form.php:329
+#: includes/forms/pre-qualify-form.php:367
+#: includes/forms/pre-qualify-form.php:887
+#: includes/forms/search-horizontal-filter.php:370
+#: includes/forms/test-drive-form.php:332 includes/forms/trade-in-form.php:329
+#: includes/forms/trade-in-form.php:367 includes/forms/trade-in-form.php:460
+#: templates/cardojo-filter-subscriptions.php:67
+#: templates/cardojo-filter-subscriptions.php:163
+#: templates/cardojo-submit.php:208
+msgid "Model"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+#: includes/class-cardojo-car-metaboxes.php:554
+#: includes/class-cardojo-car-post-types.php:491
+#: includes/class-cardojo-car-post-types.php:517
+#: templates/cardojo-filter-subscriptions.php:68
+#: templates/cardojo-filter-subscriptions.php:164
+#: templates/cardojo-submit.php:632
+msgid "Fuel Type"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+msgid "Price to"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+msgid "From Year"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+#: includes/forms/search-horizontal-filter.php:479
+msgid "Mileage up to"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3374
+#: includes/class-cardojo-car-metaboxes.php:119
+#: templates/cardojo-filter-subscriptions.php:72
+#: templates/cardojo-filter-subscriptions.php:168
+#: templates/cardojo-submit.php:235 templates/cardojo-submit.php:243
+#: templates/content-single-vehicle.php:348
+msgid "Condition"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3388
+#: includes/cardojo-core-functions.php:3415
+#: includes/cardojo-core-functions.php:3458
+msgid "Invalid Paramenters!"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3605
+msgid "Dealer Info"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3608
+#: includes/forms/financial-application.php:285
+#: includes/forms/financial-application.php:410
+#: includes/forms/pre-qualify-form.php:203
+#: includes/forms/test-drive-form.php:187 includes/forms/trade-in-form.php:203
+#: templates/cardojo-account-settings.php:27
+#: templates/cardojo-dashboard.php:221 templates/cardojo-deals.php:331
+#: templates/cardojo-filter-subscriptions.php:62
+#: templates/cardojo-leads.php:342
+msgid "Name"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3614
+#: includes/forms/financial-application.php:313
+#: includes/forms/financial-application.php:438
+#: includes/forms/pre-qualify-form.php:231
+#: includes/forms/test-drive-form.php:215 includes/forms/trade-in-form.php:231
+#: templates/cardojo-account-settings.php:34
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3620
+#: templates/cardojo-account-settings.php:41
+msgid "Office Phone"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3667
+msgid "Demo Account"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3670
+msgid "Demo"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3721 templates/cardojo-inventory.php:390
+#: templates/cardojo-inventory.php:646
+msgid "Sold"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3723 templates/cardojo-inventory.php:391
+#: templates/cardojo-inventory.php:648
+msgid "Featured"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3725 templates/cardojo-inventory.php:392
+#: templates/cardojo-inventory.php:650
+msgid "Promoted"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3727
+msgid "Published"
+msgstr ""
+
+#: includes/cardojo-core-functions.php:3747
+msgid ""
+"Please install WooCommerce, it is required for monetization to work properly!"
+msgstr ""
+
+#: includes/cardojo-template.php:176
+msgid "Anywhere"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:71
+#: includes/forms/financial-application.php:526
+#: includes/forms/financial-application.php:564
+#: includes/forms/financial-application.php:1399
+#: includes/forms/pre-qualify-form.php:321
+#: includes/forms/pre-qualify-form.php:359
+#: includes/forms/pre-qualify-form.php:888
+#: includes/forms/test-drive-form.php:324 includes/forms/trade-in-form.php:321
+#: includes/forms/trade-in-form.php:359 includes/forms/trade-in-form.php:461
+#: templates/cardojo-filter-subscriptions.php:70
+#: templates/cardojo-filter-subscriptions.php:166
+#: templates/cardojo-reports.php:83 templates/cardojo-submit.php:215
+msgid "Year"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:78 templates/cardojo-submit.php:222
+msgid "trim"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:122
+#: templates/cardojo-filter-subscriptions.php:154
+#: templates/cardojo-inventory.php:389 templates/cardojo-notifications.php:79
+#: templates/cardojo-submit.php:246
+msgid "New"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:123
+#: templates/cardojo-filter-subscriptions.php:154
+#: templates/cardojo-inventory.php:388 templates/cardojo-submit.php:247
+msgid "Used"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:139
+#: includes/forms/financial-application.php:546
+#: includes/forms/pre-qualify-form.php:341 includes/forms/trade-in-form.php:341
+#: templates/cardojo-filter-subscriptions.php:71
+#: templates/cardojo-filter-subscriptions.php:167
+#: templates/cardojo-inventory.php:455 templates/cardojo-submit.php:263
+msgid "Mileage"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:146
+#: templates/cardojo-submit.php:270
+msgid "Condition (0 - 100)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:159
+#: templates/cardojo-submit.php:283
+msgid "Owners (number)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:173
+#: templates/cardojo-submit.php:297
+msgid "Accident Free"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:180
+#: templates/cardojo-submit.php:304
+msgid "Service History"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:186 templates/cardojo-deals.php:408
+#: templates/cardojo-leads.php:344 templates/cardojo-leads.php:398
+#: templates/cardojo-submit.php:310
+msgid "Stock #"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:193
+#: templates/cardojo-submit.php:317 templates/content-single-vehicle.php:409
+msgid "VIN Number"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:200
+#: templates/cardojo-submit.php:324
+msgid "Carfax Link"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:234
+#: templates/cardojo-submit.php:345
+msgid "Exterior color"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:284
+#: templates/cardojo-submit.php:395
+msgid "Metalic Paint"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:290
+#: includes/class-cardojo-car-post-types.php:92
+#: includes/class-cardojo-car-post-types.php:93
+#: templates/cardojo-submit.php:401
+msgid "Body Style"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:333
+#: templates/cardojo-submit.php:444
+msgid "Doors"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:335
+#: includes/class-cardojo-car-metaboxes.php:349
+#: includes/class-cardojo-car-metaboxes.php:626
+#: templates/cardojo-submit.php:446 templates/cardojo-submit.php:460
+#: templates/cardojo-submit.php:704
+msgid "2"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:336
+#: includes/class-cardojo-car-metaboxes.php:627
+#: templates/cardojo-submit.php:447 templates/cardojo-submit.php:705
+msgid "3"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:337
+#: includes/class-cardojo-car-metaboxes.php:350
+#: includes/class-cardojo-car-metaboxes.php:628
+#: templates/cardojo-submit.php:448 templates/cardojo-submit.php:461
+#: templates/cardojo-submit.php:706
+msgid "4"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:338
+#: includes/class-cardojo-car-metaboxes.php:351
+#: includes/class-cardojo-car-metaboxes.php:629
+#: templates/cardojo-submit.php:449 templates/cardojo-submit.php:462
+#: templates/cardojo-submit.php:707
+msgid "5"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:339
+#: includes/class-cardojo-car-metaboxes.php:352
+#: includes/class-cardojo-car-metaboxes.php:630
+#: templates/cardojo-submit.php:450 templates/cardojo-submit.php:463
+#: templates/cardojo-submit.php:708
+msgid "6"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:340
+#: includes/class-cardojo-car-metaboxes.php:353
+#: includes/class-cardojo-car-metaboxes.php:631
+#: templates/cardojo-submit.php:451 templates/cardojo-submit.php:464
+#: templates/cardojo-submit.php:709
+msgid "7"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:347
+#: templates/cardojo-submit.php:458
+msgid "Seats"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:368
+#: templates/cardojo-submit.php:479
+msgid "Interior color"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:417
+#: templates/cardojo-submit.php:528
+msgid "Interior materials"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:485
+#: templates/cardojo-submit.php:585
+msgid "Write down your vehicle’s description here..."
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:491
+#: templates/cardojo-submit.php:591
+msgid "Add vehicle to collections"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:597
+#: templates/cardojo-submit.php:675
+msgid "Engine volume (L)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:604
+#: templates/cardojo-submit.php:682
+msgid "Engine volume (ccm)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:611
+#: templates/cardojo-submit.php:689
+msgid "Engine position"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:614
+#: templates/cardojo-submit.php:692
+msgid "Front"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:615
+#: templates/cardojo-submit.php:693
+msgid "Rear"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:616
+#: templates/cardojo-submit.php:694
+msgid "Middle"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:624
+#: templates/cardojo-submit.php:702
+msgid "Number of cilinders"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:632
+#: templates/cardojo-submit.php:710
+msgid "8"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:633
+#: templates/cardojo-submit.php:711
+msgid "9"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:634
+#: templates/cardojo-submit.php:712
+msgid "10"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:635
+#: templates/cardojo-submit.php:713
+msgid "12"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:636
+#: templates/cardojo-submit.php:714
+msgid "14"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:637
+#: templates/cardojo-submit.php:715
+msgid "16"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:638
+#: templates/cardojo-submit.php:716
+msgid "18"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:639
+#: templates/cardojo-submit.php:717
+msgid "20"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:640
+#: templates/cardojo-submit.php:718
+msgid "24"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:647
+#: templates/cardojo-submit.php:725
+msgid "Power (hp)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:654
+#: templates/cardojo-submit.php:732
+msgid "Power (kw)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:661
+#: templates/cardojo-submit.php:739
+msgid "Max Power (RPM)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:668
+#: templates/cardojo-submit.php:746
+msgid "Torque (Nm)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:675
+#: templates/cardojo-submit.php:753
+msgid "Max Torque (RPM)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:682
+#: templates/cardojo-submit.php:760
+msgid "Engine type"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:684
+#: templates/cardojo-submit.php:762
+msgid "V"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:685
+#: templates/cardojo-submit.php:763
+msgid "Inline"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:686
+#: templates/cardojo-submit.php:764
+msgid "Flat"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:687
+#: templates/cardojo-submit.php:765
+msgid "W"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:688
+#: templates/cardojo-submit.php:766
+msgid "H"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:689
+#: templates/cardojo-submit.php:767
+msgid "U"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:690
+#: templates/cardojo-submit.php:768
+msgid "Square four"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:691
+#: templates/cardojo-submit.php:769
+msgid "VR"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:698
+#: includes/class-cardojo-car-post-types.php:533
+#: includes/class-cardojo-car-post-types.php:559
+#: templates/cardojo-submit.php:776 templates/content-single-vehicle.php:316
+msgid "Transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:741
+#: templates/cardojo-submit.php:819
+msgid "Number of gears"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:754
+#: includes/class-cardojo-car-post-types.php:575
+#: includes/class-cardojo-car-post-types.php:576
+#: includes/class-cardojo-car-post-types.php:601
+#: templates/cardojo-submit.php:832
+msgid "Drive"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:797
+#: templates/cardojo-submit.php:875
+msgid "0-100km/h accel"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:834
+#: templates/cardojo-submit.php:896
+msgid "Combined l/100km"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:834
+#: templates/cardojo-submit.php:896
+msgid "Combined mpg"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:841
+#: templates/cardojo-submit.php:903
+msgid "Urban l/100km"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:841
+#: templates/cardojo-submit.php:903
+msgid "Urban mpg"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:848
+#: templates/cardojo-submit.php:910
+msgid "Highway l/100km"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:848
+#: templates/cardojo-submit.php:910
+msgid "Highway mpg"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:855
+#: templates/cardojo-submit.php:917
+msgid "Emissions g CO2/km"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:862
+#: templates/cardojo-submit.php:924
+msgid "Class"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:864
+#: templates/cardojo-submit.php:926
+msgid "Euro 6"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:865
+#: templates/cardojo-submit.php:927
+msgid "Euro 5"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:866
+#: templates/cardojo-submit.php:928
+msgid "Euro 4"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:867
+#: templates/cardojo-submit.php:929
+msgid "Euro 3"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:868
+#: templates/cardojo-submit.php:930
+msgid "Euro 2"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:869
+#: templates/cardojo-submit.php:931
+msgid "Euro 1"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:876
+#: templates/cardojo-submit.php:938
+msgid "Fuel tank"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:876
+#: templates/cardojo-submit.php:938
+msgid "liters"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:876
+#: templates/cardojo-submit.php:938
+msgid "gallons"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:912
+#: templates/cardojo-submit.php:959
+msgid "Length"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:912
+#: includes/class-cardojo-car-metaboxes.php:919
+#: includes/class-cardojo-car-metaboxes.php:926
+#: includes/class-cardojo-car-metaboxes.php:933
+#: templates/cardojo-submit.php:959 templates/cardojo-submit.php:966
+#: templates/cardojo-submit.php:973 templates/cardojo-submit.php:980
+#: templates/content-single-vehicle.php:819
+#: templates/content-single-vehicle.php:868
+#: templates/content-single-vehicle.php:875
+#: templates/content-single-vehicle.php:927
+msgid "mm"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:919
+#: templates/cardojo-submit.php:966
+msgid "Width"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:926
+#: templates/cardojo-submit.php:973
+msgid "Height"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:933
+#: templates/cardojo-submit.php:980
+msgid "Wheelbase"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:940
+#: templates/cardojo-submit.php:987
+msgid "Weight"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:940
+#: templates/cardojo-submit.php:987 templates/content-single-vehicle.php:926
+msgid "kg"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:940
+#: templates/cardojo-submit.php:987 templates/content-single-vehicle.php:926
+msgid "lbs"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:976
+#: includes/class-cardojo-car-post-types.php:617
+#: includes/class-cardojo-car-post-types.php:618
+#: includes/class-cardojo-car-post-types.php:643
+#: templates/cardojo-submit.php:1012 templates/content-single-vehicle.php:487
+msgid "Safety"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1003
+#: includes/class-cardojo-car-post-types.php:659
+#: includes/class-cardojo-car-post-types.php:660
+#: includes/class-cardojo-car-post-types.php:685
+#: templates/cardojo-submit.php:1039 templates/content-single-vehicle.php:649
+msgid "Comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1033
+#: includes/class-cardojo-car-metaboxes.php:1095
+#: includes/class-cardojo-car-metaboxes.php:1201
+#: includes/class-cardojo-car-metaboxes.php:1263
+#: templates/cardojo-submit.php:1069 templates/cardojo-submit.php:1131
+#: templates/cardojo-submit.php:1237 templates/cardojo-submit.php:1299
+msgid "Select"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1065
+#: includes/class-cardojo-car-post-types.php:827
+#: includes/class-cardojo-car-post-types.php:828
+#: includes/class-cardojo-car-post-types.php:853
+#: templates/cardojo-submit.php:1101 templates/content-single-vehicle.php:768
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1135
+#: includes/class-cardojo-car-post-types.php:785
+#: includes/class-cardojo-car-post-types.php:786
+#: includes/class-cardojo-car-post-types.php:811
+#: templates/cardojo-submit.php:1171 templates/content-single-vehicle.php:591
+msgid "Multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1171
+#: includes/class-cardojo-car-post-types.php:701
+#: includes/class-cardojo-car-post-types.php:702
+#: includes/class-cardojo-car-post-types.php:727
+#: templates/cardojo-submit.php:1207 templates/content-single-vehicle.php:539
+msgid "Exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1233
+#: includes/class-cardojo-car-post-types.php:743
+#: includes/class-cardojo-car-post-types.php:744
+#: includes/class-cardojo-car-post-types.php:769
+#: templates/cardojo-submit.php:1269 templates/content-single-vehicle.php:708
+msgid "Interior"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1326
+#: templates/cardojo-submit.php:1360
+msgid "Existent locations"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1329
+#: templates/cardojo-submit.php:1363
+msgid "New location"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1410
+#: templates/cardojo-submit.php:1443
+msgid "Your Name / Company Name"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1417
+#: templates/cardojo-submit.php:1450
+msgid "Mobile phone number"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1424
+#: includes/forms/contact-request.php:96
+#: templates/cardojo-single-dealer.php:180 templates/cardojo-submit.php:1457
+msgid "Phone number"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1438
+#: templates/cardojo-submit.php:1471
+msgid "Location (Full Address)"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1486
+#: templates/cardojo-submit.php:1503
+msgid "Acquisition Price"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1486
+#: templates/cardojo-submit.php:1503
+msgid "not public"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1493
+#: templates/cardojo-submit.php:1510
+msgid "Retail Price"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1501
+#: templates/cardojo-submit.php:1518
+msgid "Make a discount?"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1507
+#: templates/cardojo-submit.php:1524
+msgid "New Retail Price"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1522
+#: templates/cardojo-submit.php:1539
+msgid "Willing to exchange on a..."
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1527
+#: templates/cardojo-submit.php:1544
+msgid "expensive car + my"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1534
+#: templates/cardojo-submit.php:1551
+msgid "cheaper car + your"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:1543
+#: templates/cardojo-submit.php:1560
+msgid "Negociable price"
+msgstr ""
+
+#: includes/class-cardojo-car-metaboxes.php:2799
+#: templates/cardojo-inventory.php:133 templates/cardojo-submit.php:2795
+msgid "Add New Expense"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:51
+msgid "Models"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:55
+msgctxt "vehicle model slug - resave permalinks after changing this"
+msgid "vehicle-model"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:75
+msgid "Search Year/Maker/Model/Trim"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:76
+msgid "Year/Maker/Model/Trim"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:77
+msgid "Parent Year/Maker/Model/Trim"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:78
+msgid "Parent Year/Maker/Model/Trim:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:79
+msgid "Edit Year/Maker/Model/Trim"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:80
+msgid "Update Year/Maker/Model/Trim"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:81
+msgid "Add New Year/Maker/Model/Trim"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:82
+msgid "New Year/Maker/Model/Trim Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:97
+msgctxt "vehicle  body style slug - resave permalinks after changing this"
+msgid "vehicle-body-style"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:117
+msgid "Search Body Style"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:118
+msgid "Body Styles"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:119
+msgid "Parent Body Style"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:120
+msgid "Parent Body Style:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:121
+msgid "Edit Body Style"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:122
+msgid "Update Body Style"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:123
+msgid "Add New Body Style"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:124
+msgid "New Body Style Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:134
+msgid "Exterior Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:135
+msgid "Exterior Colors"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:139
+msgctxt "vehicle exterior color slug - resave permalinks after changing this"
+msgid "vehicle-ext-color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:159
+#: includes/class-cardojo-car-post-types.php:327
+msgid "Search Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:160
+#: includes/class-cardojo-car-post-types.php:203
+#: includes/class-cardojo-car-post-types.php:234
+#: includes/class-cardojo-car-post-types.php:278
+#: includes/class-cardojo-car-post-types.php:328
+#: includes/class-cardojo-car-post-types.php:350
+#: includes/class-cardojo-car-post-types.php:381
+#: includes/class-cardojo-car-post-types.php:425
+#: includes/forms/financial-application.php:550
+#: includes/forms/pre-qualify-form.php:345 includes/forms/trade-in-form.php:345
+msgid "Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:161
+#: includes/class-cardojo-car-post-types.php:329
+msgid "Parent Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:162
+#: includes/class-cardojo-car-post-types.php:330
+msgid "Parent Color:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:163
+#: includes/class-cardojo-car-post-types.php:331
+msgid "Edit Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:164
+#: includes/class-cardojo-car-post-types.php:332
+msgid "Update Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:165
+#: includes/class-cardojo-car-post-types.php:333
+msgid "Add New Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:166
+#: includes/class-cardojo-car-post-types.php:334
+msgid "New Color Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:209
+#: includes/class-cardojo-car-post-types.php:242
+#: includes/class-cardojo-car-post-types.php:356
+#: includes/class-cardojo-car-post-types.php:389
+msgid "Color Type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:210
+#: includes/class-cardojo-car-post-types.php:245
+#: includes/class-cardojo-car-post-types.php:357
+#: includes/class-cardojo-car-post-types.php:392
+msgid "Default"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:211
+#: includes/class-cardojo-car-post-types.php:246
+#: includes/class-cardojo-car-post-types.php:358
+#: includes/class-cardojo-car-post-types.php:393
+msgid "Combined"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:212
+#: includes/class-cardojo-car-post-types.php:247
+#: includes/class-cardojo-car-post-types.php:359
+#: includes/class-cardojo-car-post-types.php:394
+#: templates/content-single-vehicle.php:819
+#: templates/content-single-vehicle.php:868
+#: templates/content-single-vehicle.php:875
+#: templates/content-single-vehicle.php:926
+#: templates/content-single-vehicle.php:927
+msgid "N/A"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:302
+msgid "Interior Color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:303
+msgid "Interior Colors"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:307
+msgctxt "vehicle interior color slug - resave permalinks after changing this"
+msgid "vehicle-int-color"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:449
+#: includes/class-cardojo-car-post-types.php:475
+msgid "Interior Material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:450
+msgid "Interior Materials"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:454
+msgctxt ""
+"vehicle interior material slug - resave permalinks after changing this"
+msgid "vehicle-interior-material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:474
+msgid "Search Interior Material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:476
+msgid "Parent Interior Material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:477
+msgid "Parent Interior Material:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:478
+msgid "Edit Interior Material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:479
+msgid "Update Interior Material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:480
+msgid "Add New Interior Material"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:481
+msgid "New Interior Material Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:492
+msgid "Fuel Types"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:496
+msgctxt "vehicle fule type slug - resave permalinks after changing this"
+msgid "vehicle-fuel-type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:516
+msgid "Search Fuel Type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:518
+msgid "Parent Fuel Type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:519
+msgid "Parent Fuel Type:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:520
+msgid "Edit Fuel Type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:521
+msgid "Update Fuel Type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:522
+msgid "Add New Fuel Type"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:523
+msgid "New Fuel Type Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:534
+msgid "Transmissions"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:538
+msgctxt "vehicle transmission slug - resave permalinks after changing this"
+msgid "vehicle-transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:558
+msgid "Search Transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:560
+msgid "Parent Transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:561
+msgid "Parent Transmission:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:562
+msgid "Edit Transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:563
+msgid "Update Transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:564
+msgid "Add New Transmission"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:565
+msgid "New Transmission Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:580
+msgctxt "vehicle drive slug - resave permalinks after changing this"
+msgid "vehicle-drive"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:600
+msgid "Search Drive"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:602
+msgid "Parent Drive"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:603
+msgid "Parent Drive:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:604
+msgid "Edit Drive"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:605
+msgid "Update Drive"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:606
+msgid "Add New Drive"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:607
+msgid "New Drive Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:622
+msgctxt "vehicle safety slug - resave permalinks after changing this"
+msgid "vehicle-safety"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:642
+msgid "Search Safety"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:644
+msgid "Parent Safety"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:645
+msgid "Parent Safety:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:646
+msgid "Edit Safety"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:647
+msgid "Update Safety"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:648
+msgid "Add New Safety"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:649
+msgid "New Safety Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:664
+msgctxt "vehicle comfort slug - resave permalinks after changing this"
+msgid "vehicle-comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:684
+msgid "Search Comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:686
+msgid "Parent Comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:687
+msgid "Parent Comfort:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:688
+msgid "Edit Comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:689
+msgid "Update Comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:690
+msgid "Add New Comfort"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:691
+msgid "New Comfort Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:706
+msgctxt "vehicle exterior slug - resave permalinks after changing this"
+msgid "vehicle-exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:726
+msgid "Search Exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:728
+msgid "Parent Exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:729
+msgid "Parent Exterior:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:730
+msgid "Edit Exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:731
+msgid "Update Exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:732
+msgid "Add New Exterior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:733
+msgid "New Exterior Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:748
+msgctxt "vehicle interior slug - resave permalinks after changing this"
+msgid "vehicle-interior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:768
+msgid "Search Interior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:770
+msgid "Parent Interior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:771
+msgid "Parent Interior:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:772
+msgid "Edit Interior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:773
+msgid "Update Interior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:774
+msgid "Add New Interior"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:775
+msgid "New Interior Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:790
+msgctxt "vehicle multimedia slug - resave permalinks after changing this"
+msgid "vehicle-multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:810
+msgid "Search Multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:812
+msgid "Parent Multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:813
+msgid "Parent Multimedia:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:814
+msgid "Edit Multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:815
+msgid "Update Multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:816
+msgid "Add New Multimedia"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:817
+msgid "New Multimedia Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:832
+msgctxt "vehicle visibility slug - resave permalinks after changing this"
+msgid "vehicle-visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:852
+msgid "Search Visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:854
+msgid "Parent Visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:855
+msgid "Parent Visibility:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:856
+msgid "Edit Visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:857
+msgid "Update Visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:858
+msgid "Add New Visibility"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:859
+msgid "New Visibility Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:869
+#: includes/class-cardojo-car-post-types.php:895
+msgid "Location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:870
+msgid "Locations"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:874
+msgctxt "vehicle location slug - resave permalinks after changing this"
+msgid "vehicle-location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:894
+msgid "Search Location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:896
+msgid "Parent Location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:897
+msgid "Parent Location:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:898
+msgid "Edit Location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:899
+msgid "Update Location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:900
+msgid "Add New Location"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:901
+msgid "New Location Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:911
+#: includes/class-cardojo-car-post-types.php:937
+msgid "Collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:912
+msgid "Collections"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:916
+msgctxt "vehicle collection slug - resave permalinks after changing this"
+msgid "vehicle-collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:936
+msgid "Search Collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:938
+msgid "Parent Collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:939
+msgid "Parent Collection:"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:940
+msgid "Edit Collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:941
+msgid "Update Collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:942
+msgid "Add New Collection"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:943
+msgid "New Collection Name"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1339
+msgid "Car"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1340
+#: includes/class-cardojo-car-post-types.php:1360
+msgid "Cars"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1343
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "Cars"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1349
+msgctxt "vehicle permalink - resave permalinks after changing this"
+msgid "vehicle"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1361
+#: templates/cardojo-dashboard.php:339 templates/cardojo-inventory.php:452
+msgid "Inventory"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1362
+msgid "Add New Car"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1363
+#: includes/class-cardojo-filter-post-types.php:66
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1364
+#: includes/class-cardojo-filter-post-types.php:67
+#: templates/cardojo-inventory.php:707 templates/cardojo-inventory.php:751
+#: templates/cardojo-inventory.php:754
+msgid "Edit"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1365
+#: includes/class-cardojo-filter-post-types.php:68
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1366
+#: includes/class-cardojo-filter-post-types.php:69
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1367
+#: includes/class-cardojo-car-post-types.php:1368
+#: includes/class-cardojo-filter-post-types.php:70
+#: includes/class-cardojo-filter-post-types.php:71
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1369
+#: includes/class-cardojo-filter-post-types.php:72
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1370
+#: includes/class-cardojo-filter-post-types.php:73
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1371
+#: includes/class-cardojo-filter-post-types.php:74
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1372
+#: includes/class-cardojo-filter-post-types.php:75
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-cardojo-car-post-types.php:1374
+#: includes/class-cardojo-filter-post-types.php:77
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: includes/class-cardojo-filter-post-types.php:42
+#: templates/cardojo-filter-subscriptions.php:74
+#: templates/cardojo-inventory.php:384
+msgid "Filter"
+msgstr ""
+
+#: includes/class-cardojo-filter-post-types.php:43
+#: includes/class-cardojo-filter-post-types.php:63
+msgid "Filters"
+msgstr ""
+
+#: includes/class-cardojo-filter-post-types.php:46
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "Filters"
+msgstr ""
+
+#: includes/class-cardojo-filter-post-types.php:52
+msgctxt "Filter permalink - resave permalinks after changing this"
+msgid "filter"
+msgstr ""
+
+#: includes/class-cardojo-filter-post-types.php:64
+msgid "All Filters"
+msgstr ""
+
+#: includes/class-cardojo-filter-post-types.php:65
+msgid "Add New Filter"
+msgstr ""
+
+#: includes/class-cardojo-install.php:35
+msgid "Dealer"
+msgstr ""
+
+#: includes/class-cardojo-install.php:235
+msgctxt "Page slug"
+msgid "add-edit-vehicle"
+msgstr ""
+
+#: includes/class-cardojo-install.php:240
+msgctxt "Page slug"
+msgid "dashboard"
+msgstr ""
+
+#: includes/class-cardojo-install.php:241
+msgctxt "Page title"
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-cardojo-install.php:245
+msgctxt "Page slug"
+msgid "my-inventory"
+msgstr ""
+
+#: includes/class-cardojo-install.php:246
+msgctxt "Page title"
+msgid "My Inventory"
+msgstr ""
+
+#: includes/class-cardojo-install.php:250
+msgctxt "Page slug"
+msgid "cars"
+msgstr ""
+
+#: includes/class-cardojo-install.php:251
+msgctxt "Page title"
+msgid "Cars"
+msgstr ""
+
+#: includes/class-cardojo-install.php:255
+msgctxt "Page slug"
+msgid "reports"
+msgstr ""
+
+#: includes/class-cardojo-install.php:260
+msgctxt "Page slug"
+msgid "notifications"
+msgstr ""
+
+#: includes/class-cardojo-install.php:265
+msgctxt "Page slug"
+msgid "my_favorites"
+msgstr ""
+
+#: includes/class-cardojo-install.php:270
+msgctxt "Page slug"
+msgid "filter_subscriptions"
+msgstr ""
+
+#: includes/class-cardojo-install.php:275
+msgctxt "Page slug"
+msgid "user"
+msgstr ""
+
+#: includes/class-cardojo-install.php:276
+msgctxt "Page title"
+msgid "User"
+msgstr ""
+
+#: includes/class-cardojo-install.php:280
+msgctxt "Page slug"
+msgid "settings"
+msgstr ""
+
+#: includes/class-cardojo-install.php:285
+msgctxt "Page slug"
+msgid "login"
+msgstr ""
+
+#: includes/class-cardojo-install.php:286
+msgctxt "Page title"
+msgid "Login"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-dashboard.php:53
+#: includes/class-cardojo-shortcode-inventory.php:56
+#: includes/class-cardojo-shortcode-login.php:52
+#: includes/class-cardojo-shortcode-submit.php:61
+#: templates/cardojo-submit.php:16
+msgid "Invalid ID"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:71
+#, php-format
+msgid "%s has been unpublished"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:89
+msgid "This car has already been sold"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:99
+#, php-format
+msgid "%s has been sold"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:104
+msgid "This car is not sold"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:112
+#, php-format
+msgid "%s has been marked as not sold"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:117
+msgid "This car has already been featured"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:125
+#, php-format
+msgid "%s has been featured"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:131
+msgid "This car is not featured"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:140
+#, php-format
+msgid "%s has been marked as not featured"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:145
+msgid "This car is in promotion"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:165
+#, php-format
+msgid "%s has been promoted"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:171
+msgid "This car is not promoted"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:179
+#, php-format
+msgid "Promotion has been stopped for %s"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:186
+#, php-format
+msgid "%s has been deleted"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:191
+#: includes/class-cardojo-shortcode-inventory.php:202
+msgid "Missing submission page."
+msgstr ""
+
+#: includes/class-cardojo-shortcode-inventory.php:236
+#, php-format
+msgid "Expenses added to %s"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-login.php:87
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Sign out</a>)"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-settings.php:55
+msgid "This is a demo account and cannot be updated"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-settings.php:72
+msgid "Account has been updated"
+msgstr ""
+
+#: includes/class-cardojo-shortcode-submit.php:528
+#, php-format
+msgid "%s has been saved"
+msgstr ""
+
+#: includes/class-cardojo.php:139
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: includes/forms/contact-request.php:35 templates/cardojo-single-dealer.php:74
+msgid "Contact Form from "
+msgstr ""
+
+#: includes/forms/contact-request.php:61
+#: templates/cardojo-single-dealer.php:133
+msgid "Contact form"
+msgstr ""
+
+#: includes/forms/contact-request.php:80
+#: templates/cardojo-single-dealer.php:156
+msgid "Your Name"
+msgstr ""
+
+#: includes/forms/contact-request.php:88
+#: templates/cardojo-single-dealer.php:168
+msgid "Email address"
+msgstr ""
+
+#: includes/forms/contact-request.php:104
+#: templates/cardojo-single-dealer.php:192
+msgid "Message"
+msgstr ""
+
+#: includes/forms/contact-request.php:109
+#: templates/cardojo-single-dealer.php:197
+msgid "Send message"
+msgstr ""
+
+#: includes/forms/financial-application.php:276
+#: includes/forms/financial-application.php:634
+msgid "Financial Application"
+msgstr ""
+
+#: includes/forms/financial-application.php:282
+#: includes/forms/pre-qualify-form.php:200
+#: includes/forms/test-drive-form.php:184 includes/forms/trade-in-form.php:200
+msgid "Buyer Personal Info"
+msgstr ""
+
+#: includes/forms/financial-application.php:289
+#: includes/forms/financial-application.php:363
+#: includes/forms/financial-application.php:414
+#: includes/forms/financial-application.php:488
+#: includes/forms/pre-qualify-form.php:207
+#: includes/forms/pre-qualify-form.php:277
+#: includes/forms/test-drive-form.php:191
+#: includes/forms/test-drive-form.php:273 includes/forms/trade-in-form.php:207
+#: includes/forms/trade-in-form.php:277
+msgid "Address 1"
+msgstr ""
+
+#: includes/forms/financial-application.php:293
+#: includes/forms/financial-application.php:367
+#: includes/forms/financial-application.php:418
+#: includes/forms/financial-application.php:492
+#: includes/forms/pre-qualify-form.php:211
+#: includes/forms/pre-qualify-form.php:281
+#: includes/forms/test-drive-form.php:195
+#: includes/forms/test-drive-form.php:277 includes/forms/trade-in-form.php:211
+#: includes/forms/trade-in-form.php:281
+msgid "Address 2"
+msgstr ""
+
+#: includes/forms/financial-application.php:297
+#: includes/forms/financial-application.php:371
+#: includes/forms/financial-application.php:422
+#: includes/forms/financial-application.php:496
+#: includes/forms/pre-qualify-form.php:215
+#: includes/forms/pre-qualify-form.php:285
+#: includes/forms/test-drive-form.php:199
+#: includes/forms/test-drive-form.php:281 includes/forms/trade-in-form.php:215
+#: includes/forms/trade-in-form.php:285
+msgid "City"
+msgstr ""
+
+#: includes/forms/financial-application.php:301
+#: includes/forms/financial-application.php:375
+#: includes/forms/financial-application.php:426
+#: includes/forms/financial-application.php:500
+#: includes/forms/pre-qualify-form.php:219
+#: includes/forms/pre-qualify-form.php:289
+#: includes/forms/test-drive-form.php:203
+#: includes/forms/test-drive-form.php:285 includes/forms/trade-in-form.php:219
+#: includes/forms/trade-in-form.php:289
+msgid "State"
+msgstr ""
+
+#: includes/forms/financial-application.php:305
+#: includes/forms/financial-application.php:379
+#: includes/forms/financial-application.php:430
+#: includes/forms/financial-application.php:504
+#: includes/forms/pre-qualify-form.php:223
+#: includes/forms/pre-qualify-form.php:293
+#: includes/forms/test-drive-form.php:207
+#: includes/forms/test-drive-form.php:289 includes/forms/trade-in-form.php:223
+#: includes/forms/trade-in-form.php:293
+msgid "Zip"
+msgstr ""
+
+#: includes/forms/financial-application.php:309
+#: includes/forms/financial-application.php:434
+#: includes/forms/pre-qualify-form.php:227
+#: includes/forms/test-drive-form.php:211 includes/forms/trade-in-form.php:227
+msgid "Home Phone"
+msgstr ""
+
+#: includes/forms/financial-application.php:317
+#: includes/forms/financial-application.php:442
+#: includes/forms/pre-qualify-form.php:235
+#: includes/forms/test-drive-form.php:219 includes/forms/trade-in-form.php:235
+msgid "Work Phone"
+msgstr ""
+
+#: includes/forms/financial-application.php:321
+#: includes/forms/pre-qualify-form.php:239
+#: includes/forms/test-drive-form.php:223 includes/forms/trade-in-form.php:239
+msgid "Time at Residence (Years)"
+msgstr ""
+
+#: includes/forms/financial-application.php:325
+#: includes/forms/financial-application.php:450
+#: includes/forms/pre-qualify-form.php:243
+#: includes/forms/test-drive-form.php:227 includes/forms/trade-in-form.php:243
+msgid "Residence Type"
+msgstr ""
+
+#: includes/forms/financial-application.php:329
+#: includes/forms/financial-application.php:454
+#: includes/forms/pre-qualify-form.php:247
+#: includes/forms/test-drive-form.php:231 includes/forms/trade-in-form.php:247
+msgid "Rent/Mortgage"
+msgstr ""
+
+#: includes/forms/financial-application.php:337
+#: includes/forms/financial-application.php:462
+#: includes/forms/pre-qualify-form.php:255
+#: includes/forms/test-drive-form.php:239 includes/forms/trade-in-form.php:255
+msgid "Birth Date"
+msgstr ""
+
+#: includes/forms/financial-application.php:341
+#: includes/forms/financial-application.php:466
+msgid "Social Security Number"
+msgstr ""
+
+#: includes/forms/financial-application.php:348
+#: includes/forms/pre-qualify-form.php:262
+#: includes/forms/test-drive-form.php:258 includes/forms/trade-in-form.php:262
+msgid "Buyer Employment Info"
+msgstr ""
+
+#: includes/forms/financial-application.php:351
+#: includes/forms/financial-application.php:476
+#: includes/forms/pre-qualify-form.php:265
+#: includes/forms/test-drive-form.php:261 includes/forms/trade-in-form.php:265
+msgid "Employer"
+msgstr ""
+
+#: includes/forms/financial-application.php:355
+#: includes/forms/financial-application.php:480
+#: includes/forms/pre-qualify-form.php:269
+#: includes/forms/test-drive-form.php:265 includes/forms/trade-in-form.php:269
+msgid "Monthly Income"
+msgstr ""
+
+#: includes/forms/financial-application.php:359
+#: includes/forms/financial-application.php:484
+#: includes/forms/pre-qualify-form.php:273
+#: includes/forms/test-drive-form.php:269 includes/forms/trade-in-form.php:273
+msgid "Occupation"
+msgstr ""
+
+#: includes/forms/financial-application.php:383
+#: includes/forms/financial-application.php:508
+#: includes/forms/pre-qualify-form.php:297
+#: includes/forms/test-drive-form.php:293 includes/forms/trade-in-form.php:297
+msgid "Phone Number"
+msgstr ""
+
+#: includes/forms/financial-application.php:387
+#: includes/forms/financial-application.php:512
+#: includes/forms/pre-qualify-form.php:301
+#: includes/forms/test-drive-form.php:297 includes/forms/trade-in-form.php:301
+msgid "Time On Job - Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:391
+#: includes/forms/financial-application.php:516
+#: includes/forms/pre-qualify-form.php:305
+#: includes/forms/test-drive-form.php:301 includes/forms/trade-in-form.php:305
+msgid "Time On Job - Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:398
+#: includes/forms/financial-application.php:1462
+#: includes/forms/pre-qualify-form.php:312
+#: includes/forms/pre-qualify-form.php:951
+#: includes/forms/test-drive-form.php:308
+#: includes/forms/test-drive-form.php:867 includes/forms/trade-in-form.php:312
+#: includes/forms/trade-in-form.php:951
+msgid "Questions and Comments"
+msgstr ""
+
+#: includes/forms/financial-application.php:407
+#: includes/forms/financial-application.php:955
+msgid "Co-Buyer Personal Info"
+msgstr ""
+
+#: includes/forms/financial-application.php:446
+msgid "Time at Residence"
+msgstr ""
+
+#: includes/forms/financial-application.php:473
+#: includes/forms/financial-application.php:1114
+msgid "Co-Buyer Employment Info"
+msgstr ""
+
+#: includes/forms/financial-application.php:523
+#: includes/forms/financial-application.php:1388
+#: includes/forms/pre-qualify-form.php:318
+#: includes/forms/pre-qualify-form.php:877 includes/forms/trade-in-form.php:318
+#: includes/forms/trade-in-form.php:429 includes/forms/trade-in-form.php:450
+#: templates/content-single-vehicle.php:1036
+#: templates/content-single-vehicle.php:1135
+msgid "Trade-In"
+msgstr ""
+
+#: includes/forms/financial-application.php:538
+#: includes/forms/financial-application.php:576
+#: includes/forms/financial-application.php:1400
+#: includes/forms/pre-qualify-form.php:333
+#: includes/forms/pre-qualify-form.php:371
+#: includes/forms/pre-qualify-form.php:889
+#: includes/forms/test-drive-form.php:336 includes/forms/trade-in-form.php:333
+#: includes/forms/trade-in-form.php:371 includes/forms/trade-in-form.php:462
+msgid "Trim"
+msgstr ""
+
+#: includes/forms/financial-application.php:542
+#: includes/forms/financial-application.php:580
+#: includes/forms/pre-qualify-form.php:337
+#: includes/forms/pre-qualify-form.php:375
+#: includes/forms/test-drive-form.php:340 includes/forms/trade-in-form.php:337
+#: includes/forms/trade-in-form.php:375
+msgid "VIN"
+msgstr ""
+
+#: includes/forms/financial-application.php:557
+#: includes/forms/pre-qualify-form.php:352
+#: includes/forms/test-drive-form.php:317 includes/forms/trade-in-form.php:352
+msgid "Interested in Vehicle"
+msgstr ""
+
+#: includes/forms/financial-application.php:560
+#: includes/forms/pre-qualify-form.php:355
+#: includes/forms/test-drive-form.php:320 includes/forms/trade-in-form.php:355
+msgid "SKU"
+msgstr ""
+
+#: includes/forms/financial-application.php:606
+msgid "Financial Application Form from "
+msgstr ""
+
+#: includes/forms/financial-application.php:619
+#: includes/forms/pre-qualify-form.php:414
+#: includes/forms/test-drive-form.php:379 includes/forms/trade-in-form.php:414
+msgid "Form key error! Submission could not be validated."
+msgstr ""
+
+#: includes/forms/financial-application.php:640
+msgid "This page is not secure!"
+msgstr ""
+
+#: includes/forms/financial-application.php:640
+msgid "Please contact the site administrator for more information."
+msgstr ""
+
+#: includes/forms/financial-application.php:647
+#: includes/forms/pre-qualify-form.php:436
+#: includes/forms/test-drive-form.php:401 includes/forms/trade-in-form.php:436
+msgid "Thank You."
+msgstr ""
+
+#: includes/forms/financial-application.php:648
+msgid "Your Finance Request has been sent."
+msgstr ""
+
+#: includes/forms/financial-application.php:649
+#: includes/forms/pre-qualify-form.php:438
+#: includes/forms/test-drive-form.php:403 includes/forms/trade-in-form.php:438
+msgid "You should receive a confirmation shortly."
+msgstr ""
+
+#: includes/forms/financial-application.php:650
+#: includes/forms/pre-qualify-form.php:439
+#: includes/forms/test-drive-form.php:404 includes/forms/trade-in-form.php:439
+msgid "If you have questions or concerns please call and let us know."
+msgstr ""
+
+#: includes/forms/financial-application.php:661
+#: includes/forms/pre-qualify-form.php:450
+#: includes/forms/test-drive-form.php:557 includes/forms/trade-in-form.php:666
+msgid "Personal Info"
+msgstr ""
+
+#: includes/forms/financial-application.php:669
+#: includes/forms/financial-application.php:963
+#: includes/forms/pre-qualify-form.php:458
+#: includes/forms/test-drive-form.php:565 includes/forms/trade-in-form.php:674
+msgid "First Name:"
+msgstr ""
+
+#: includes/forms/financial-application.php:671
+#: includes/forms/pre-qualify-form.php:460
+#: includes/forms/test-drive-form.php:567 includes/forms/trade-in-form.php:676
+msgid "Please add a name"
+msgstr ""
+
+#: includes/forms/financial-application.php:677
+#: includes/forms/financial-application.php:970
+#: includes/forms/pre-qualify-form.php:466
+#: includes/forms/test-drive-form.php:573 includes/forms/trade-in-form.php:682
+msgid "Middle Name:"
+msgstr ""
+
+#: includes/forms/financial-application.php:684
+#: includes/forms/financial-application.php:977
+#: includes/forms/pre-qualify-form.php:473
+#: includes/forms/test-drive-form.php:580 includes/forms/trade-in-form.php:689
+msgid "Last Name:"
+msgstr ""
+
+#: includes/forms/financial-application.php:691
+#: includes/forms/financial-application.php:854
+#: includes/forms/financial-application.php:984
+#: includes/forms/financial-application.php:1145
+#: includes/forms/pre-qualify-form.php:480
+#: includes/forms/pre-qualify-form.php:634
+#: includes/forms/test-drive-form.php:587
+#: includes/forms/test-drive-form.php:766 includes/forms/trade-in-form.php:696
+#: includes/forms/trade-in-form.php:850
+msgid "Address 1:"
+msgstr ""
+
+#: includes/forms/financial-application.php:698
+#: includes/forms/financial-application.php:861
+#: includes/forms/financial-application.php:991
+#: includes/forms/financial-application.php:1152
+#: includes/forms/pre-qualify-form.php:487
+#: includes/forms/pre-qualify-form.php:641
+#: includes/forms/test-drive-form.php:594
+#: includes/forms/test-drive-form.php:773 includes/forms/trade-in-form.php:703
+#: includes/forms/trade-in-form.php:857
+msgid "Address 2:"
+msgstr ""
+
+#: includes/forms/financial-application.php:705
+#: includes/forms/financial-application.php:868
+#: includes/forms/financial-application.php:998
+#: includes/forms/financial-application.php:1159
+#: includes/forms/pre-qualify-form.php:494
+#: includes/forms/pre-qualify-form.php:648
+#: includes/forms/test-drive-form.php:601
+#: includes/forms/test-drive-form.php:780 includes/forms/trade-in-form.php:710
+#: includes/forms/trade-in-form.php:864
+msgid "City:"
+msgstr ""
+
+#: includes/forms/financial-application.php:712
+#: includes/forms/financial-application.php:875
+#: includes/forms/financial-application.php:1005
+#: includes/forms/financial-application.php:1166
+#: includes/forms/pre-qualify-form.php:501
+#: includes/forms/pre-qualify-form.php:655
+#: includes/forms/test-drive-form.php:608
+#: includes/forms/test-drive-form.php:787 includes/forms/trade-in-form.php:717
+#: includes/forms/trade-in-form.php:871
+msgid "State:"
+msgstr ""
+
+#: includes/forms/financial-application.php:719
+#: includes/forms/financial-application.php:882
+#: includes/forms/financial-application.php:1012
+#: includes/forms/financial-application.php:1173
+#: includes/forms/pre-qualify-form.php:508
+#: includes/forms/pre-qualify-form.php:662
+#: includes/forms/test-drive-form.php:615
+#: includes/forms/test-drive-form.php:794 includes/forms/trade-in-form.php:724
+#: includes/forms/trade-in-form.php:878
+msgid "Zip:"
+msgstr ""
+
+#: includes/forms/financial-application.php:726
+#: includes/forms/financial-application.php:1019
+#: includes/forms/pre-qualify-form.php:515
+#: includes/forms/test-drive-form.php:622 includes/forms/trade-in-form.php:731
+msgid "Home Phone:"
+msgstr ""
+
+#: includes/forms/financial-application.php:733
+#: includes/forms/financial-application.php:1026
+#: includes/forms/pre-qualify-form.php:522
+#: includes/forms/test-drive-form.php:629 includes/forms/trade-in-form.php:738
+msgid "Mobile Phone:"
+msgstr ""
+
+#: includes/forms/financial-application.php:735
+#: includes/forms/pre-qualify-form.php:524
+#: includes/forms/test-drive-form.php:631 includes/forms/trade-in-form.php:740
+msgid "Please add a phone"
+msgstr ""
+
+#: includes/forms/financial-application.php:741
+#: includes/forms/financial-application.php:1033
+#: includes/forms/pre-qualify-form.php:530
+#: includes/forms/test-drive-form.php:637 includes/forms/trade-in-form.php:746
+msgid "Work Phone:"
+msgstr ""
+
+#: includes/forms/financial-application.php:748
+#: includes/forms/financial-application.php:1040
+#: includes/forms/pre-qualify-form.php:537
+#: includes/forms/test-drive-form.php:644 includes/forms/trade-in-form.php:753
+msgid "Time At Residence:"
+msgstr ""
+
+#: includes/forms/financial-application.php:751
+#: includes/forms/financial-application.php:905
+#: includes/forms/financial-application.php:1043
+#: includes/forms/financial-application.php:1196
+#: includes/forms/pre-qualify-form.php:540
+#: includes/forms/pre-qualify-form.php:685
+#: includes/forms/test-drive-form.php:647
+#: includes/forms/test-drive-form.php:817 includes/forms/trade-in-form.php:756
+#: includes/forms/trade-in-form.php:901
+msgid "0 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:752
+#: includes/forms/financial-application.php:906
+#: includes/forms/financial-application.php:1044
+#: includes/forms/financial-application.php:1197
+#: includes/forms/pre-qualify-form.php:541
+#: includes/forms/pre-qualify-form.php:686
+#: includes/forms/test-drive-form.php:648
+#: includes/forms/test-drive-form.php:818 includes/forms/trade-in-form.php:757
+#: includes/forms/trade-in-form.php:902
+msgid "1 Year"
+msgstr ""
+
+#: includes/forms/financial-application.php:753
+#: includes/forms/financial-application.php:907
+#: includes/forms/financial-application.php:1045
+#: includes/forms/financial-application.php:1198
+#: includes/forms/pre-qualify-form.php:542
+#: includes/forms/pre-qualify-form.php:687
+#: includes/forms/test-drive-form.php:649
+#: includes/forms/test-drive-form.php:819 includes/forms/trade-in-form.php:758
+#: includes/forms/trade-in-form.php:903
+msgid "2 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:754
+#: includes/forms/financial-application.php:908
+#: includes/forms/financial-application.php:1046
+#: includes/forms/financial-application.php:1199
+#: includes/forms/pre-qualify-form.php:543
+#: includes/forms/pre-qualify-form.php:688
+#: includes/forms/test-drive-form.php:650
+#: includes/forms/test-drive-form.php:820 includes/forms/trade-in-form.php:759
+#: includes/forms/trade-in-form.php:904
+msgid "3 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:755
+#: includes/forms/financial-application.php:909
+#: includes/forms/financial-application.php:1047
+#: includes/forms/financial-application.php:1200
+#: includes/forms/pre-qualify-form.php:544
+#: includes/forms/pre-qualify-form.php:689
+#: includes/forms/test-drive-form.php:651
+#: includes/forms/test-drive-form.php:821 includes/forms/trade-in-form.php:760
+#: includes/forms/trade-in-form.php:905
+msgid "4 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:756
+#: includes/forms/financial-application.php:910
+#: includes/forms/financial-application.php:1048
+#: includes/forms/financial-application.php:1201
+#: includes/forms/pre-qualify-form.php:545
+#: includes/forms/pre-qualify-form.php:690
+#: includes/forms/test-drive-form.php:652
+#: includes/forms/test-drive-form.php:822 includes/forms/trade-in-form.php:761
+#: includes/forms/trade-in-form.php:906
+msgid "5 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:757
+#: includes/forms/financial-application.php:911
+#: includes/forms/financial-application.php:1049
+#: includes/forms/financial-application.php:1202
+#: includes/forms/pre-qualify-form.php:546
+#: includes/forms/pre-qualify-form.php:691
+#: includes/forms/test-drive-form.php:653
+#: includes/forms/test-drive-form.php:823 includes/forms/trade-in-form.php:762
+#: includes/forms/trade-in-form.php:907
+msgid "6 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:758
+#: includes/forms/financial-application.php:912
+#: includes/forms/financial-application.php:1050
+#: includes/forms/financial-application.php:1203
+#: includes/forms/pre-qualify-form.php:547
+#: includes/forms/pre-qualify-form.php:692
+#: includes/forms/test-drive-form.php:654
+#: includes/forms/test-drive-form.php:824 includes/forms/trade-in-form.php:763
+#: includes/forms/trade-in-form.php:908
+msgid "7 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:759
+#: includes/forms/financial-application.php:913
+#: includes/forms/financial-application.php:1051
+#: includes/forms/financial-application.php:1204
+#: includes/forms/pre-qualify-form.php:548
+#: includes/forms/pre-qualify-form.php:693
+#: includes/forms/test-drive-form.php:655
+#: includes/forms/test-drive-form.php:825 includes/forms/trade-in-form.php:764
+#: includes/forms/trade-in-form.php:909
+msgid "8 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:760
+#: includes/forms/financial-application.php:914
+#: includes/forms/financial-application.php:1052
+#: includes/forms/financial-application.php:1205
+#: includes/forms/pre-qualify-form.php:549
+#: includes/forms/pre-qualify-form.php:694
+#: includes/forms/test-drive-form.php:656
+#: includes/forms/test-drive-form.php:826 includes/forms/trade-in-form.php:765
+#: includes/forms/trade-in-form.php:910
+msgid "9 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:761
+#: includes/forms/financial-application.php:915
+#: includes/forms/financial-application.php:1053
+#: includes/forms/financial-application.php:1206
+#: includes/forms/pre-qualify-form.php:550
+#: includes/forms/pre-qualify-form.php:695
+#: includes/forms/test-drive-form.php:657
+#: includes/forms/test-drive-form.php:827 includes/forms/trade-in-form.php:766
+#: includes/forms/trade-in-form.php:911
+msgid "10 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:762
+#: includes/forms/financial-application.php:916
+#: includes/forms/financial-application.php:1054
+#: includes/forms/financial-application.php:1207
+#: includes/forms/pre-qualify-form.php:551
+#: includes/forms/pre-qualify-form.php:696
+#: includes/forms/test-drive-form.php:658
+#: includes/forms/test-drive-form.php:828 includes/forms/trade-in-form.php:767
+#: includes/forms/trade-in-form.php:912
+msgid "11 Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:763
+#: includes/forms/financial-application.php:917
+#: includes/forms/financial-application.php:1055
+#: includes/forms/financial-application.php:1208
+#: includes/forms/pre-qualify-form.php:552
+#: includes/forms/pre-qualify-form.php:697
+#: includes/forms/test-drive-form.php:659
+#: includes/forms/test-drive-form.php:829 includes/forms/trade-in-form.php:768
+#: includes/forms/trade-in-form.php:913
+msgid "12+ Years"
+msgstr ""
+
+#: includes/forms/financial-application.php:770
+#: includes/forms/financial-application.php:1062
+#: includes/forms/pre-qualify-form.php:559
+#: includes/forms/test-drive-form.php:666 includes/forms/trade-in-form.php:775
+msgid "Residence Type:"
+msgstr ""
+
+#: includes/forms/financial-application.php:773
+#: includes/forms/financial-application.php:1065
+#: includes/forms/pre-qualify-form.php:562
+#: includes/forms/test-drive-form.php:669 includes/forms/trade-in-form.php:778
+msgid "Rent"
+msgstr ""
+
+#: includes/forms/financial-application.php:774
+#: includes/forms/financial-application.php:1066
+#: includes/forms/pre-qualify-form.php:563
+#: includes/forms/test-drive-form.php:670 includes/forms/trade-in-form.php:779
+msgid "Own"
+msgstr ""
+
+#: includes/forms/financial-application.php:782
+#: includes/forms/financial-application.php:1074
+#: includes/forms/pre-qualify-form.php:571
+#: includes/forms/test-drive-form.php:678 includes/forms/trade-in-form.php:787
+msgid "Rent/Mortgage:"
+msgstr ""
+
+#: includes/forms/financial-application.php:789
+#: includes/forms/financial-application.php:1081
+#: includes/forms/pre-qualify-form.php:578
+#: includes/forms/test-drive-form.php:685 includes/forms/trade-in-form.php:794
+msgid "Email Address:"
+msgstr ""
+
+#: includes/forms/financial-application.php:791
+#: includes/forms/pre-qualify-form.php:580
+#: includes/forms/test-drive-form.php:687 includes/forms/trade-in-form.php:796
+msgid "Please add an email"
+msgstr ""
+
+#: includes/forms/financial-application.php:797
+#: includes/forms/financial-application.php:1088
+#: includes/forms/pre-qualify-form.php:586
+#: includes/forms/test-drive-form.php:693 includes/forms/trade-in-form.php:802
+msgid "Date of Birth:"
+msgstr ""
+
+#: includes/forms/financial-application.php:800
+#: includes/forms/financial-application.php:1091
+#: includes/forms/pre-qualify-form.php:589
+#: includes/forms/test-drive-form.php:696
+#: includes/forms/test-drive-form.php:721 includes/forms/trade-in-form.php:805
+msgid "Select Date"
+msgstr ""
+
+#: includes/forms/financial-application.php:808
+#: includes/forms/financial-application.php:1099
+msgid "Social Security Number:"
+msgstr ""
+
+#: includes/forms/financial-application.php:817
+#: includes/forms/financial-application.php:1108
+msgid "* We secure and protect your confidential information"
+msgstr ""
+
+#: includes/forms/financial-application.php:823
+#: includes/forms/pre-qualify-form.php:603
+#: includes/forms/test-drive-form.php:735 includes/forms/trade-in-form.php:819
+msgid "Employment Info"
+msgstr ""
+
+#: includes/forms/financial-application.php:833
+#: includes/forms/financial-application.php:1124
+#: includes/forms/pre-qualify-form.php:613
+#: includes/forms/test-drive-form.php:745 includes/forms/trade-in-form.php:829
+msgid "Employer:"
+msgstr ""
+
+#: includes/forms/financial-application.php:840
+#: includes/forms/financial-application.php:1131
+#: includes/forms/pre-qualify-form.php:620
+#: includes/forms/test-drive-form.php:752 includes/forms/trade-in-form.php:836
+msgid "Monthly Income:"
+msgstr ""
+
+#: includes/forms/financial-application.php:847
+#: includes/forms/financial-application.php:1138
+#: includes/forms/pre-qualify-form.php:627
+#: includes/forms/test-drive-form.php:759 includes/forms/trade-in-form.php:843
+msgid "Occupation:"
+msgstr ""
+
+#: includes/forms/financial-application.php:889
+#: includes/forms/financial-application.php:1180
+#: includes/forms/pre-qualify-form.php:669
+#: includes/forms/test-drive-form.php:801 includes/forms/trade-in-form.php:885
+msgid "Phone Number:"
+msgstr ""
+
+#: includes/forms/financial-application.php:896
+#: includes/forms/financial-application.php:1187
+#: includes/forms/pre-qualify-form.php:676
+#: includes/forms/test-drive-form.php:808 includes/forms/trade-in-form.php:892
+msgid "Time On Job"
+msgstr ""
+
+#: includes/forms/financial-application.php:902
+#: includes/forms/financial-application.php:1193
+#: includes/forms/pre-qualify-form.php:682
+#: includes/forms/test-drive-form.php:814 includes/forms/trade-in-form.php:898
+msgid "Years:"
+msgstr ""
+
+#: includes/forms/financial-application.php:925
+#: includes/forms/financial-application.php:1216
+#: includes/forms/pre-qualify-form.php:705
+#: includes/forms/test-drive-form.php:837 includes/forms/trade-in-form.php:921
+msgid "Months:"
+msgstr ""
+
+#: includes/forms/financial-application.php:928
+#: includes/forms/financial-application.php:1219
+#: includes/forms/pre-qualify-form.php:708
+#: includes/forms/test-drive-form.php:840 includes/forms/trade-in-form.php:924
+msgid "0 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:929
+#: includes/forms/financial-application.php:1220
+#: includes/forms/pre-qualify-form.php:709
+#: includes/forms/test-drive-form.php:841 includes/forms/trade-in-form.php:925
+msgid "1 Month"
+msgstr ""
+
+#: includes/forms/financial-application.php:930
+#: includes/forms/financial-application.php:1221
+#: includes/forms/pre-qualify-form.php:710
+#: includes/forms/test-drive-form.php:842 includes/forms/trade-in-form.php:926
+msgid "2 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:931
+#: includes/forms/financial-application.php:1222
+#: includes/forms/pre-qualify-form.php:711
+#: includes/forms/test-drive-form.php:843 includes/forms/trade-in-form.php:927
+msgid "3 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:932
+#: includes/forms/financial-application.php:1223
+#: includes/forms/pre-qualify-form.php:712
+#: includes/forms/test-drive-form.php:844 includes/forms/trade-in-form.php:928
+msgid "4 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:933
+#: includes/forms/financial-application.php:1224
+#: includes/forms/pre-qualify-form.php:713
+#: includes/forms/test-drive-form.php:845 includes/forms/trade-in-form.php:929
+msgid "5 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:934
+#: includes/forms/financial-application.php:1225
+#: includes/forms/pre-qualify-form.php:714
+#: includes/forms/test-drive-form.php:846 includes/forms/trade-in-form.php:930
+msgid "6 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:935
+#: includes/forms/financial-application.php:1226
+#: includes/forms/pre-qualify-form.php:715
+#: includes/forms/test-drive-form.php:847 includes/forms/trade-in-form.php:931
+msgid "7 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:936
+#: includes/forms/financial-application.php:1227
+#: includes/forms/pre-qualify-form.php:716
+#: includes/forms/test-drive-form.php:848 includes/forms/trade-in-form.php:932
+msgid "8 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:937
+#: includes/forms/financial-application.php:1228
+#: includes/forms/pre-qualify-form.php:717
+#: includes/forms/test-drive-form.php:849 includes/forms/trade-in-form.php:933
+msgid "9 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:938
+#: includes/forms/financial-application.php:1229
+#: includes/forms/pre-qualify-form.php:718
+#: includes/forms/test-drive-form.php:850 includes/forms/trade-in-form.php:934
+msgid "10 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:939
+#: includes/forms/financial-application.php:1230
+#: includes/forms/pre-qualify-form.php:719
+#: includes/forms/test-drive-form.php:851 includes/forms/trade-in-form.php:935
+msgid "11 Months"
+msgstr ""
+
+#: includes/forms/financial-application.php:1248
+#: includes/forms/pre-qualify-form.php:737
+#: includes/forms/test-drive-form.php:417 includes/forms/trade-in-form.php:526
+msgid "Vehicle Interested In"
+msgstr ""
+
+#: includes/forms/financial-application.php:1256
+#: includes/forms/pre-qualify-form.php:745
+#: includes/forms/test-drive-form.php:425 includes/forms/trade-in-form.php:534
+msgid "Select Vehicle"
+msgstr ""
+
+#: includes/forms/financial-application.php:1317
+#: includes/forms/pre-qualify-form.php:806
+#: includes/forms/test-drive-form.php:486 includes/forms/trade-in-form.php:595
+msgid "Stock Number:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1324
+#: includes/forms/pre-qualify-form.php:813
+#: includes/forms/test-drive-form.php:493 includes/forms/trade-in-form.php:602
+msgid "Year:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1331
+#: includes/forms/pre-qualify-form.php:820
+#: includes/forms/test-drive-form.php:500 includes/forms/trade-in-form.php:609
+msgid "Make:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1338
+#: includes/forms/pre-qualify-form.php:827
+#: includes/forms/test-drive-form.php:507 includes/forms/trade-in-form.php:616
+msgid "Model:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1345
+#: includes/forms/pre-qualify-form.php:834
+#: includes/forms/test-drive-form.php:514 includes/forms/trade-in-form.php:623
+msgid "Trim:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1352
+#: includes/forms/financial-application.php:1435
+#: includes/forms/pre-qualify-form.php:841
+#: includes/forms/pre-qualify-form.php:924
+#: includes/forms/test-drive-form.php:521 includes/forms/trade-in-form.php:497
+#: includes/forms/trade-in-form.php:630 templates/cardojo-inventory.php:568
+#: templates/cardojo-inventory.php:634
+msgid "VIN:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1359
+#: includes/forms/financial-application.php:1449
+#: includes/forms/pre-qualify-form.php:848
+#: includes/forms/pre-qualify-form.php:938
+#: includes/forms/test-drive-form.php:528 includes/forms/trade-in-form.php:511
+#: includes/forms/trade-in-form.php:637
+msgid "Color:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1366
+#: includes/forms/financial-application.php:1442
+#: includes/forms/pre-qualify-form.php:855
+#: includes/forms/pre-qualify-form.php:931
+#: includes/forms/test-drive-form.php:535 includes/forms/trade-in-form.php:504
+#: includes/forms/trade-in-form.php:644
+msgid "Mileage:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1373
+#: includes/forms/pre-qualify-form.php:862
+#: includes/forms/test-drive-form.php:542 includes/forms/trade-in-form.php:651
+msgid "Price:"
+msgstr ""
+
+#: includes/forms/financial-application.php:1484
+msgid "* TERMS AND DISCLOSURE"
+msgstr ""
+
+#: includes/forms/financial-application.php:1526
+msgid "Submit Application"
+msgstr ""
+
+#: includes/forms/pre-qualify-form.php:194
+msgid "Pre-Qualify Application"
+msgstr ""
+
+#: includes/forms/pre-qualify-form.php:401
+msgid "Pre-Qualify Application Form from "
+msgstr ""
+
+#: includes/forms/pre-qualify-form.php:429
+#: templates/content-single-vehicle.php:1033
+#: templates/content-single-vehicle.php:1132
+msgid "Pre-Qualify"
+msgstr ""
+
+#: includes/forms/pre-qualify-form.php:437
+msgid "Your Pre-Qualify Request has been sent."
+msgstr ""
+
+#: includes/forms/pre-qualify-form.php:991
+msgid "Qualify Me"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:124
+#: includes/forms/search-horizontal-filter.php:227
+#: includes/forms/search-horizontal-filter.php:386
+msgid "Any"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:272
+#: includes/forms/search-horizontal-filter.php:372
+msgid "Select a make"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:383
+msgid "Fuel type"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:414
+msgid "Price up to"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:448
+msgid "1st registration from"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:448
+msgid "year"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:525
+msgid "Show new cars only"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:537
+msgid "Search through"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:537
+msgid "cars"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:555
+msgid "listings were found matching your search criteria."
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:561
+msgid "Reset"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:568
+#: includes/forms/search-horizontal-filter.php:580
+msgid "Subscribe"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:570
+msgid "your email"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:571
+msgid "Submit"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:572
+msgid "Close"
+msgstr ""
+
+#: includes/forms/search-horizontal-filter.php:614
+msgid "Point the search result page in settings."
+msgstr ""
+
+#: includes/forms/test-drive-form.php:178
+msgid "Test Drive Request"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:243
+msgid "Driver License State"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:247
+msgid "Drivers License Number"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:251
+msgid "Drivers License Exp"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:366
+msgid "Test Drive Request Form from "
+msgstr ""
+
+#: includes/forms/test-drive-form.php:394
+#: templates/content-single-vehicle.php:1035
+#: templates/content-single-vehicle.php:1134
+msgid "Test Drive"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:402
+msgid "Your Test Drive Request has been sent."
+msgstr ""
+
+#: includes/forms/test-drive-form.php:704
+msgid "Drivers License State:"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:711
+msgid "Drivers License Number:"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:718
+msgid "Drivers License Exp:"
+msgstr ""
+
+#: includes/forms/test-drive-form.php:907
+msgid "Request Test Drive"
+msgstr ""
+
+#: includes/forms/trade-in-form.php:194
+msgid "Trade-In Application"
+msgstr ""
+
+#: includes/forms/trade-in-form.php:401
+msgid "Trade-In Application Form from "
+msgstr ""
+
+#: includes/forms/trade-in-form.php:437
+msgid "Your Trade-In Request has been sent."
+msgstr ""
+
+#: includes/forms/trade-in-form.php:991
+msgid "Request Trade-In"
+msgstr ""
+
+#: templates/cardojo-account-settings.php:19
+msgid "Account Info"
+msgstr ""
+
+#: templates/cardojo-account-settings.php:48
+msgid "Address"
+msgstr ""
+
+#: templates/cardojo-account-settings.php:64 templates/cardojo-login.php:65
+#: templates/cardojo-login.php:131
+msgid "Password"
+msgstr ""
+
+#: templates/cardojo-account-settings.php:66 templates/cardojo-login.php:133
+msgid "Password required."
+msgstr ""
+
+#: templates/cardojo-account-settings.php:72 templates/cardojo-login.php:137
+msgid "Repet password"
+msgstr ""
+
+#: templates/cardojo-account-settings.php:74 templates/cardojo-login.php:139
+msgid "Password doesn't match."
+msgstr ""
+
+#: templates/cardojo-account-settings.php:93
+msgid "Update Account"
+msgstr ""
+
+#: templates/cardojo-cars.php:96 templates/cardojo-single-dealer.php:231
+msgid "No listings were found matching your search criteria."
+msgstr ""
+
+#: templates/cardojo-cars.php:247 templates/cardojo-my-favorite.php:206
+#: templates/cardojo-notifications.php:252
+#: templates/cardojo-single-dealer.php:377
+msgid "Remove from favorites"
+msgstr ""
+
+#: templates/cardojo-cars.php:258 templates/cardojo-my-favorite.php:217
+#: templates/cardojo-notifications.php:263
+#: templates/cardojo-single-dealer.php:388
+msgid "Add to favorites"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:11 templates/cardojo-deals.php:25
+msgid "Add Deal"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:17 templates/cardojo-leads.php:25
+msgid "Add Lead"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:23 templates/cardojo-inventory.php:179
+msgid "Add Vehicle"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:53
+msgid "Total Leads"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:62 templates/cardojo-leads.php:39
+msgid "New Leads & Ups"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:87 templates/cardojo-inventory.php:193
+msgid "Total Vehicles"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:110 templates/cardojo-deals.php:39
+msgid "Total Deals"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:121 templates/cardojo-inventory.php:226
+msgid "Avg. Days"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:132 templates/cardojo-inventory.php:248
+msgid "Total Cost"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:143
+msgid "Potential Profit"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:215
+msgid "Appointments"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:222 templates/cardojo-deals.php:334
+#: templates/cardojo-deals.php:410 templates/cardojo-inventory.php:453
+#: templates/cardojo-reports.php:141 templates/cardojo-reports.php:191
+#: templates/cardojo-reports.php:241
+msgid "Vehicle"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:223
+#: templates/cardojo-filter-subscriptions.php:64
+#: templates/cardojo-filter-subscriptions.php:161
+#: templates/cardojo-leads.php:350 templates/cardojo-leads.php:402
+msgid "Phone"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:224 templates/cardojo-deals.php:330
+#: templates/cardojo-filter-subscriptions.php:61
+#: templates/cardojo-filter-subscriptions.php:158
+#: templates/cardojo-leads.php:341
+msgid "Date"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:267
+msgid "Sales"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:286
+msgid "Jan."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:287
+msgid "Feb."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:288
+msgid "Mar."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:289
+msgid "Apr."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:290
+msgid "May"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:291
+msgid "Jun."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:292
+msgid "Jul."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:293
+msgid "Aug."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:294
+msgid "Sep."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:295
+msgid "Oct."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:296
+msgid "Nov."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:297
+msgid "Dec."
+msgstr ""
+
+#: templates/cardojo-dashboard.php:356
+msgid "Amount"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:411 templates/cardojo-dashboard.php:427
+#: templates/cardojo-dashboard.php:473
+msgid "Views"
+msgstr ""
+
+#: templates/cardojo-dashboard.php:427
+msgid "Vehicles"
+msgstr ""
+
+#: templates/cardojo-deals.php:50
+msgid "Closed Deals"
+msgstr ""
+
+#: templates/cardojo-deals.php:61 templates/cardojo-reports.php:28
+#: templates/cardojo-reports.php:86 templates/cardojo-reports.php:145
+#: templates/cardojo-reports.php:195 templates/cardojo-reports.php:245
+msgid "Total Profit"
+msgstr ""
+
+#: templates/cardojo-deals.php:72 templates/cardojo-reports.php:27
+#: templates/cardojo-reports.php:85 templates/cardojo-reports.php:144
+#: templates/cardojo-reports.php:194 templates/cardojo-reports.php:244
+msgid "Average Profit"
+msgstr ""
+
+#. translators: %d: total results
+#: templates/cardojo-deals.php:242
+#, php-format
+msgid "Showing the single deal"
+msgid_plural "Showing all %d deals"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: templates/cardojo-deals.php:245
+#, php-format
+msgctxt "with first and last deal"
+msgid "Showing the single deal"
+msgid_plural "Showing %1$d to %2$d of %3$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/cardojo-deals.php:262 templates/cardojo-leads.php:273
+msgid "Start"
+msgstr ""
+
+#: templates/cardojo-deals.php:265 templates/cardojo-deals.php:281
+#: templates/cardojo-leads.php:276 templates/cardojo-leads.php:292
+msgid "Today"
+msgstr ""
+
+#: templates/cardojo-deals.php:266 templates/cardojo-deals.php:282
+#: templates/cardojo-leads.php:277 templates/cardojo-leads.php:293
+msgid "Yesterday"
+msgstr ""
+
+#: templates/cardojo-deals.php:267 templates/cardojo-deals.php:283
+#: templates/cardojo-leads.php:278 templates/cardojo-leads.php:294
+msgid "7 Days Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:268 templates/cardojo-deals.php:284
+#: templates/cardojo-leads.php:279 templates/cardojo-leads.php:295
+msgid "15 Days Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:269 templates/cardojo-deals.php:285
+#: templates/cardojo-leads.php:280 templates/cardojo-leads.php:296
+msgid "30 Days Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:270 templates/cardojo-deals.php:286
+#: templates/cardojo-leads.php:281 templates/cardojo-leads.php:297
+msgid "60 Days Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:271 templates/cardojo-deals.php:287
+#: templates/cardojo-leads.php:282 templates/cardojo-leads.php:298
+msgid "90 Days Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:272 templates/cardojo-deals.php:288
+#: templates/cardojo-leads.php:283 templates/cardojo-leads.php:299
+msgid "120 Days Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:273 templates/cardojo-deals.php:289
+#: templates/cardojo-leads.php:284 templates/cardojo-leads.php:300
+msgid "1 Year Ago"
+msgstr ""
+
+#: templates/cardojo-deals.php:278 templates/cardojo-leads.php:289
+msgid "End"
+msgstr ""
+
+#: templates/cardojo-deals.php:296 templates/cardojo-inventory.php:421
+#: templates/cardojo-leads.php:307
+msgid "Show"
+msgstr ""
+
+#: templates/cardojo-deals.php:314 templates/cardojo-leads.php:325
+msgid "Refresh"
+msgstr ""
+
+#: templates/cardojo-deals.php:332
+msgid "Deal"
+msgstr ""
+
+#: templates/cardojo-deals.php:333
+msgid "Sku"
+msgstr ""
+
+#: templates/cardojo-deals.php:336 templates/cardojo-deals.php:412
+msgid "Profit"
+msgstr ""
+
+#: templates/cardojo-deals.php:337 templates/cardojo-deals.php:413
+msgid "Days to Sell"
+msgstr ""
+
+#: templates/cardojo-deals.php:338 templates/cardojo-deals.php:414
+msgid "Next Payment"
+msgstr ""
+
+#: templates/cardojo-deals.php:348
+msgid "You do not have any deals."
+msgstr ""
+
+#: templates/cardojo-deals.php:411
+msgid "Sales Amount"
+msgstr ""
+
+#: templates/cardojo-deals.php:438
+msgid "Closed"
+msgstr ""
+
+#. translators: %d: total results
+#: templates/cardojo-filter-subscriptions.php:42
+#, php-format
+msgid "Showing the single filter"
+msgid_plural "Showing all %d filters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: templates/cardojo-filter-subscriptions.php:45
+#, php-format
+msgctxt "with first and last filter"
+msgid "Showing the single filter"
+msgid_plural "Showing %1$d to %2$d of %3$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/cardojo-filter-subscriptions.php:84
+msgid "There are no filters yet."
+msgstr ""
+
+#: templates/cardojo-inventory.php:56 templates/cardojo-submit.php:2716
+msgid "Expenses"
+msgstr ""
+
+#: templates/cardojo-inventory.php:139
+msgid "Save expenses"
+msgstr ""
+
+#: templates/cardojo-inventory.php:141 templates/cardojo-submit.php:2817
+msgid "Cancel"
+msgstr ""
+
+#: templates/cardojo-inventory.php:204
+msgid "Avg. Photos"
+msgstr ""
+
+#: templates/cardojo-inventory.php:215
+msgid "Avg. Mileage"
+msgstr ""
+
+#: templates/cardojo-inventory.php:237
+msgid "Avg. Cost"
+msgstr ""
+
+#. translators: %d: total results
+#: templates/cardojo-inventory.php:364
+#, php-format
+msgid "Showing the single vehicle"
+msgid_plural "Showing all %d vehicles"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: templates/cardojo-inventory.php:367
+#, php-format
+msgctxt "with first and last vehicle"
+msgid "Showing the single vehicle"
+msgid_plural "Showing %1$d to %2$d of %3$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/cardojo-inventory.php:380
+msgid "Search:"
+msgstr ""
+
+#: templates/cardojo-inventory.php:387
+msgid "All Vehicles"
+msgstr ""
+
+#: templates/cardojo-inventory.php:393
+msgid "Draft"
+msgstr ""
+
+#: templates/cardojo-inventory.php:394
+msgid "Pending"
+msgstr ""
+
+#: templates/cardojo-inventory.php:399
+msgid "Sort"
+msgstr ""
+
+#: templates/cardojo-inventory.php:402
+msgid "Default Sorting"
+msgstr ""
+
+#: templates/cardojo-inventory.php:403
+msgid "Year &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:404
+msgid "Year &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:405
+msgid "Make &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:406
+msgid "Make &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:407
+msgid "Model &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:408
+msgid "Model &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:409
+msgid "Mileage &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:410
+msgid "Mileage &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:411
+msgid "Cost &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:412
+msgid "Cost &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:413
+msgid "Price &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:414
+msgid "Price &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:415
+msgid "Age &uarr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:416
+msgid "Age &darr;"
+msgstr ""
+
+#: templates/cardojo-inventory.php:454 templates/cardojo-leads.php:345
+#: templates/cardojo-leads.php:399
+msgid "Status"
+msgstr ""
+
+#: templates/cardojo-inventory.php:456
+msgid "Cost"
+msgstr ""
+
+#: templates/cardojo-inventory.php:457
+msgid "Retail"
+msgstr ""
+
+#: templates/cardojo-inventory.php:458
+msgid "Age"
+msgstr ""
+
+#: templates/cardojo-inventory.php:459 templates/cardojo-inventory.php:697
+msgid "Actions"
+msgstr ""
+
+#: templates/cardojo-inventory.php:469
+msgid "You do not have any active listings."
+msgstr ""
+
+#: templates/cardojo-inventory.php:566 templates/cardojo-inventory.php:634
+msgid "SKU:"
+msgstr ""
+
+#: templates/cardojo-inventory.php:570 templates/cardojo-inventory.php:634
+msgid "COLOR:"
+msgstr ""
+
+#: templates/cardojo-inventory.php:572
+msgid "MILEAGE:"
+msgstr ""
+
+#: templates/cardojo-inventory.php:606
+msgid "PHOTOS:"
+msgstr ""
+
+#: templates/cardojo-inventory.php:652 templates/cardojo-inventory.php:766
+#: templates/cardojo-inventory.php:768
+msgid "Publish"
+msgstr ""
+
+#: templates/cardojo-inventory.php:710
+msgid "Mark not Sold"
+msgstr ""
+
+#: templates/cardojo-inventory.php:712
+msgid "Mark as Sold"
+msgstr ""
+
+#: templates/cardojo-inventory.php:715
+msgid "Mark not Featured"
+msgstr ""
+
+#: templates/cardojo-inventory.php:724
+msgid "Mark Featured"
+msgstr ""
+
+#: templates/cardojo-inventory.php:729
+msgid "Stop Promotion"
+msgstr ""
+
+#: templates/cardojo-inventory.php:738
+msgid "Promote"
+msgstr ""
+
+#: templates/cardojo-inventory.php:741 templates/cardojo-inventory.php:752
+#: templates/cardojo-inventory.php:755
+msgid "Add Expenses"
+msgstr ""
+
+#: templates/cardojo-inventory.php:744
+msgid "Duplicate"
+msgstr ""
+
+#: templates/cardojo-inventory.php:746
+msgid "Unpublish"
+msgstr ""
+
+#: templates/cardojo-leads.php:50
+msgid "Total Leads & Ups"
+msgstr ""
+
+#: templates/cardojo-leads.php:61
+msgid "Floor Ups"
+msgstr ""
+
+#: templates/cardojo-leads.php:72
+msgid "Internet Ups"
+msgstr ""
+
+#: templates/cardojo-leads.php:83
+msgid "Phone Ups"
+msgstr ""
+
+#. translators: %d: total results
+#: templates/cardojo-leads.php:253
+#, php-format
+msgid "Showing the single lead"
+msgid_plural "Showing all %d leads"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: templates/cardojo-leads.php:256
+#, php-format
+msgctxt "with first and last lead"
+msgid "Showing the single lead"
+msgid_plural "Showing %1$d to %2$d of %3$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/cardojo-leads.php:343
+msgid "Lead"
+msgstr ""
+
+#: templates/cardojo-leads.php:346 templates/cardojo-leads.php:400
+msgid "Up Type"
+msgstr ""
+
+#: templates/cardojo-leads.php:347 templates/cardojo-leads.php:401
+msgid "Ad Source"
+msgstr ""
+
+#: templates/cardojo-leads.php:348
+msgid "Website Lead Type"
+msgstr ""
+
+#: templates/cardojo-leads.php:349
+msgid "Appointment"
+msgstr ""
+
+#: templates/cardojo-leads.php:360
+msgid "You do not have any leads."
+msgstr ""
+
+#: templates/cardojo-login.php:9 templates/cardojo-login.php:73
+msgid "Login"
+msgstr ""
+
+#: templates/cardojo-login.php:61 templates/cardojo-login.php:85
+msgid "Adresa de email"
+msgstr ""
+
+#: templates/cardojo-login.php:76
+msgid "Forgot password"
+msgstr ""
+
+#: templates/cardojo-login.php:92
+msgid "Reset Password"
+msgstr ""
+
+#: templates/cardojo-login.php:95
+msgid "Back to login"
+msgstr ""
+
+#: templates/cardojo-login.php:108 templates/cardojo-login.php:143
+msgid "Register"
+msgstr ""
+
+#: templates/cardojo-login.php:112
+msgid "Registering new users is currently not allowed."
+msgstr ""
+
+#: templates/cardojo-login.php:119
+msgid "Username"
+msgstr ""
+
+#: templates/cardojo-login.php:121
+msgid "Username required"
+msgstr ""
+
+#: templates/cardojo-login.php:127
+msgid "Email required"
+msgstr ""
+
+#: templates/cardojo-my-favorite.php:60
+msgid "You have no favorites yet."
+msgstr ""
+
+#: templates/cardojo-notifications.php:76
+msgid "from"
+msgstr ""
+
+#: templates/cardojo-notifications.php:79
+msgid "listings"
+msgstr ""
+
+#: templates/cardojo-notifications.php:79
+msgid "listing"
+msgstr ""
+
+#: templates/cardojo-notifications.php:98
+msgid "No new vehicles yet."
+msgstr ""
+
+#: templates/cardojo-notifications.php:294
+msgid "View more"
+msgstr ""
+
+#: templates/cardojo-reports.php:12
+msgid "Sales by Month"
+msgstr ""
+
+#: templates/cardojo-reports.php:13
+msgid "Sales by Year"
+msgstr ""
+
+#: templates/cardojo-reports.php:14
+msgid "Sales by Make"
+msgstr ""
+
+#: templates/cardojo-reports.php:15
+msgid "Sales by Model"
+msgstr ""
+
+#: templates/cardojo-reports.php:16
+msgid "Sales by Trim"
+msgstr ""
+
+#: templates/cardojo-reports.php:25
+msgid "Month/Year"
+msgstr ""
+
+#: templates/cardojo-reports.php:26 templates/cardojo-reports.php:84
+#: templates/cardojo-reports.php:142 templates/cardojo-reports.php:192
+#: templates/cardojo-reports.php:242
+msgid "Vehicles Sold"
+msgstr ""
+
+#: templates/cardojo-reports.php:143 templates/cardojo-reports.php:193
+#: templates/cardojo-reports.php:243
+msgid "Avg. Days to Sell"
+msgstr ""
+
+#: templates/cardojo-single-dealer.php:9
+msgid "Cheatin', uh?"
+msgstr ""
+
+#: templates/cardojo-single-dealer.php:122
+msgid "Mobile"
+msgstr ""
+
+#: templates/cardojo-single-dealer.php:126
+msgid "Office"
+msgstr ""
+
+#: templates/cardojo-single-dealer.php:145
+msgid ""
+"Use the contact form to get in touch, whether you want to schedule for a "
+"test-drive, make an offer for a vehicle, trade-in your vehicle for one or "
+"you want us to call you back."
+msgstr ""
+
+#: templates/cardojo-submit.php:193
+msgid "Car Info"
+msgstr ""
+
+#: templates/cardojo-submit.php:337
+msgid "Characteristics"
+msgstr ""
+
+#: templates/cardojo-submit.php:624
+msgid "Engine and Transmission"
+msgstr ""
+
+#: templates/cardojo-submit.php:888
+msgid "Fuel consumption and emissions"
+msgstr ""
+
+#: templates/cardojo-submit.php:951
+msgid "Dimenions and weight"
+msgstr ""
+
+#: templates/cardojo-submit.php:1000
+msgid "Vehicle features and specifications"
+msgstr ""
+
+#: templates/cardojo-submit.php:1350
+msgid "Location & contact info"
+msgstr ""
+
+#: templates/cardojo-submit.php:1572
+msgid "Photo Gallery"
+msgstr ""
+
+#: templates/cardojo-submit.php:2815
+msgid "Save vehicle"
+msgstr ""
+
+#: templates/content-no-cars-found.php:2
+msgid "There are no listings matching your search."
+msgstr ""
+
+#: templates/content-no-cars-found.php:4
+msgid "There are currently no vacancies."
+msgstr ""
+
+#: templates/content-single-vehicle.php:163
+msgid "seats"
+msgstr ""
+
+#: templates/content-single-vehicle.php:164
+msgid "doors"
+msgstr ""
+
+#: templates/content-single-vehicle.php:169
+msgid "id"
+msgstr ""
+
+#: templates/content-single-vehicle.php:269
+msgid "Engine"
+msgstr ""
+
+#: templates/content-single-vehicle.php:270
+msgid "ccm"
+msgstr ""
+
+#: templates/content-single-vehicle.php:272
+msgid "hp"
+msgstr ""
+
+#: templates/content-single-vehicle.php:272
+msgid "KW"
+msgstr ""
+
+#: templates/content-single-vehicle.php:272
+#: templates/content-single-vehicle.php:273
+msgid "rpm"
+msgstr ""
+
+#: templates/content-single-vehicle.php:273
+msgid "Nm"
+msgstr ""
+
+#: templates/content-single-vehicle.php:294
+msgid "Usage"
+msgstr ""
+
+#: templates/content-single-vehicle.php:298
+msgid "Owner"
+msgstr ""
+
+#: templates/content-single-vehicle.php:298
+msgid "Owners"
+msgstr ""
+
+#: templates/content-single-vehicle.php:318
+msgid "Speeds"
+msgstr ""
+
+#: templates/content-single-vehicle.php:327
+msgid "Listing description"
+msgstr ""
+
+#: templates/content-single-vehicle.php:355
+msgid "Perfect"
+msgstr ""
+
+#: templates/content-single-vehicle.php:359
+msgid "Almost perfect"
+msgstr ""
+
+#: templates/content-single-vehicle.php:363
+msgid "Mint condition"
+msgstr ""
+
+#: templates/content-single-vehicle.php:367
+msgid "Good"
+msgstr ""
+
+#: templates/content-single-vehicle.php:371
+msgid "Medium"
+msgstr ""
+
+#: templates/content-single-vehicle.php:375
+msgid "Damaged"
+msgstr ""
+
+#: templates/content-single-vehicle.php:415
+msgid "Verify carfax vehicle history report"
+msgstr ""
+
+#: templates/content-single-vehicle.php:424
+msgid "Vehicles features and specification"
+msgstr ""
+
+#: templates/content-single-vehicle.php:445
+msgid "Consumption & Emissions"
+msgstr ""
+
+#: templates/content-single-vehicle.php:451
+#: templates/content-single-vehicle.php:458
+#: templates/content-single-vehicle.php:465
+msgid "l/100km"
+msgstr ""
+
+#: templates/content-single-vehicle.php:451
+#: templates/content-single-vehicle.php:458
+#: templates/content-single-vehicle.php:465
+msgid "mpg"
+msgstr ""
+
+#: templates/content-single-vehicle.php:451
+msgid "combined"
+msgstr ""
+
+#: templates/content-single-vehicle.php:452
+msgid "g CO2/km"
+msgstr ""
+
+#: templates/content-single-vehicle.php:458
+msgid "urban"
+msgstr ""
+
+#: templates/content-single-vehicle.php:465
+msgid "extra-urban"
+msgstr ""
+
+#: templates/content-single-vehicle.php:813
+msgid "Dimensions & Weight"
+msgstr ""
+
+#: templates/content-single-vehicle.php:945
+msgid "Owner contact info"
+msgstr ""
+
+#: templates/content-single-vehicle.php:985
+#: templates/content-single-vehicle.php:1086
+msgid "mobile"
+msgstr ""
+
+#: templates/content-single-vehicle.php:993
+#: templates/content-single-vehicle.php:1093
+msgid "office"
+msgstr ""
+
+#: templates/content-single-vehicle.php:1034
+#: templates/content-single-vehicle.php:1133
+msgid "Finance Application"
+msgstr ""
+
+#: templates/content-single-vehicle.php:1069
+msgid "Location and contact information"
+msgstr ""
+
+#: templates/emails/customer-account-funds-increase.php:13
+#: templates/emails/plain/customer-account-funds-increase.php:12
+#, php-format
+msgid "Your account funds on %1$s have increased from %2$s to %3$s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "CarDojo Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://wpcardojoplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Vehicles shop or automotive marketplace plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemesDojo"
+msgstr ""

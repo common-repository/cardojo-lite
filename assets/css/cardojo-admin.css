@@ -1,0 +1,1445 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+#vehicle_modeldiv,
+#vehicle_conditiondiv,
+#vehicle_body_stylediv,
+#vehicle_exterior_colordiv,
+#vehicle_fuel_typediv,
+#vehicle_transmissiondiv,
+#vehicle_drivediv  {
+	display: block;
+}
+
+#advanced-sortables * { 
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+}
+
+.cardojo-row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.cardojo-col-3 {
+	width: 25%;
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-col-half {
+	width: 50%;
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-col-9 {
+	width: 75%;
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-col-4 {
+	width: calc(100% / 3);
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-col-5 {
+	width: 20%;
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-col-6 {
+	width: calc(100%/6);
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-col-12 {
+	width: 100%;
+	padding: 0 15px;
+	display: inline-block;
+	float: left;
+}
+
+.cardojo-style-margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.control-label {
+	width: 100% !important;
+	font-size: 14px;
+	margin-bottom: 10px !important;
+    display: inline-block;
+}
+
+.vehicle_gallery_image_holder_no_image,
+.vehicle_gallery_image_holder_has_image {
+	width: 100%;
+	float: left;
+	height: 160px;
+	border-radius: 4px;
+	overflow: hidden;
+	border: solid 1px #eee;
+	background-color: #f4f4f4;
+	position: relative;
+	cursor: pointer;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.vehicle_gallery_image_holder_no_image:before,
+.vehicle_gallery_image_holder_has_image:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font: normal normal normal 60px/1 FontAwesome;
+	width: 100%;
+	text-align: center;
+	line-height: 160px;
+	opacity: .1; 
+}
+
+.vehicle_gallery_image_holder_no_image:before,
+.vehicle_gallery_image_holder_has_image:before {
+	/*content: "\f1b9";*/
+}
+
+.image-holder,
+.vehicle_gallery_image_loaded:before {
+	display: none;
+}
+
+.vehicle_gallery_image_holder_has_image:before {
+	content: "\f110";
+	-webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+.vehicle_gallery_image_holder_no_image svg {
+	padding: 40px;
+    width: 100%;
+    display: block;
+    height: 100%;
+    stroke: #d3d5da;
+    fill: #d3d5da;
+}
+
+.vehicle_gallery_image_holder_has_image svg {
+	display: none;
+}
+
+.vehicle_gallery_image_holder_no_image.add_more_button {
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.vehicle_gallery_image_holder_no_image.add_more_button:before {
+	content: "\f067";
+}
+
+.vehicle_gallery_image_holder_no_image.add_more_button:hover {
+	background-color: #00bacb;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.vehicle_gallery_image_holder_no_image .vehicle_gallery_image_holder_no_image_inner,
+.vehicle_gallery_image_holder_no_image .vehicle_gallery_image_holder_with_image_inner,
+.vehicle_gallery_image_holder_has_image .vehicle_gallery_image_holder_no_image_inner,
+.vehicle_gallery_image_holder_has_image .vehicle_gallery_image_holder_with_image_inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	border-radius: 4px;
+	overflow: hidden;
+	background-color: #00bacb;
+	border: solid 1px #369895;
+	z-index: -1;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.vehicle_gallery_image_holder_no_image:hover .vehicle_gallery_image_holder_no_image_inner,
+.vehicle_gallery_image_holder_has_image:hover .vehicle_gallery_image_holder_with_image_inner {
+	opacity: 1;
+	z-index: 1;
+}
+
+.your_image_url_button,
+.your_image_url_button_remove {
+	position: relative;
+	padding: 30px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: bold;
+	text-align: center;
+	top: 50%;
+	letter-spacing: 1px;
+	transform: translateY(-50%);
+}
+
+.your_image_url_button .fa,
+.your_image_url_button_remove .fa {
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+#car_basic_settings #options_group fieldset select,
+#car_price_settings #options_group fieldset select,
+#car_condition_settings #options_group fieldset select,
+#car_characteristics_settings #options_group fieldset select,
+#car_engine_transmission #options_group fieldset select,
+#car_fuel_consumption_emissions fieldset select,
+#car_dimensions_weight fieldset select,
+#car_description fieldset select,
+#car_features_specifications fieldset select,
+#car_locations fieldset select,
+#car_expenses fieldset select,
+#lead_main_buyer_info fieldset select,
+#lead_history_notes fieldset select,
+#lead_buyer_residence fieldset select,
+#lead_buyer_employer fieldset select,
+#lead_co_buyer fieldset select,
+#lead_trade_in fieldset select,
+#lead_banking_financing fieldset select,
+#deal_main_buyer_info fieldset select,
+#deal_co_buyer_info fieldset select,
+#deal_vehicle_info fieldset select,
+#deal_trade_in fieldset select,
+#deal_transaction fieldset select,
+.bootstrap-select>.btn {
+	border-radius: 0;
+	border: none;
+	-webkit-appearance: none;
+ 	-webkit-border-radius: 0px;
+	line-height: 1.42857;
+    padding: 6px 24px 6px 12px;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    border: solid 1px #c2cad8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 36px;
+    background: url("../images/select-arrow.png");
+    background-size: 50%;
+    background-position: 100% 50%;
+    background-size: 15px 7px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.bootstrap-select>.btn {
+	margin-bottom: 0;
+	outline: none !important;
+}
+
+.bootstrap-select>.btn:focus {
+	outline: none !important;
+}
+
+#car_basic_settings #options_group fieldset input[type=text],
+#car_price_settings #options_group fieldset input[type=text],
+#car_condition_settings #options_group fieldset input[type=text],
+#car_characteristics_settings #options_group fieldset input[type=text],
+#car_engine_transmission #options_group fieldset input[type=text],
+#car_fuel_consumption_emissions fieldset input[type=text],
+#car_dimensions_weight fieldset input[type=text],
+#car_description fieldset input[type=text],
+#car_description fieldset textarea,
+#car_features_specifications fieldset input[type=text],
+#car_features_specifications fieldset textarea,
+#car_locations fieldset input[type=text],
+#car_locations fieldset textarea,
+#car_expenses fieldset input[type=text],
+#car_expenses fieldset textarea,
+#lead_main_buyer_info fieldset input[type=text],
+#lead_main_buyer_info fieldset textarea,
+#lead_history_notes fieldset input[type=text],
+#lead_history_notes fieldset textarea,
+#lead_buyer_residence fieldset input[type=text],
+#lead_buyer_residence fieldset textarea,
+#lead_buyer_employer fieldset input[type=text],
+#lead_buyer_employer fieldset textarea,
+#lead_co_buyer fieldset input[type=text],
+#lead_co_buyer fieldset textarea,
+#lead_trade_in fieldset input[type=text],
+#lead_trade_in fieldset textarea,
+#lead_banking_financing fieldset input[type=text],
+#lead_banking_financing fieldset textarea,
+#deal_main_buyer_info fieldset input[type=text],
+#deal_main_buyer_info fieldset textarea,
+#deal_co_buyer_info fieldset input[type=text],
+#deal_co_buyer_info fieldset textarea,
+#deal_vehicle_info fieldset input[type=text],
+#deal_vehicle_info fieldset textarea,
+#deal_trade_in fieldset input[type=text],
+#deal_trade_in fieldset textarea,
+#deal_transaction fieldset input[type=text],
+#deal_transaction fieldset textarea {
+	height: 36px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #c2cad8;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    outline: 0!important;
+    width: 100%;
+    float: left;
+    margin: 0;
+    margin-bottom: 30px;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#car_description fieldset textarea,
+#car_expenses fieldset textarea,
+#lead_main_buyer_info fieldset textarea,
+#lead_history_notes fieldset textarea,
+#lead_buyer_residence fieldset textarea,
+#lead_buyer_employer fieldset textarea,
+#lead_co_buyer fieldset textarea,
+#lead_trade_in fieldset textarea,
+#lead_banking_financing fieldset textarea,
+#deal_main_buyer_info fieldset textarea,
+#deal_co_buyer_info fieldset textarea,
+#deal_vehicle_info fieldset textarea,
+#deal_trade_in fieldset textarea,
+#deal_transaction fieldset textarea {
+	height: auto;
+}
+
+#car_basic_settings.postbox,
+#car_price_settings.postbox,
+#car_gallery_settings.postbox,
+#car_condition_settings.postbox,
+#car_characteristics_settings.postbox,
+#car_engine_transmission.postbox,
+#car_fuel_consumption_emissions.postbox,
+#car_dimensions_weight.postbox,
+#car_description.postbox,
+#car_features_specifications.postbox,
+#car_locations.postbox,
+#car_expenses.postbox,
+#lead_main_buyer_info.postbox,
+#lead_history_notes.postbox,
+#lead_buyer_residence.postbox,
+#lead_buyer_employer.postbox,
+#lead_co_buyer.postbox,
+#lead_trade_in.postbox,
+#lead_banking_financing.postbox,
+#deal_main_buyer_info.postbox,
+#deal_co_buyer_info.postbox,
+#deal_vehicle_info.postbox,
+#deal_trade_in.postbox,
+#deal_transaction.postbox {
+	border: 1px solid #e7ecf1!important;
+	padding: 12px 30px 15px;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#car_basic_settings.postbox.closed,
+#car_price_settings.postbox.closed,
+#car_gallery_settings.postbox.closed,
+#car_condition_settings.postbox.closed,
+#car_characteristics_settings.postbox.closed,
+#car_engine_transmission.postbox.closed,
+#car_fuel_consumption_emissions.postbox.closed,
+#car_dimensions_weight.postbox.closed,
+#car_description.postbox.closed,
+#car_features_specifications.postbox.closed,
+#car_locations.postbox.closed,
+#car_expenses.postbox.closed,
+#lead_main_buyer_info.postbox.closed,
+#lead_history_notes.postbox.closed,
+#lead_buyer_residence.postbox.closed,
+#lead_buyer_employer.postbox.closed,
+#lead_co_buyer.postbox.closed,
+#lead_trade_in.postbox.closed,
+#lead_banking_financing.postbox.closed,
+#deal_main_buyer_info.postbox.closed,
+#deal_co_buyer_info.postbox.closed,
+#deal_vehicle_info.postbox.closed,
+#deal_trade_in.postbox.closed,
+#deal_transaction.postbox.closed {
+	padding-bottom: 0;
+}
+
+#car_basic_settings .inside,
+#car_price_settings .inside,
+#car_gallery_settings .inside,
+#car_condition_settings .inside,
+#car_characteristics_settings .inside,
+#car_engine_transmission .inside,
+#car_fuel_consumption_emissions .inside,
+#car_dimensions_weight .inside,
+#car_description .inside,
+#car_features_specifications .inside,
+#car_locations .inside,
+#car_expenses .inside,
+#lead_main_buyer_info .inside,
+#lead_history_notes .inside,
+#lead_buyer_residence .inside,
+#lead_buyer_employer .inside,
+#lead_co_buyer .inside,
+#lead_trade_in .inside,
+#lead_banking_financing .inside,
+#deal_main_buyer_info .inside,
+#deal_co_buyer_info .inside,
+#deal_vehicle_info .inside,
+#deal_trade_in .inside,
+#deal_transaction .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#car_basic_settings .stuffbox>h3, 
+#car_basic_settings h2,
+#car_basic_settings h2.hndle, 
+#car_basic_settings h3.hndle,
+#car_price_settings .stuffbox>h3, 
+#car_price_settings h2,
+#car_price_settings h2.hndle, 
+#car_price_settings h3.hndle,
+#car_gallery_settings .stuffbox>h3, 
+#car_gallery_settings h2,
+#car_gallery_settings h2.hndle, 
+#car_gallery_settings h3.hndle,
+#car_condition_settings .stuffbox>h3, 
+#car_condition_settings h2,
+#car_condition_settings h2.hndle, 
+#car_condition_settings h3.hndle,
+#car_characteristics_settings .stuffbox>h3, 
+#car_characteristics_settings h2,
+#car_characteristics_settings h2.hndle, 
+#car_characteristics_settings h3.hndle,
+#car_engine_transmission .stuffbox>h3, 
+#car_engine_transmission h2,
+#car_engine_transmission h2.hndle, 
+#car_engine_transmission h3.hndle,
+#car_fuel_consumption_emissions .stuffbox>h3, 
+#car_fuel_consumption_emissions h2,
+#car_fuel_consumption_emissions h2.hndle, 
+#car_fuel_consumption_emissions h3.hndle,
+#car_dimensions_weight .stuffbox>h3, 
+#car_dimensions_weight h2,
+#car_dimensions_weight h2.hndle, 
+#car_dimensions_weight h3.hndle,
+#car_description .stuffbox>h3, 
+#car_description h2,
+#car_description h2.hndle, 
+#car_description h3.hndle,
+#car_features_specifications .stuffbox>h3, 
+#car_features_specifications h2,
+#car_features_specifications h2.hndle, 
+#car_features_specifications h3.hndle,
+#car_locations .stuffbox>h3, 
+#car_locations h2,
+#car_locations h2.hndle, 
+#car_locations h3.hndle,
+#car_expenses .stuffbox>h3, 
+#car_expenses h2,
+#car_expenses h2.hndle, 
+#car_expenses h3.hndle,
+#lead_main_buyer_info .stuffbox>h3, 
+#lead_main_buyer_info h2,
+#lead_main_buyer_info h2.hndle, 
+#lead_main_buyer_info h3.hndle,
+#lead_history_notes .stuffbox>h3, 
+#lead_history_notes h2,
+#lead_history_notes h2.hndle, 
+#lead_history_notes h3.hndle,
+#lead_buyer_residence .stuffbox>h3, 
+#lead_buyer_residence h2,
+#lead_buyer_residence h2.hndle, 
+#lead_buyer_residence h3.hndle,
+#lead_buyer_employer .stuffbox>h3, 
+#lead_buyer_employer h2,
+#lead_buyer_employer h2.hndle, 
+#lead_buyer_employer h3.hndle,
+#lead_co_buyer .stuffbox>h3, 
+#lead_co_buyer h2,
+#lead_co_buyer h2.hndle, 
+#lead_co_buyer h3.hndle,
+#lead_trade_in .stuffbox>h3, 
+#lead_trade_in h2,
+#lead_trade_in h2.hndle, 
+#lead_trade_in h3.hndle,
+#lead_banking_financing .stuffbox>h3, 
+#lead_banking_financing h2,
+#lead_banking_financing h2.hndle, 
+#lead_banking_financing h3.hndle,
+#deal_main_buyer_info .stuffbox>h3, 
+#deal_main_buyer_info h2,
+#deal_main_buyer_info h2.hndle, 
+#deal_main_buyer_info h3.hndle,
+#deal_co_buyer_info .stuffbox>h3, 
+#deal_co_buyer_info h2,
+#deal_co_buyer_info h2.hndle, 
+#deal_co_buyer_info h3.hndle,
+#deal_vehicle_info .stuffbox>h3, 
+#deal_vehicle_info h2,
+#deal_vehicle_info h2.hndle, 
+#deal_vehicle_info h3.hndle,
+#deal_trade_in .stuffbox>h3, 
+#deal_trade_in h2,
+#deal_trade_in h2.hndle, 
+#deal_trade_in h3.hndle,
+#deal_transaction .stuffbox>h3, 
+#deal_transaction h2,
+#deal_transaction h2.hndle, 
+#deal_transaction h3.hndle {
+	padding: 10px 0 20px 0;
+	font-size: 16px;
+	border-bottom: 1px solid #e7ecf1;
+}
+
+#car_basic_settings.closed .stuffbox>h3, 
+#car_basic_settings.closed h2, 
+#car_basic_settings.closed h2.hndle,
+#car_basic_settings.closed h3.hndle,
+#car_price_settings.closed .stuffbox>h3, 
+#car_price_settings.closed h2, 
+#car_price_settings.closed h2.hndle,
+#car_price_settings.closed h3.hndle,
+#car_gallery_settings.closed .stuffbox>h3, 
+#car_gallery_settings.closed h2, 
+#car_gallery_settings.closed h2.hndle,
+#car_gallery_settings.closed h3.hndle,
+#car_condition_settings.closed .stuffbox>h3, 
+#car_condition_settings.closed h2, 
+#car_condition_settings.closed h2.hndle,
+#car_condition_settings.closed h3.hndle,
+#car_characteristics_settings.closed .stuffbox>h3, 
+#car_characteristics_settings.closed h2, 
+#car_characteristics_settings.closed h2.hndle,
+#car_characteristics_settings.closed h3.hndle,
+#car_engine_transmission.closed .stuffbox>h3, 
+#car_engine_transmission.closed h2, 
+#car_engine_transmission.closed h2.hndle,
+#car_engine_transmission.closed h3.hndle,
+#car_fuel_consumption_emissions.closed .stuffbox>h3, 
+#car_fuel_consumption_emissions.closed h2, 
+#car_fuel_consumption_emissions.closed h2.hndle,
+#car_fuel_consumption_emissions.closed h3.hndle,
+#car_dimensions_weight.closed .stuffbox>h3, 
+#car_dimensions_weight.closed h2, 
+#car_dimensions_weight.closed h2.hndle,
+#car_dimensions_weight.closed h3.hndle,
+#car_description.closed .stuffbox>h3, 
+#car_description.closed h2, 
+#car_description.closed h2.hndle,
+#car_description.closed h3.hndle,
+#car_features_specifications.closed .stuffbox>h3, 
+#car_features_specifications.closed h2, 
+#car_features_specifications.closed h2.hndle,
+#car_features_specifications.closed h3.hndle,
+#car_locations.closed .stuffbox>h3, 
+#car_locations.closed h2, 
+#car_locations.closed h2.hndle,
+#car_locations.closed h3.hndle,
+#car_expenses.closed .stuffbox>h3, 
+#car_expenses.closed h2, 
+#car_expenses.closed h2.hndle,
+#car_expenses.closed h3.hndle,
+#lead_main_buyer_info.closed .stuffbox>h3, 
+#lead_main_buyer_info.closed h2, 
+#lead_main_buyer_info.closed h2.hndle,
+#lead_main_buyer_info.closed h3.hndle,
+#lead_history_notes.closed .stuffbox>h3, 
+#lead_history_notes.closed h2, 
+#lead_history_notes.closed h2.hndle,
+#lead_history_notes.closed h3.hndle,
+#lead_buyer_residence.closed .stuffbox>h3, 
+#lead_buyer_residence.closed h2, 
+#lead_buyer_residence.closed h2.hndle,
+#lead_buyer_residence.closed h3.hndle,
+#lead_buyer_employer.closed .stuffbox>h3, 
+#lead_buyer_employer.closed h2, 
+#lead_buyer_employer.closed h2.hndle,
+#lead_buyer_employer.closed h3.hndle,
+#lead_co_buyer.closed .stuffbox>h3, 
+#lead_co_buyer.closed h2, 
+#lead_co_buyer.closed h2.hndle,
+#lead_co_buyer.closed h3.hndle,
+#lead_trade_in.closed .stuffbox>h3, 
+#lead_trade_in.closed h2, 
+#lead_trade_in.closed h2.hndle,
+#lead_trade_in.closed h3.hndle,
+#lead_banking_financing.closed .stuffbox>h3, 
+#lead_banking_financing.closed h2, 
+#lead_banking_financing.closed h2.hndle,
+#lead_banking_financing.closed h3.hndle,
+#deal_main_buyer_info.closed .stuffbox>h3, 
+#deal_main_buyer_info.closed h2, 
+#deal_main_buyer_info.closed h2.hndle,
+#deal_main_buyer_info.closed h3.hndle,
+#deal_co_buyer_info.closed .stuffbox>h3, 
+#deal_co_buyer_info.closed h2, 
+#deal_co_buyer_info.closed h2.hndle,
+#deal_co_buyer_info.closed h3.hndle,
+#deal_vehicle_info.closed .stuffbox>h3, 
+#deal_vehicle_info.closed h2, 
+#deal_vehicle_info.closed h2.hndle,
+#deal_vehicle_info.closed h3.hndle,
+#deal_trade_in.closed .stuffbox>h3, 
+#deal_trade_in.closed h2, 
+#deal_trade_in.closed h2.hndle,
+#deal_trade_in.closed h3.hndle,
+#deal_transaction.closed .stuffbox>h3, 
+#deal_transaction.closed h2, 
+#deal_transaction.closed h2.hndle,
+#deal_transaction.closed h3.hndle {
+	border-bottom: 0;
+}
+
+.cardojo-subtitle {
+	margin-bottom: 30px !important;
+}
+
+#options_group {
+	display: block;
+}
+
+.post-type-car #poststuff #titlewrap, 
+.post-type-lead #poststuff #titlewrap,
+.post-type-deal #poststuff #titlewrap,
+.post-type-car #post-body #normal-sortables,
+.post-type-lead #post-body #normal-sortables,
+.post-type-deal #post-body #normal-sortables,
+#existing_customer_container,
+#existing_cobuyer_customer_container {
+	display: none;
+}
+
+#options_group fieldset {
+	background: #FFF;
+	border-bottom: 1px solid #e7ecf1;
+	padding: 30px 0;
+	padding-bottom: 0;
+	width: 100%;
+}
+
+#car_basic_settings #options_group fieldset {
+	border-bottom: none;
+}
+
+#car_gallery_settings #options_group fieldset {
+	padding-bottom: 0;
+}
+
+#options_group fieldset table#select-car-model { 
+	width: 100%; 
+	border-collapse: inherit;
+    border-spacing: 0;
+}
+
+#options_group fieldset table#select-car-model th { 
+	color: #fff; 
+	background: #3caeaa; 
+	background: #00bacb;
+	border-left: solid 1px rgba(0,0,0,0.1);
+	padding: 10px; 
+	padding: 0.625rem; 
+}
+
+#options_group fieldset table#select-car-model th:first-child {
+	border-left: solid 1px rgba(0,0,0,0);
+}
+
+#options_group fieldset table#select-car-model tr:nth-child(odd) { 
+	background-color: #eae9e8; 
+}
+
+#options_group fieldset table#select-car-model tr:nth-child(even) { 
+	background-color: #fff; 
+}
+
+#options_group fieldset table#select-car-model td { 
+	font-size: 12px; 
+	font-size: 0.75rem; 
+	border: 1px solid #ebebeb; 
+	border-top: 0; 
+	border-right: 0;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 10px; 
+	padding: 20px; 
+}
+
+#options_group fieldset table#select-car-model td:last-child {
+	border-right: 1px solid #ebebeb; 
+}
+
+#options_group fieldset table#select-car-model td select,
+#options_group fieldset table#select-car-model td input[type=text] {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#options_group fieldset table#select-car-model caption { 
+	padding: 10px 0; 
+	background: #efefef; 
+}
+
+#options_group fieldset table#select-car-model a { 
+	color: #55b2a2; 
+	font-weight: 900; 
+}
+
+#options_group fieldset span.text {
+	display: inline-block;
+	width: 150px;
+	margin-top: 5px;
+}
+
+#options_group fieldset .criteria_name {
+	margin-right: 36px;
+	width: 400px;
+}
+
+#options_group fieldset span.text {
+	width: 150px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+#options_group fieldset input:active,
+#options_group fieldset input:focus {
+	border-color: #93a1bb;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147,161,187,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147,161,187,.6);
+}
+
+h2.options_group_header {
+	margin-bottom: 30px !important;
+}
+
+h2.options_group_header span {
+	font-size: 16px;
+	line-height: 1.4;
+	font-weight: bold;
+}
+
+input.disabled,
+input:disabled,
+select.disabled,
+select:disabled,
+textarea.disabled,
+textarea:disabled {
+    cursor: not-allowed;
+}
+
+input[type=radio], 
+input[type=checkbox] {
+	margin: 0;
+	margin-right: 5px;
+}
+
+.cardojo-checkbox-field {
+	padding-top: 37px;
+	padding-bottom: 37px;
+}
+
+.cardojo-checkbox-field-small {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.cardojo-checkbox-field label,
+.cardojo-checkbox-field-small label {
+	width: auto;
+	margin-bottom: 0;
+}
+
+.full {
+	width: 100%;
+	display: inline-block;
+}
+
+.info-text {
+	font-style: italic;
+	margin-top: 10px;
+	width: 70%;
+	margin-left: 113px;
+}
+
+.criteria-image {
+	max-width: 590px;
+	height: auto;
+}
+
+.column-color { 
+	width: 100px;
+	text-align: center !important;
+}
+
+.column-color .color-block { 
+	display: inline-block; 
+	width: 30px; 
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden; 
+	border: 2px solid #ddd; 
+}
+
+.control {
+  	display: block;
+  	position: relative;
+  	padding-left: 36px;
+  	margin-right: 15px;
+  	margin-bottom: 15px;
+  	cursor: pointer;
+  	font-size: 18px;
+  	float: left;
+  	height: 36px;
+}
+
+.control .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #00bacb;
+    color: #eeeeee;
+    text-align: center;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.control .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00bacb transparent transparent transparent;
+}
+
+.control:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.control input {
+  	position: absolute;
+  	z-index: -1;
+  	opacity: 0;
+}
+
+.control__indicator {
+  	position: absolute;
+  	top: 2px;
+  	left: 0;
+  	background: #e6e6e6;
+  	width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #eee;
+    transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.control--radio .control__indicator {
+  	border-radius: 50%;
+}
+
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  	/*background: #ccc;*/
+}
+
+.control input:checked ~ .control__indicator {
+  	-webkit-box-shadow: 0px 0px 0px 3px #00bacb;
+	-moz-box-shadow: 0px 0px 0px 3px #00bacb;
+	box-shadow: 0px 0px 0px 3px #00bacb;
+}
+
+.show-hide-condition,
+.new-discounted-price {
+	display: none;
+}
+
+.car_combined_color {
+   	background: #ebdec9;
+    background: -moz-linear-gradient(left, #ebdec9 0%, #ebdec9 50%, #000333 50%, #000333 100%);
+    background: -webkit-linear-gradient(left, #ebdec9 0%,#ebdec9 50%,#000333 50%,#000333 100%);
+    background: linear-gradient(to right, #ebdec9 0%,#ebdec9 50%,#000333 50%,#000333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebdec9', endColorstr='#000333',GradientType=1 );
+}
+
+.car_na_color {
+	background-color: #cccccc;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 8px;
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.full-width {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.checkbox-label {
+	margin-bottom: 20px !important;
+}
+
+.taxonomy-subcategory-select {
+	margin-bottom: 0 !important;
+	width: calc(100% - 25px) !important;
+	float: right;
+	margin-top: -9px !important;
+}
+
+.cardojo-checkbox-sub-category {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#map-canvas {
+	display: block;
+	width: 100%;
+	height: 370px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.delete_expense {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	color: #e33535;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.delete_expense:hover {
+	color: #e64747;
+}
+
+.vehicle_expenses_item {
+	width: 100%;
+    float: left;
+}
+
+.add_new_expense {
+	margin-bottom: 30px;
+	color: #00bacb;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.add_new_expense:hover {
+	color: #0483bf;
+}
+
+.bg-success {
+    background-color: #f1f8e6 !important;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  	color: #ccc !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  	color: #ccc !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  	color: #ccc !important;
+  	opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+	color: #ccc !important;
+	opacity: 1;
+}
+
+.cardojo-input-has-icon {
+	position: relative;
+}
+
+.cardojo-input-has-icon .cardojo-input-icon-left {
+	padding-left: 32px !important;
+}
+
+.cardojo-input-has-icon .cardojo-input-icon {
+	position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 36px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.cardojo-input-has-icon .cardojo-input-icon.left {
+	left: 0;
+}
+
+/**
+ * Timepicker
+ */
+div.time-picker { position: absolute; height: 191px; width:6em; /* needed for IE */overflow: auto; background: #fff; border: 1px solid #aaa; z-index: 99; margin: 0;}
+div.time-picker-12hours { width:8em; /* needed for IE */}
+div.time-picker ul { list-style-type: none; margin: 0; padding: 0; }
+div.time-picker li { cursor: pointer; height: 10px; font: 12px/1 Helvetica, Arial, sans-serif; padding: 4px 3px; }
+div.time-picker li.selected { background: #0063CE; color: #fff; }
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+#lead_history_table.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+table#lead_history_table {
+    background-color: transparent;
+}
+
+table#lead_history_table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#lead_history_table.table>tbody>tr>td, 
+#lead_history_table.table>tbody>tr>th, 
+#lead_history_table.table>tfoot>tr>td, 
+#lead_history_table.table>tfoot>tr>th, 
+#lead_history_table.table>thead>tr>td, 
+#lead_history_table.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+#lead_history_table th {
+    text-align: left;
+}
+
+#lead_history_table.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+#lead_history_table.table-bordered>tbody>tr>td, 
+#lead_history_table.table-bordered>tbody>tr>th, 
+#lead_history_table.table-bordered>tfoot>tr>td, 
+#lead_history_table.table-bordered>tfoot>tr>th, 
+#lead_history_table.table-bordered>thead>tr>td, 
+#lead_history_table.table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+
+#lead_history_table.table-bordered>thead>tr>td, 
+#lead_history_table.table-bordered>thead>tr>th {
+    border-bottom-width: 2px;
+}
+
+#lead_history_table.table>caption+thead>tr:first-child>td, 
+#lead_history_table.table>caption+thead>tr:first-child>th, 
+#lead_history_table.table>colgroup+thead>tr:first-child>td, 
+#lead_history_table.table>colgroup+thead>tr:first-child>th, 
+#lead_history_table.table>thead:first-child>tr:first-child>td, 
+#lead_history_table.table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+
+#lead_history_table.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+#lead_history_table.table-hover>tbody>tr:hover {
+    background-color: #538EFB;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btnGroupResidence,
+#btnGroupEmployer,
+#btnGroupCoBuyerEmployer,
+#btnGroupCoBuyerResidence {
+	margin-bottom: 30px;
+}
+
+#btnGroupResidence button,
+#btnGroupEmployer button,
+#btnGroupCoBuyerEmployer button,
+#btnGroupCoBuyerResidence button {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	color: #333;
+    background-color: #fff;
+    border: none;
+    border: solid 1px #ccc;
+    position: relative;
+    float: left;
+    outline: none;
+}
+
+#btnGroupResidence button+ button,
+#btnGroupEmployer button+ button,
+#btnGroupCoBuyerEmployer button+ button,
+#btnGroupCoBuyerResidence button+ button {
+	margin-left: -1px;
+}
+
+#btnGroupResidence button.active,
+#btnGroupResidence button:hover,
+#btnGroupResidence button:active,
+#btnGroupResidence button:focus,
+#btnGroupEmployer button.active,
+#btnGroupEmployer button:hover,
+#btnGroupEmployer button:active,
+#btnGroupEmployer button:focus,
+#btnGroupCoBuyerEmployer button.active,
+#btnGroupCoBuyerEmployer button:hover,
+#btnGroupCoBuyerEmployer button:active,
+#btnGroupCoBuyerEmployer button:focus,
+#btnGroupCoBuyerResidence button.active,
+#btnGroupCoBuyerResidence button:hover,
+#btnGroupCoBuyerResidence button:active,
+#btnGroupCoBuyerResidence button:focus {
+	color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    outline: none;
+}
+
+.lead_buyer_residences,
+.lead_buyer_employers,
+.lead_cobuyer_buyer_residences,
+.lead_cobuyer_buyer_employers {
+	display: none;
+	width: 100%;
+	float: left;
+}
+
+.lead_buyer_residences.active,
+.lead_buyer_employers.active,
+.lead_cobuyer_buyer_residences.active,
+.lead_cobuyer_buyer_employers.active {
+	display: block
+}
+
+table.car-manager-cars {
+	border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    width: 100%;
+    table-layout: auto !important;
+    border: 1px solid #d1d1d1;
+}
+
+table.car-manager-cars th {
+    border: 1px solid #d1d1d1;
+	border-width: 0 1px 1px 0;
+    font-weight: 700;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #efefef;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.car-manager-cars td {
+    border: 1px solid #d1d1d1;
+	font-weight: normal;
+    text-align: center;
+    border-width: 0 1px 1px 0;
+    padding: 10px;
+}
+
+table.car-manager-cars input {
+	margin-bottom: 0 !important;
+}
+
+table.car-manager-cars .inventory-car-actions-button {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+table.car-manager-cars .btn.blue:not(.btn-outline) {
+    color: #FFF;
+    background-color: #01adbd;
+    border-color: #01adbd;
+}
+
+table.car-manager-cars .dropdown-toggle:after {
+    display: none;
+}
+
+.cardojo-payoff-date {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+    text-align: right;
+}
+
+.cardojo-payoff-date span {
+	text-transform: inherit;
+	font-weight: normal
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_success {
+	background-color: #e7fff8;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_success input {
+	background-color: #f4fffc;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_faild {
+	background-color: #f9ebec;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_faild input {
+	background-color: #fff6f7;
+}
+
+.cardojo_loan_new_table_box {
+	border: solid 2px #fbe1e3;
+	background-color: #fff6f7;
+	padding: 15px;
+}
+
+.cardojo-https-error {
+    border-left: solid 3px #ed6b75;
+    padding: 20px;
+    background-color: #fbe1e3;
+}
+
+.cardojo-field-hidden-ssl {
+    background-color: #fbe1e3 !important;
+    border-color: #ed6b75 !important;
+}
+
+.column-views {
+	width: auto;
+}
+
+#cq-show-data {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 14px 28px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #dc3545;
+    text-decoration: none;
+    float: right;
+}
+
+#cq-show-data:hover {
+    color: #fff;
+    background-color: #c52837;
+    text-decoration: none;
+}
+
+#setting-cardojo_finance_disclaimer {
+	height: 570px;
+}
+
+.cardojo_extensions h1 {
+	padding-bottom: 30px;
+}
+
+.cardojo_addons {
+	max-width: 1140px;
+}
+
+.cardojo_addons_wrap {
+	margin-left: -15px;
+	margin-right: -15px; 
+}
+
+.cardojo_addon_block {
+	padding-left: 15px;
+    padding-right: 15px;
+	width: 50%;
+    float: left;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cardojo_addon_block_featured,
+.cardojo_addon_block_normal {
+	padding: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+	border: solid 1px #e8e8e8;
+}
+
+.cardojo_addon_block_featured {
+	background-color: #00bacb;
+	border: solid 1px #0199a7;
+	color: #fff;
+}
+
+.cardojo_addon_block_featured h2,
+.cardojo_addon_block_normal h2 {
+	font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.cardojo_addon_block_featured h2 {
+	color: #fff;
+}
+
+.cardojo_addon_block_image {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.cardojo_addon_block img {
+	max-width: 100%;
+}
+
+.cardojo_addons_button {
+	border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    text-decoration: none;
+    width: 124px;
+    background-color: #dc3545;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.cardojo_addons_button:hover {
+	background-color: #c52837;
+	color: #fff;
+}
+
+@media ( max-width: 901px ) {
+	
+	.cardojo-col-3,
+	.cardojo-col-half,
+	.cardojo-col-9,
+	.cardojo-col-4,
+	.cardojo-col-5,
+	.cardojo-col-6,
+	.cardojo-col-12 {
+		width: 100%;
+	}
+
+}
+

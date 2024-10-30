@@ -1,0 +1,2836 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .sidebar-car-meta {
+	position: relative;
+    margin: 0;
+    padding: 0 120px 0 30px;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sidebar-car-meta .car-color {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+    background: #333;
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-car-meta .car-id {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    right: 0;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 4px;
+    padding: 4px 9px;
+    line-height: 1;
+    border: solid 1px #f7f7f7;
+}
+
+.car_combined_color {
+    background: #ebdec9 !important;
+    background: -moz-linear-gradient(left, #ebdec9 0%, #ebdec9 50%, #000333 50%, #000333 100%) !important;
+    background: -webkit-linear-gradient(left, #ebdec9 0%,#ebdec9 50%,#000333 50%,#000333 100%) !important;
+    background: linear-gradient(to right, #ebdec9 0%,#ebdec9 50%,#000333 50%,#000333 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebdec9', endColorstr='#000333',GradientType=1 ) !important;
+}
+
+.cardojo-price-list {
+    margin: 0;
+    padding-top: 27px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cardojo-price-list .cardojo-price {
+	margin-top: 0;
+	color: #dc3545;
+}
+
+.cardojo-price-list .cardojo-price s {
+    font-weight: 300;
+    color: #ccc;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+.heading,
+.btn-default {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CAR-ITEM GALLERY WITH THUMBNAILS & RENT-ITEM GALLERY WITH THUMBS*/
+/*gallery*/
+#cd-item-slider{margin-bottom: 11px;}
+#cd-item-slider .carousel-inner{
+    margin-bottom: 30px;
+    cursor:move;
+    cursor:-webkit-grab;
+    cursor:-moz-grab;
+    cursor:grab;
+}
+#cd-item-slider .carousel-inner:active,
+.rent-item-carousel:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+#cd-item-slider .item{
+    width: 100%;
+    padding-top: 70%;
+    background-size: cover;
+    background-position: center;
+}
+#cd-item-slider .item > img{
+    width: 100%;
+    height: auto;
+    object-fit: cover
+}
+#cd-item-slider .carousel-control{ background: none; }
+/*thumbnails/indicators*/
+#cd-item-slider .carousel-indicators{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: calc(100% + 20px);
+    float: left;
+}
+#cd-item-slider .carousel-indicators .thumbnail{
+    position: relative;
+    width: calc(25% - 20px);
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    margin: 0 20px 20px 0 !important;
+    overflow: hidden;
+		transition: all .3s ease-in;
+}
+#cd-item-slider .carousel-indicators .active{margin: 0 20px 20px 0 !important;}
+#cd-item-slider .carousel-indicators .thumbnail:hover,
+#cd-item-slider .carousel-indicators .thumbnail.active{box-shadow: 0 0 0 4px #00bacb inset;}
+
+.cd-condition-blk {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    float: left;
+    width: 100%;
+}
+
+.cd-condition-blk .blk > .svg-icon {
+    width: 50px;
+    height: 30px;
+}
+
+.svg-icon.grey .sp0, .svg-icon.grey .st0 {
+    fill: #d3d5da;
+}
+
+.cd-condition-blk .blk h6 {
+    color: #ccc;
+    margin: 0;
+    letter-spacing: 1.1px;
+    margin-bottom: 11px;
+    font-size: 12px;
+}
+
+.cd-condition-blk .blk h5 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+    text-transform: inherit;
+}
+
+
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+	display:block;
+	max-width:100%;
+	height:auto
+}
+
+.img-rounded {
+	border-radius:6px
+}
+
+.img-thumbnail {
+	padding:0;
+	line-height:1;
+	background-color:#fff;
+	border:1px solid #e5e7ea;
+	border-radius:4px;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	display:inline-block;
+	max-width:100%;
+	height:auto
+}
+
+.carousel-inner{
+	position:relative;
+	overflow:hidden;
+	width:100%
+}
+
+.carousel-inner>.item{
+	display:none;
+	position:relative;
+	-webkit-transition:.6s ease-in-out left;
+	-o-transition:.6s ease-in-out left;
+	transition:.6s ease-in-out left
+}
+
+.carousel-inner>.item>img,.carousel-inner>.item>a>img{
+	line-height:1
+}
+
+@media all and (transform-3d),(-webkit-transform-3d){
+
+	.carousel-inner>.item{
+		-webkit-transition:-webkit-transform 0.6s ease-in-out;
+		-o-transition:-o-transform 0.6s ease-in-out;
+		transition:transform 0.6s ease-in-out;
+		-webkit-backface-visibility:hidden;
+		backface-visibility:hidden;
+		-webkit-perspective:1000px;
+		perspective:1000px
+	}
+
+	.carousel-inner>.item.next,.carousel-inner>.item.active.right{
+		-webkit-transform:translate3d(100%, 0, 0);
+		transform:translate3d(100%, 0, 0);
+		left:0
+	}
+
+	.carousel-inner>.item.prev,.carousel-inner>.item.active.left{
+		-webkit-transform:translate3d(-100%, 0, 0);
+		transform:translate3d(-100%, 0, 0);
+		left:0
+	}
+
+	.carousel-inner>.item.next.left,.carousel-inner>.item.prev.right,.carousel-inner>.item.active{
+		-webkit-transform:translate3d(0, 0, 0);
+		transform:translate3d(0, 0, 0);
+		left:0
+	}
+}
+
+.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{
+	display:block
+}
+
+.carousel-inner>.active{
+	left:0
+}
+
+.carousel-inner>.next,.carousel-inner>.prev{
+	position:absolute;
+	top:0;
+	width:100%
+}
+
+.carousel-inner>.next{
+	left: 100%;
+}
+
+.carousel-inner>.prev{
+	left: -100%;
+}
+
+.carousel-inner>.next.left,
+.carousel-inner>.prev.right{
+	left: 0;
+}
+
+.carousel-inner>.active.left{
+	left: -100%;
+}
+
+.carousel-inner>.active.right{
+	left: 100%;
+}
+
+.carousel-control{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 15%;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0);
+}
+
+.carousel-control.left{
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,0.5)), to(rgba(0,0,0,0.0001)));
+	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+.carousel-control.right{
+	left: auto;
+	right: 0;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,0.0001)), to(rgba(0,0,0,0.5)));
+	background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.carousel-control:hover,
+.carousel-control:focus{
+	outline: 0;
+	color: #fff;
+	text-decoration: none;
+	opacity: .9;
+	filter: alpha(opacity=90);
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right{
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left{
+	left: 50%;
+	margin-left: -10px;
+}
+
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right{
+	right: 50%;
+	margin-right: -10px;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next{
+	width: 20px;
+	height: 20px;
+	line-height: 1;
+	font-family: serif;
+}
+
+.carousel-control .icon-prev:before{
+	content: '\2039';
+}
+
+.carousel-control .icon-next:before{
+	content: '\203a';
+}
+
+.carousel-indicators{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	z-index: 15;
+	width: 60%;
+	margin-left: -30%;
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.carousel-indicators li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #000;
+	background-color: rgba(0,0,0,0);
+}
+
+.carousel-indicators .active{
+	margin: 0;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+}
+
+.carousel-caption{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	bottom: 20px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+
+.carousel-caption .btn{
+	text-shadow: none;
+}
+
+.listing-title {
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e7ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    float: left;
+    width: 100%;
+}
+
+.listing-title h4 {
+	margin: 0 !important;
+}
+
+.listing-title .svg-icon {
+    width: 35px;
+    height: 30px;
+}
+
+.listing-content {
+    padding: 22px 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    border-bottom: 1px solid #e5e7ea;
+    float: left;
+    width: 100%;
+}
+
+.dealer-info-block {
+    padding: 20px;
+    border: 1px solid #e7ecf1;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #666;
+}
+
+.listing-content .heading,
+.dealer-info-block .heading {
+    margin: 0;
+    border-bottom: 1px solid #e5e7ea;
+    padding-bottom: 22px;
+    margin-bottom: 28px !important;
+    line-height: 30px;
+}
+
+#cardojo_submit_application .fa,
+#cardojo_qualify_me .fa,
+#cardojo_submit_tradein .fa,
+#cardojo_request_test_drive .fa {
+    font-size: 14px;
+    margin-right: 5px;
+    display: none;
+}
+
+.listing-content h3 {
+    margin-top: 0 !important;
+    line-height: 30px;
+    margin-bottom: 15px !important;
+    font-family: "Montserrat",sans-serif;
+    color: #333;
+}
+
+.vehicle_description {
+	float: left;
+	width: 100%;
+}
+
+.listing-content .condition-indicator {
+    color: #ccc;
+}
+
+.listing-content .condition-label {
+    font-size: 10px;
+    letter-spacing: 1.1px;
+    color: #999;
+    border-radius: 4px;
+    background: #f6f8f9;
+    padding: 0 12px;
+    line-height: 2;
+    margin-top: 6px;
+    font-family: "Montserrat",sans-serif;
+    text-transform: uppercase;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.certified-list {
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    font-size: 16px;
+    list-style: none;
+    border-bottom: 1px solid #e5e7ea;
+    float: left;
+    width: 100%;
+    color: #999;
+    font-size: 14px;
+}
+
+.certified-list li {
+    padding: 0;
+}
+
+.btn-link {
+    color: #00bacb;
+    font-weight: normal;
+    border-radius: 0;
+    border: none !important;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #000;
+    background-color: transparent;
+}
+
+.certified-list .btn-link {
+	text-transform: capitalize;
+}
+
+.certified-list .btn-link .fa {
+	margin-right: 5px;
+}
+
+.columns-content .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #e5e7ea;
+    padding-bottom: 20px;
+}
+.columns-content {
+	font-family: "Nunito",Helvetica,Arial,sans-serif;
+}
+
+.columns-content .title .svg-icon {
+    width: auto;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.columns-content .title .heading {
+    margin: 0 !important;
+    padding: 0;
+    border: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.listing-content ol, .listing-content ul {
+    margin-left: 0;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 25px;
+    padding-top: 21px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.listing-content ul.checked li::before {
+    content: "\f00c";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #e5e7ea;
+    margin-right: 6px;
+}
+
+.flexbox span {
+	color: #999;
+    font-size: 14px;
+}
+
+.car-width, .car-height {
+    position: relative;
+    float: left;
+}
+
+.car-width {
+    margin-right: 30px;
+}
+
+.flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flexbox-start {
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-box-pack: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+}
+
+.car-height span.pull-right {
+    position: absolute;
+    top: 41%;
+    right: -70px;
+}
+
+.car-width .svg-icon {
+    width: 112px;
+    height: 100px;
+}
+
+.car-height .svg-icon {
+    width: 100px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+#cd-map {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 28px;
+}
+
+.cd-dealer-address address {
+	margin-bottom: 0;
+}
+
+#cardojo-contact-dealer label {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#cardojo-contact-dealer input,
+#cardojo-contact-dealer textarea {
+	margin-bottom: 30px;
+}
+
+#cardojo-contact-dealer .btn {
+	margin-bottom: 8px;
+}
+
+#cardojo-contact-dealer input::-webkit-input-placeholder { /* Chrome */
+  	color: #ccc !important;
+}
+#cardojo-contact-dealer input:-ms-input-placeholder { /* IE 10+ */
+  	color: #ccc !important;
+}
+#cardojo-contact-dealer input::-moz-placeholder { /* Firefox 19+ */
+  	color: #ccc !important;
+  	opacity: 1;
+}
+#cardojo-contact-dealer input:-moz-placeholder { /* Firefox 4 - 18 */
+	color: #ccc !important;
+	opacity: 1;
+}
+
+.form-group {
+	position: relative;
+}
+
+#cardojo-contact-dealer .error {
+	position: absolute;
+    bottom: 0;
+    margin-bottom: -25px;
+    color: #dc3545;
+    font-size: 13px;
+    display: none;
+}
+
+#cardojo-contact-dealer .error.visible {
+	display: block;
+}
+
+.input-small {
+    width: 145px!important;
+}
+
+table.car-manager-cars {
+    table-layout: auto !important;
+}
+
+.table-toolbar {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.table-toolbar:after, 
+.table-toolbar:before {
+    content: " ";
+    display: table;
+}
+
+div.dataTables_filter {
+    text-align: right;
+}
+
+.listing-item .cd-offer-short{
+    height: auto;
+    border: none;
+    margin: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.listing-item .cd-offer-short .heading {
+    display: inline-block;
+    margin: 0;
+    width: calc(100% - 90px);
+    margin-left: 90px;
+    font-size: 16px;
+    letter-spacing: 0;
+    float: left;
+}
+
+.listing-item .cd-offer-short .heading a {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.maxWidth {
+    max-width: 400px;
+    width: auto;
+    padding: 20px;
+}
+
+.listing-item .cd-offer-short .heading span {
+    color: #6b6c6f;
+}
+
+.listing-item .cd-offer-short .cd-car-spec{
+    margin: 0;
+    width: calc(100% - 90px);
+    float: left;
+    margin-left: 90px;
+    font-size: 14px;
+    color: #6b6c6f;
+    margin-top: 3px;
+}
+.listing-item .cd-offer-short .cd-car-spec span { color: #484848; font-weight: bold; text-transform: uppercase; }
+.listing-item .cd-offer-short .cd-car-spec del{color: #cccccc;}
+.listing-item .cd-offer-short:hover .cd-car-spec{opacity: 1;}
+
+.cd-offer-short img {
+    width: 70px;
+    object-fit: cover;
+    margin-right: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.car-inventory-actions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+table.car-manager-cars .inventory-car-actions-button {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+table.car-manager-cars .btn.blue:not(.btn-outline) {
+    color: #FFF;
+    background-color: #01adbd;
+    border-color: #01adbd;
+}
+
+table.car-manager-cars .dropdown-toggle:after {
+    display: none;
+}
+
+#cardojo_inventory_table .dropdown-menu {
+    box-shadow: 5px 5px rgba(102,102,102,.1);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 175px;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    float: left;
+    list-style: none;
+    text-shadow: none;
+    padding: 0;
+    background-color: #fff;
+    margin: 20px 0 0;
+    border: 1px solid #eee;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#cardojo_inventory_table .dropdown-menu>li>a {
+    padding: 8px 16px;
+    color: #6f6f6f;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+    box-shadow: none;
+    letter-spacing: .5px;
+}
+
+#cardojo_inventory_table .dropdown-menu>li>a>.fa {
+    width: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-right: 7px;
+}
+
+table.car-manager-cars .inventory-car-actions {
+    position: relative;
+}
+
+table.car-manager-cars .car-inventory-actions:before {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    right: auto;
+    display: inline-block!important;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #e0e0e0;
+    border-left: 8px solid transparent;
+    content: '';
+}
+
+.dataTables_filter label {
+    margin-left: 20px;
+}
+
+#clear-inventory-filter,
+#clear-leads-filter,
+#clear-deals-filter,
+#refresh-leads-filter,
+#refresh-deals-filter {
+    margin-left: 20px;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: bold;
+    padding: 3px 14px;
+    border: solid 1px #c2cad8;
+    cursor: pointer;
+    float: right;
+    box-shadow: none;
+}
+
+#clear-inventory-filter:hover,
+#clear-leads-filter:hover,
+#refresh-leads-filter:hover,
+#clear-deals-filter:hover,
+#refresh-deals-filter:hover {
+    background-color: #c2cad8;
+    color: #fff;
+}
+
+.car-manager-message,
+.car-manager-error {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+    background-color: #c0edf1;
+    border-color: #58d0da;
+    color: #010407;
+}
+
+.car-manager-error {
+    background-color: #fef7f8;
+    border-color: #f0868e;
+    color: #210406;
+}
+
+.cardojo-pagination {
+    float: left;
+    width: 100%;
+}
+
+.cardojo-pagination ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+.cardojo-pagination ul li {
+    float: left;
+}
+
+.cardojo-pagination>ul>li>a, 
+.cardojo-pagination>ul>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    box-shadow: none;
+}
+
+.cardojo-pagination>ul>li>a:focus, 
+.cardojo-pagination>ul>li>a:hover, 
+.cardojo-pagination>ul>li>span:focus, 
+.cardojo-pagination>ul>li>span:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.cardojo-pagination>ul>li>span.current,
+.cardojo-pagination>ul>li>span.current:hover,
+.cardojo-pagination>ul>li>span.current:focus,
+.cardojo-pagination>ul>li>a.current,
+.cardojo-pagination>ul>li>a.current:hover,
+.cardojo-pagination>ul>li>a.current:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+
+#vehicle_modeldiv,
+#vehicle_conditiondiv,
+#vehicle_body_stylediv,
+#vehicle_exterior_colordiv,
+#vehicle_fuel_typediv,
+#vehicle_transmissiondiv,
+#vehicle_drivediv  {
+    display: block;
+}
+
+#advanced-sortables * { 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+}
+
+.cardojo-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.cardojo-col-3 {
+    width: 25%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-col-half {
+    width: 50%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-col-9 {
+    width: 75%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-col-4 {
+    width: calc(100% / 3);
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-col-5 {
+    width: 20%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-col-6 {
+    width: calc(100%/6);
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-col-12 {
+    width: 100%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.cardojo-style-margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.control-label {
+    width: 100% !important;
+    font-size: 14px;
+    margin-bottom: 10px !important;
+    display: inline-block;
+}
+
+.vehicle_gallery_image_holder_no_image,
+.vehicle_gallery_image_holder_has_image {
+    width: 100%;
+    float: left;
+    height: 160px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: solid 1px #eee;
+    background-color: #f4f4f4;
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.vehicle_gallery_image_holder_no_image:before,
+.vehicle_gallery_image_holder_has_image:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font: normal normal normal 60px/1 FontAwesome;
+    width: 100%;
+    text-align: center;
+    line-height: 160px;
+    opacity: .1; 
+}
+
+.vehicle_gallery_image_holder_no_image:before,
+.vehicle_gallery_image_holder_has_image:before {
+    /*content: "\f1b9";*/
+}
+
+.image-holder,
+.vehicle_gallery_image_loaded:before {
+    display: none;
+}
+
+.vehicle_gallery_image_holder_has_image:before {
+    content: "\f110";
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+.vehicle_gallery_image_holder_no_image svg {
+    padding: 40px;
+    width: 100%;
+    display: block;
+    height: 100%;
+    stroke: #d3d5da;
+    fill: #d3d5da;
+}
+
+.vehicle_gallery_image_holder_has_image svg {
+    display: none;
+}
+
+.vehicle_gallery_image_holder_no_image.add_more_button {
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.vehicle_gallery_image_holder_no_image.add_more_button:before {
+    content: "\f067";
+}
+
+.vehicle_gallery_image_holder_no_image.add_more_button:hover {
+    background-color: #00bacb;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.vehicle_gallery_image_holder_no_image .vehicle_gallery_image_holder_no_image_inner,
+.vehicle_gallery_image_holder_no_image .vehicle_gallery_image_holder_with_image_inner,
+.vehicle_gallery_image_holder_has_image .vehicle_gallery_image_holder_no_image_inner,
+.vehicle_gallery_image_holder_has_image .vehicle_gallery_image_holder_with_image_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #00bacb;
+    border: solid 1px #369895;
+    z-index: -1;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.vehicle_gallery_image_holder_no_image:hover .vehicle_gallery_image_holder_no_image_inner,
+.vehicle_gallery_image_holder_has_image:hover .vehicle_gallery_image_holder_with_image_inner {
+    opacity: 1;
+    z-index: 1;
+}
+
+.your_image_url_button,
+.your_image_url_button_remove {
+    position: relative;
+    padding: 30px 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    top: 50%;
+    letter-spacing: 1px;
+    transform: translateY(-50%);
+}
+
+.your_image_url_button .fa,
+.your_image_url_button_remove .fa {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#submit-lead-cardojo-form .bootstrap-select,
+#submit-deal-cardojo-form .bootstrap-select {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#submit-lead-cardojo-form .dropdown-toggle,
+#submit-deal-cardojo-form .dropdown-toggle,
+.cardojo-horizontal-car-filter .dropdown-toggle {
+    display: block;
+    margin-bottom: 0 !important;
+}
+
+#submit-lead-cardojo-form .dropdown-toggle:after,
+#submit-deal-cardojo-form .dropdown-toggle:after,
+.cardojo-horizontal-car-filter .dropdown-toggle:after {
+    display: none;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a {
+    box-shadow: none;
+}
+
+#submit-lead-cardojo-form .open>.dropdown-menu,
+#cardojo_inventory_table .open>.dropdown-menu,
+#submit-deal-cardojo-form .open>.dropdown-menu {
+    display: block;
+}
+
+#submit-lead-cardojo-form .dropdown-menu,
+#submit-deal-cardojo-form .dropdown-menu {
+    width: 100%;
+}
+
+#submit-cardojo-form .options_group fieldset select,
+#submit-lead-cardojo-form .options_group fieldset select,
+#submit-deal-cardojo-form .options_group fieldset select,
+select.cardojo-inventory-select-filter,
+select.cardojo-inventory-select-order,
+select.cardojo-inventory-select-ppp,
+select.cardojo-leads-select-start-date,
+select.cardojo-leads-select-end-date,
+select.cardojo-leads-select-ppp,
+select.cardojo-deals-select-start-date,
+select.cardojo-deals-select-end-date,
+select.cardojo-deals-select-ppp,
+.cardojo-horizontal-car-filter select {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    line-height: 1.42857;
+    padding: 6px 24px 6px 12px;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    border-color: #c2cad8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 36px;
+    background: url("../images/select-arrow.png");
+    background-size: 50%;
+    background-position: 100% 50%;
+    background-size: 15px 7px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#submit-cardojo-form .options_group fieldset input[type=text],
+#submit-lead-cardojo-form .options_group fieldset input[type=text],
+#submit-deal-cardojo-form .options_group fieldset input[type=text],
+#cardojo-dashboard .options_group input,
+.dataTables_filter input[type=search],
+.bootstrap-select>.btn,
+#cardojo-update-user-form .options_group fieldset input,
+#dealer-info-block form input {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    border-color: #c2cad8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 36px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.bootstrap-select>.btn {
+    margin-bottom: 0;
+    outline: none !important;
+}
+
+.bootstrap-select>.btn:focus {
+    outline: none !important;
+}
+
+select.cardojo-inventory-select-filter,
+select.cardojo-inventory-select-order,
+select.cardojo-inventory-select-ppp,
+select.cardojo-leads-select-start-date,
+select.cardojo-leads-select-end-date,
+select.cardojo-leads-select-ppp,
+select.cardojo-deals-select-start-date,
+select.cardojo-deals-select-end-date,
+select.cardojo-deals-select-ppp {
+    width: auto;
+    margin-bottom: 0;
+}
+
+#submit-cardojo-form .options_group .options_group_heading,
+#submit-lead-cardojo-form .options_group .options_group_heading,
+#submit-deal-cardojo-form .options_group .options_group_heading,
+#cardojo-update-user-form .options_group .options_group_heading {
+    margin-bottom: 30px;
+}
+
+.heading_with_border {
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #e7ecf1 !important;
+}
+
+#submit-cardojo-form fieldset input[type=text],
+#submit-cardojo-form fieldset textarea,
+#submit-lead-cardojo-form fieldset input[type=text],
+#submit-lead-cardojo-form fieldset textarea,
+#submit-deal-cardojo-form fieldset input[type=text],
+#submit-deal-cardojo-form fieldset textarea,
+#cardojo-update-user-form fieldset input[type=text],
+#cardojo-update-user-form fieldset textarea,
+#dealer-info-block form textarea,
+.bootstrap-select>.btn {
+    height: 36px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #c2cad8;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    outline: 0!important;
+    width: 100%;
+    float: left;
+    margin: 0;
+    margin-bottom: 30px;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#submit-cardojo-form fieldset textarea,
+#submit-lead-cardojo-form fieldset textarea,
+#submit-deal-cardojo-form fieldset textarea,
+#cardojo-update-user-form fieldset textarea,
+#dealer-info-block form textarea {
+    height: auto;
+}
+
+#submit-cardojo-form.postbox,
+#submit-lead-cardojo-form.postbox,
+#submit-deal-cardojo-form.postbox {
+    border: 1px solid #e7ecf1!important;
+    padding: 12px 30px 15px;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#submit-cardojo-form.postbox.closed,
+#submit-lead-cardojo-form.postbox.closed,
+#submit-deal-cardojo-form.postbox.closed {
+    padding-bottom: 0;
+}
+
+#submit-cardojo-form .inside,
+#submit-lead-cardojo-form .inside,
+#submit-deal-cardojo-form .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#submit-cardojo-form .stuffbox>h3, 
+#submit-cardojo-form h2,
+#submit-cardojo-form h2.hndle, 
+#submit-cardojo-form h3.hndle,
+#submit-lead-cardojo-form .stuffbox>h3, 
+#submit-lead-cardojo-form h2,
+#submit-lead-cardojo-form h2.hndle, 
+#submit-lead-cardojo-form h3.hndle,
+#submit-deal-cardojo-form .stuffbox>h3, 
+#submit-deal-cardojo-form h2,
+#submit-deal-cardojo-form h2.hndle, 
+#submit-deal-cardojo-form h3.hndle,
+#cardojo-dashboard .options_group .stuffbox>h3, 
+#cardojo-dashboard .options_group h2,
+#cardojo-dashboard .options_group h2.hndle, 
+#cardojo-dashboard .options_group h3.hndle,
+#cardojo-update-user-form .options_group h2,
+#cardojo-update-user-form .options_group h2.hndle
+#cardojo-update-user-form .options_group h3.hndle {
+    padding: 10px 0 20px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #e7ecf1;
+}
+
+#cardojo-dashboard .options_group h2 {
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#cardojo-dashboard table#cardojo_lead_appointments_table {
+    margin-bottom: 0;
+}
+
+#submit-cardojo-form.closed .stuffbox>h3, 
+#submit-cardojo-form.closed h2, 
+#submit-cardojo-form.closed h2.hndle,
+#submit-cardojo-form.closed h3.hndle,
+#submit-lead-cardojo-form.closed .stuffbox>h3, 
+#submit-lead-cardojo-form.closed h2, 
+#submit-lead-cardojo-form.closed h2.hndle,
+#submit-lead-cardojo-form.closed h3.hndle,
+#submit-deal-cardojo-form.closed .stuffbox>h3, 
+#submit-deal-cardojo-form.closed h2, 
+#submit-deal-cardojo-form.closed h2.hndle,
+#submit-deal-cardojo-form.closed h3.hndle,
+#scardojo-dashboard.closed .stuffbox>h3, 
+#cardojo-dashboard.closed h2, 
+#cardojo-dashboard.closed h2.hndle,
+#cardojo-dashboard.closed h3.hndle {
+    border-bottom: 0;
+}
+
+.cardojo-subtitle {
+    margin-bottom: 30px !important;
+}
+
+#cardojo-dashboard .options_group,
+#submit-cardojo-form .options_group,
+#submit-lead-cardojo-form .options_group,
+#submit-deal-cardojo-form .options_group,
+#cardojo-update-user-form .options_group {
+    display: block;
+    padding: 20px;
+    border: 1px solid #e7ecf1;
+    margin-bottom: 30px;
+}
+
+.post-type-car #poststuff #titlewrap, 
+#post-body #normal-sortables,
+#existing_customer_container,
+#existing_cobuyer_customer_container {
+    display: none;
+}
+
+#submit-cardojo-form .options_group fieldset,
+#submit-lead-cardojo-form .options_group fieldset,
+#submit-deal-cardojo-form .options_group fieldset,
+#cardojo-dashboard .options_group fieldset,
+#cardojo-update-user-form .options_group fieldset {
+    background: #FFF;
+    border-bottom: 1px solid #e7ecf1 !important;
+    padding: 0;
+    width: 100%;
+}
+
+#submit-cardojo-form .options_group fieldset,
+#submit-lead-cardojo-form .options_group fieldset,
+#submit-deal-cardojo-form .options_group fieldset,
+#cardojo-dashboard .options_group fieldset,
+#cardojo-update-user-form .options_group fieldset {
+    border: none;
+}
+
+#car_gallery_settings #submit-cardojo-form .options_group fieldset {
+    padding-bottom: 0;
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model { 
+    width: 100%;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border-color: grey;
+    border: none;
+    table-layout: auto;
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model th,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model th,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model th { 
+    color: #fff; 
+    background: #3caeaa; 
+    background: #00bacb;
+    border-width: 0;
+    border-left: solid 1px rgba(0,0,0,0.1);
+    padding: 10px; 
+    padding: 0.625rem; 
+    text-align: center;
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model th:first-child,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model th:first-child,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model th:first-child {
+    border-left: solid 1px rgba(0,0,0,0);
+    border-width: 0;
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model tr:nth-child(odd),
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model tr:nth-child(odd),
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model tr:nth-child(odd) { 
+    background-color: #eae9e8; 
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model tr:nth-child(even),
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model tr:nth-child(even),
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model tr:nth-child(even) { 
+    background-color: #fff; 
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model td,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model td,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model td { 
+    font-size: 12px; 
+    font-size: 0.75rem; 
+    border: 1px solid #ebebeb; 
+    border-top: 0; 
+    border-right: 0;
+    text-align: center; 
+    vertical-align: middle; 
+    padding: 10px; 
+    padding: 20px; 
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model td:last-child,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model td:last-child,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model td:last-child {
+    border-right: 1px solid #ebebeb; 
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model td select,
+#submit-cardojo-form .options_group fieldset table#select-car-model td input[type=text],
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model td select,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model td input[type=text],
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model td select,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model td input[type=text] {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model caption,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model caption,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model caption { 
+    padding: 10px 0; 
+    background: #efefef; 
+}
+
+#submit-cardojo-form .options_group fieldset table#select-car-model a,
+#submit-lead-cardojo-form .options_group fieldset table#select-car-model a,
+#submit-deal-cardojo-form .options_group fieldset table#select-car-model a { 
+    color: #55b2a2; 
+    font-weight: 900; 
+}
+
+#submit-cardojo-form .options_group fieldset span.text,
+#submit-lead-cardojo-form .options_group fieldset span.text,
+#submit-deal-cardojo-form .options_group fieldset span.text {
+    display: inline-block;
+    width: 150px;
+    margin-top: 5px;
+}
+
+#submit-cardojo-form .options_group fieldset .criteria_name,
+#submit-lead-cardojo-form .options_group fieldset .criteria_name,
+#submit-deal-cardojo-form .options_group fieldset .criteria_name {
+    margin-right: 36px;
+    width: 400px;
+}
+
+#submit-cardojo-form .options_group fieldset span.text,
+#submit-lead-cardojo-form .options_group fieldset span.text,
+#submit-deal-cardojo-form .options_group fieldset span.text {
+    width: 150px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#submit-cardojo-form .options_group fieldset input:active,
+#submit-cardojo-form .options_group fieldset input:focus,
+#submit-lead-cardojo-form .options_group fieldset input:active,
+#submit-lead-cardojo-form .options_group fieldset input:focus,
+#submit-deal-cardojo-form .options_group fieldset input:active,
+#submit-deal-cardojo-form .options_group fieldset input:focus {
+    border-color: #93a1bb;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147,161,187,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147,161,187,.6);
+}
+
+input[type=radio], 
+input[type=checkbox] {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.cardojo-checkbox-field {
+    padding-top: 37px;
+    padding-bottom: 38px;
+}
+
+.cardojo-checkbox-field-small {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cardojo-checkbox-field label,
+.cardojo-checkbox-field-small label {
+    width: auto;
+    margin-bottom: 0;
+}
+
+.full {
+    width: 100%;
+    display: inline-block;
+}
+
+.info-text {
+    font-style: italic;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 113px;
+}
+
+.criteria-image {
+    max-width: 590px;
+    height: auto;
+}
+
+.control {
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    float: left;
+    height: 36px;
+}
+
+.control .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #00bacb;
+    color: #eeeeee;
+    text-align: center;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.control .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00bacb transparent transparent transparent;
+}
+
+.control:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: #e6e6e6;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #eee;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.control--radio .control__indicator {
+    border-radius: 50%;
+}
+
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+    /*background: #ccc;*/
+}
+
+.control input:checked ~ .control__indicator {
+    -webkit-box-shadow: 0px 0px 0px 3px #00bacb;
+    -moz-box-shadow: 0px 0px 0px 3px #00bacb;
+    box-shadow: 0px 0px 0px 3px #00bacb;
+}
+
+.show-hide-condition,
+.new-discounted-price {
+    display: none;
+}
+
+.car_combined_color {
+    background: #ebdec9;
+    background: -moz-linear-gradient(left, #ebdec9 0%, #ebdec9 50%, #000333 50%, #000333 100%);
+    background: -webkit-linear-gradient(left, #ebdec9 0%,#ebdec9 50%,#000333 50%,#000333 100%);
+    background: linear-gradient(to right, #ebdec9 0%,#ebdec9 50%,#000333 50%,#000333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebdec9', endColorstr='#000333',GradientType=1 );
+}
+
+.car_na_color {
+    background-color: #cccccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.full-width {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.checkbox-label {
+    margin-bottom: 20px !important;
+}
+
+.taxonomy-subcategory-select {
+    margin-bottom: 0 !important;
+    width: calc(100% - 25px) !important;
+    float: right;
+    margin-top: -9px !important;
+}
+
+.cardojo-checkbox-sub-category {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#map-canvas {
+    display: block;
+    width: 100%;
+    height: 370px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#cardojo-update-user-form #map-canvas {
+    margin-bottom: 30px;
+}
+
+.delete_expense {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #e33535;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.delete_expense:hover {
+    color: #e64747;
+}
+
+.vehicle_expenses_item {
+    width: 100%;
+    float: left;
+}
+
+.add_new_expense {
+    margin-bottom: 30px;
+    color: #00bacb;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.add_new_expense:hover {
+    color: #0483bf;
+}
+
+.bg-success {
+    background-color: #f1f8e6 !important;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: #ccc !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #ccc !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ccc !important;
+    opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #ccc !important;
+    opacity: 1;
+}
+
+
+@media ( max-width: 901px ) {
+    
+    .cardojo-col-3,
+    .cardojo-col-half,
+    .cardojo-col-9,
+    .cardojo-col-4,
+    .cardojo-col-5,
+    .cardojo-col-6,
+    .cardojo-col-12 {
+        width: 100%;
+    }
+
+}
+
+.ui-autocomplete {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    z-index: 10000;
+    border: 1px solid #5b9dd9;
+    -webkit-box-shadow: 0 1px 2px rgba(30,140,190,.8);
+    box-shadow: 0 1px 2px rgba(30,140,190,.8);
+    background-color: #fff;
+}
+
+.ui-autocomplete li {
+    margin-bottom: 0;
+    padding: 4px 10px;
+    white-space: nowrap;
+    text-align: left;
+    cursor: pointer;
+}
+
+#submit-cardojo-form .options_group fieldset.cardojo-last-fieldset,
+#submit-lead-cardojo-form .options_group fieldset.cardojo-last-fieldset,
+#submit-deal-cardojo-form .options_group fieldset.cardojo-last-fieldset {
+    margin-bottom: 0;
+    border: none !important;
+}
+
+table.car-manager-cars thead .sorting {
+    background: url(../images/sort_both.png) center right no-repeat;
+}
+
+table.car-manager-cars thead .sorting_desc {
+    background: url(../images/sort_desc.png) center right no-repeat;
+}
+
+table.car-manager-cars thead .sorting_asc {
+    background: url(../images/sort_asc.png) center right no-repeat;
+}
+
+table.car-manager-cars thead .sorting, 
+table.car-manager-cars thead .sorting_asc, 
+table.car-manager-cars thead .sorting_asc_disabled, 
+table.car-manager-cars thead .sorting_desc, 
+table.car-manager-cars thead .sorting_desc_disabled {
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.table-hover>tbody>tr:hover {
+    background-color: #538EFB;
+    color: #fff;
+    cursor: pointer;
+}
+
+#cardojo-dashboard #cardojo_add_vehicle,
+#cardojo-dashboard #cardojo_add_lead,
+#cardojo-dashboard #cardojo_add_lead {
+    margin-left: 20px;
+}
+
+#cardojo_add_vehicle,
+#cardojo_add_lead,
+#cardojo_add_deal {
+    float: right;
+    box-shadow: none;
+    padding: 14px 28px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+#cardojo_add_vehicle .fa,
+#cardojo_add_lead .fa,
+#cardojo_add_deal .fa {
+    margin-right: 7px;
+}
+
+.cardojo-inventory-stats-block {
+    background-color: #fbfcfd;
+    border: solid 1px #e7ecf1;
+    padding: 3px;
+    color: #000;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    min-height: 74px;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cardojo-inventory-stats-block span.cardojo-inventory-stats-block-title,
+.cardojo-inventory-stats-block span.cardojo-inventory-stats-block-value {
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #727c86;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardojo-inventory-stats-block span.cardojo-inventory-stats-block-value {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3e4f5e;
+}
+
+.cardojo-inventory-stats-block-value {
+    font-size: 22px;
+    line-height: normal;
+}
+
+#cardojo-submit {
+    float: left;
+    width: 100%;
+}
+
+input.disabled,
+input:disabled,
+select.disabled,
+select:disabled,
+textarea.disabled,
+textarea:disabled {
+    cursor: not-allowed;
+}
+
+.cardojo-input-has-icon {
+    position: relative;
+}
+
+.cardojo-input-has-icon .cardojo-input-icon-left {
+    padding-left: 32px !important;
+}
+
+.cardojo-input-has-icon .cardojo-input-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 36px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.cardojo-input-has-icon .cardojo-input-icon.left {
+    left: 0;
+}
+
+#btnGroupResidence,
+#btnGroupEmployer,
+#btnGroupCoBuyerEmployer,
+#btnGroupCoBuyerResidence {
+    margin-bottom: 30px;
+}
+
+#btnGroupResidence button,
+#btnGroupEmployer button,
+#btnGroupCoBuyerEmployer button,
+#btnGroupCoBuyerResidence button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    border: solid 1px #ccc;
+    position: relative;
+    float: left;
+    outline: none;
+}
+
+#btnGroupResidence button+ button,
+#btnGroupEmployer button+ button,
+#btnGroupCoBuyerEmployer button+ button,
+#btnGroupCoBuyerResidence button+ button {
+    margin-left: -1px;
+}
+
+#btnGroupResidence button.active,
+#btnGroupResidence button:hover,
+#btnGroupResidence button:active,
+#btnGroupResidence button:focus,
+#btnGroupEmployer button.active,
+#btnGroupEmployer button:hover,
+#btnGroupEmployer button:active,
+#btnGroupEmployer button:focus,
+#btnGroupCoBuyerEmployer button.active,
+#btnGroupCoBuyerEmployer button:hover,
+#btnGroupCoBuyerEmployer button:active,
+#btnGroupCoBuyerEmployer button:focus,
+#btnGroupCoBuyerResidence button.active,
+#btnGroupCoBuyerResidence button:hover,
+#btnGroupCoBuyerResidence button:active,
+#btnGroupCoBuyerResidence button:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    outline: none;
+}
+
+.lead_buyer_residences,
+.lead_buyer_employers,
+.lead_cobuyer_buyer_residences,
+.lead_cobuyer_buyer_employers {
+    display: none;
+    width: 100%;
+    float: left;
+}
+
+.lead_buyer_residences.active,
+.lead_buyer_employers.active,
+.lead_cobuyer_buyer_residences.active,
+.lead_cobuyer_buyer_employers.active {
+    display: block
+}
+
+/**
+ * Timepicker
+ */
+div.time-picker { position: absolute; height: 191px; width:6em; /* needed for IE */overflow: auto; background: #fff; border: 1px solid #aaa; z-index: 99; margin: 0;}
+div.time-picker-12hours { width:8em; /* needed for IE */}
+div.time-picker ul { list-style-type: none; margin: 0; padding: 0; }
+div.time-picker li { cursor: pointer; font: 12px/1 Helvetica, Arial, sans-serif; padding: 4px 3px; }
+div.time-picker li.selected { background: #0063CE; color: #fff; }
+
+
+table#cardojo_deals_table .cardojo_loan_payment_paid_faild {
+    background-color: #f9ebec;
+}
+
+table#cardojo_deals_table tbody tr:hover .cardojo_loan_payment_paid_faild {
+    background-color: #f3858d;
+}
+
+
+table#cardojo_deal_payments_table,
+table#cardojo_lead_appointments_table,
+table.cardojo_sales_reports {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    width: 100%;
+    table-layout: auto !important;
+    border: 1px solid #d1d1d1;
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+table#cardojo_deal_payments_table th,
+table#cardojo_lead_appointments_table th,
+table.cardojo_sales_reports th {
+    border: 1px solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    font-weight: 700;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #efefef;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table#cardojo_deal_payments_table td,
+table#cardojo_lead_appointments_table td,
+table.cardojo_sales_reports td {
+    border: 1px solid #d1d1d1;
+    font-weight: normal;
+    text-align: center;
+    border-width: 0 1px 1px 0;
+    padding: 10px;
+}
+
+table#cardojo_lead_appointments_table td,
+table#cardojo_lead_appointments_table th {
+    text-align: initial;
+    padding: 15px 20px;
+}
+
+table.cardojo_sales_reports {
+    margin-bottom: 0;
+}
+
+table.cardojo_sales_reports th {
+    padding: 15px 20px;
+}
+
+table#cardojo_deal_payments_table input {
+    margin-bottom: 0 !important;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_success {
+    background-color: #e7fff8;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_success input {
+    background-color: #f4fffc;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_faild {
+    background-color: #f9ebec;
+}
+
+table#cardojo_deal_payments_table .cardojo_loan_payment_paid_faild input {
+    background-color: #fff6f7;
+}
+
+.cardojo_loan_new_table_box {
+    border: solid 2px #fbe1e3;
+    background-color: #fff6f7;
+    padding: 15px;
+}
+
+.cardojo-green-background {
+    background-color: #e7fff8;
+}
+
+.cardojo-stats-has-url {
+    cursor: pointer;
+}
+
+.cardojo-stats-has-url:hover {
+    background-color: #edf0f3;
+}
+
+.cardojo-new-leads {
+    background-color: #f9ebec;
+}
+
+.cardojo-new-leads:hover {
+    background-color: #ecdadb;
+}
+
+.caredojo_sales_reports_nav,
+.caredojo_contact_forms_nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -1px !important;
+    float: left;
+    width: 100%;
+    z-index: 99;
+    position: relative;
+}
+
+.caredojo_sales_reports_nav li,
+.caredojo_contact_forms_nav li {
+    float: left;
+    width: auto;
+    padding: 15px 20px;
+    border: 1px solid #e7ecf1;
+    border-right: none;
+    cursor: pointer;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fbfbfb;
+}
+
+.caredojo_sales_reports_nav li:hover,
+.caredojo_contact_forms_nav li:hover {
+    background-color: #f7f7f7;
+}
+
+.caredojo_sales_reports_nav li:last-child,
+.caredojo_contact_forms_nav li:last-child {
+    border-right: 1px solid #e7ecf1;
+}
+
+.caredojo_sales_reports_nav li.active,
+.caredojo_contact_forms_nav li.active {
+    border-bottom-color: #fff;
+    background-color: #fff;
+}
+
+.caredojo_sales_reports_container,
+.caredojo_contact_forms_container {
+    padding: 20px;
+    border: 1px solid #e7ecf1;
+    float: left;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.caredojo_contact_forms_container {
+    margin-bottom: 30px;
+}
+
+.caredojo_sales_reports_container,
+.caredojo_contact_forms_container {
+    display: none;
+}
+
+.caredojo_sales_reports_container.active,
+.caredojo_contact_forms_container.active {
+    display: block;
+}
+
+.cardojo-secure-info {
+    color: #ff0000;
+    margin: 0 !important;
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+}
+
+#cardojo_submit_application,
+#cardojo_qualify_me,
+#cardojo_submit_tradein,
+#cardojo_request_test_drive {
+    border: none;
+}
+
+.has-error-alert {
+    position: relative;
+}
+
+label.error {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 400;
+    color: #cc0000;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+label.error {
+    display: none;
+}
+
+label.error.visible {
+    display: block !important;
+}
+
+.cardojo-https-error {
+    border-left: solid 3px #ed6b75;
+    padding: 20px;
+    background-color: #fbe1e3;
+}
+
+.cardojo-field-hidden-ssl {
+    background-color: #fbe1e3 !important;
+    border-color: #ed6b75 !important;
+}
+
+.cardojo-vehicle-block {
+    float: left;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .15);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.cardojo-vehicle-block-thumbnail,
+.cardojo-vehicle-block-no-thumbnail {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    float: left;
+    padding-top: 70%;
+    box-shadow: none !important;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.cardojo-vehicle-block-no-thumbnail svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 70px;
+    width: 100%;
+    display: block;
+    height: 100%;
+    stroke: #d3d5da;
+    fill: #d3d5da;
+}
+
+.cardojo-vehicle-block-meta {
+    position: relative;
+    padding: 20px;
+    transform: translateZ(0);
+    overflow: hidden;
+}
+
+.cardojo-vehicle-block .heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 27px;
+    transition: all .2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: none !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    min-height: 81px;
+    float: left;
+    width: 100%;
+}
+
+.cardojo-vehicle-block .heading .productYear {
+    color: #cccccc;
+}
+
+.cardojo-vehicle-block-specs {
+    font-size: 14px;
+    color: #999;
+}
+
+.separator {
+    margin: 15px 0;
+    background-color: #edeff1;
+    float: left;
+    width: 100%;
+}
+
+.separator-nopadding-top {
+    margin-top: 0;
+}
+
+.cardojo-vehicle-block-meta-price {
+    margin: 0 !important;
+    font-size: 18px;
+    color: #dc3545;
+    letter-spacing: 0 !important;
+}
+
+.cardojo-vehicle-block-meta .btn-danger {
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 30px;
+    background: #f6f8f9;
+    border: none;
+    color: #dc3545;
+    z-index: 9;
+    transition-delay: 0s;
+    box-shadow: none;
+}
+
+.cardojo-vehicle-block-meta .btn {
+    position: absolute;
+    bottom: 7px;
+    transition: transform .2s ease-in;
+}
+
+.cardojo-vehicle-block-meta .btn-danger .fa-heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    margin-left: -7px;
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: transform .2s ease-in-out;
+}
+
+.cardojo-vehicle-block-meta .btn-danger.favorited .fa-heart {
+    transform: scale(1);
+}
+
+.cardojo-vehicle-block:hover .cd-offer-meta .btn-danger {
+    transition-delay: .1s;
+}
+
+.cardojo-vehicle-block:hover .cd-offer-meta .btn {
+    transform: translateY(0);
+}
+
+.cardojo-vehicle-block-meta .btn-danger:hover .fa-heart {
+    transform: scale(1);
+}
+
+.btn-danger:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.cardojo-horizontal-car-filter {
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+
+/*UI SLIDER RANGES*/
+.custom-range p{margin: 0;}
+.custom-range p label{margin-bottom: 20px;width: 100%;}
+.custom-range p input{
+    border: none;
+    background: transparent;
+    width: 60px;
+    padding: 0;
+    color: #999;
+    font-size: 14px;
+}
+.custom-range .ui-slider{
+    width: calc(100% - 60px);
+    border: none;
+    border-radius: 0;
+    background: #d3d5da !important;
+    height: 2px;
+    margin-top: 6px;
+}
+.ui-slider-horizontal .ui-slider-range{background: none; background-color: #00bacb!important;}
+.ui-slider-horizontal .ui-slider-handle{
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 24px;
+    background: #00bacb!important;
+    border: none !important;
+    top: -11px !important;
+    margin-left: -12px !important;
+    outline: none !important;
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+    box-shadow: none;
+}
+.ui-slider-horizontal .ui-slider-handle:active{
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    background: #333!important;
+}
+
+.cardojo-horizontal-car-filter .form-group {
+    margin-bottom: 0;
+}
+
+.custom-checkbox {
+    margin-top: 40px;
+}
+
+.custom-checkbox label {
+    margin-bottom: 0;
+}
+
+.cardojo-filter-button {
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 15px 20px;
+    transition: all .2s ease-in-out;
+    margin-top: 24px;
+}
+
+.cardojo-filter-results {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    border-top: solid 1px #e7ecf1;
+}
+
+.cardojo-search-filter-results-buttons {
+    text-align: right;
+}
+
+.cardojo-search-filter-results-buttons a {
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.credentials-errors-block,
+.credentials-success-block {
+    padding: 20px;
+    background-color: #f8e9e9;
+    border-radius: 4px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.credentials-errors-block .error-title,
+.credentials-success-block .success-title {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #cc3333;
+    float: left;
+    font-weight: bold;
+}
+
+#reset-password-form {
+    display: none;
+}
+
+#cardojo-dashboard .options_group {
+    display: block;
+    padding: 20px;
+    border: 1px solid #e7ecf1;
+    margin-bottom: 30px;
+}
+
+#show_reset_password,
+#hide_reset_password {
+    box-shadow: none;
+}
+
+#show_reset_password .fa,
+#hide_reset_password .fa {
+    padding-right: 5px;
+}
+
+.cardojo-MyAccount-account-funds .form-row,
+.cardojo-MyAccount-account-funds .form-row input {
+    width: auto !important;
+}
+
+.cardojo-MyAccount-account-funds .form-row-first {
+    width: 50%;
+    float: left;
+}
+
+.cardojo-MyAccount-account-funds .form-row-first input {
+    width: 100% !important;
+    float: left;
+    margin-bottom: 10px !important;
+}
+
+tr.featured-listing {
+    background-color: #e7fff8;
+}
+
+tr.promoted-listing {
+    background-color: #fbfde3;
+}
+
+#subscribe-filter {
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #01adbd;
+}
+
+#subscribe-filter:hover {
+    color: #686868;
+}
+
+#subscribe-filter .fa-spinner,
+#subscribe-filter .fa-exclamation-triangle,
+#subscribe-filter .fa-check {
+    display: none;
+    margin-right: 5px;
+}
+
+#subscribe-filter-email-holder {
+    position: absolute;
+    padding: 10px;
+    width: 220px;
+    top: 0;
+    margin-top: -110px;
+    left: 50%;
+    margin-left: -110px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 5px -5px rgba(102,102,102,.1);
+    display: none;
+}
+
+#subscribe-filter-email-holder:before {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -8px;
+    right: auto;
+    display: inline-block!important;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #e0e0e0;
+    border-left: 8px solid transparent;
+    content: '';
+}
+
+#subscribe-filter-email-holder input {
+    width: 100%;
+    float: left;
+}
+
+#subscribe-filter-email-holder input.cardojo-submit-email-error {
+    border-color: #ff0000;
+}
+
+#subscribe-filter-email-holder span {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    padding-bottom: 0;
+    color: #01adbd;
+}
+
+#subscribe-filter-email-holder span:hover {
+    color: #686868;
+}
+
+#subscribe-filter-close {
+    text-align: left;
+}
+
+.cardojo-notification-block {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.cardojo-notification-block-avatar {
+    float: left;
+    width: 160px;
+}
+
+.cardojo-notification-block-avatar .cardojo-vehicle-block-no-thumbnail svg {
+    padding: 20px;
+}
+
+.cardojo-notification-block-meta {
+    float: left;
+    width: calc(100% - 190px);
+    margin-left: 30px;
+}
+
+.cardojo-notification-block-meta .cardojo-vehicle-block-specs {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+table.my_account_payouts {
+    table-layout: auto;
+}
+
+h4.user-filter-title span.delete-user-filter {
+    text-transform: capitalize;
+    color: #ff0000;
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 30px;
+}
+
+h4.user-filter-title span.delete-user-filter .fa {
+    margin-right: 7px;
+}
+
+h4.user-filter-title span.delete-user-filter:hover {
+    color: #d00909;
+}
+
+h4.user-filter-title span.show-filter-new-vehicles {
+    text-transform: lowercase;
+    letter-spacing: 0;
+    margin-left: 30px;
+    color: #666;
+}
+
+.user-filter-container {
+    margin-bottom: 30px;
+}
+
+.user-filter-container .cardojo-vehicle-block .heading {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.user-filter-container .cardojo-filter-button {
+    width: auto;
+}
+
+.user-filter-container .cardojo-vehicle-block-no-thumbnail svg {
+    padding: 40px;
+}
+
+.dealer-page-map {
+    margin-bottom: 30px !important;
+}
+
+.dealer-info-address {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cardojo-hide-block {
+    display: none;
+}
+
+
+/* Twenty SIxteen Template Full Width */
+.cardojo-full-width-template {
+    margin-right: auto !important;
+    width: 100% !important;
+}
+
+#cq-show-data {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 14px 28px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #dc3545;
+    text-decoration: none;
+    float: right;
+}
+
+#cq-show-data:hover {
+    color: #fff;
+    background-color: #c52837;
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media screen and (min-width:768px){
+
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right,
+	.carousel-control .icon-prev,
+	.carousel-control .icon-next{
+		width: 30px;
+		height: 30px;
+		margin-top: -10px;
+		font-size: 30px;
+	}
+
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .icon-prev{
+		margin-left: -10px;
+	}
+
+	.carousel-control .glyphicon-chevron-right,
+	.carousel-control .icon-next{
+		margin-right: -10px;
+	}
+
+	.carousel-caption{
+		left: 20%;
+		right: 20%;
+		padding-bottom: 30px;
+	}
+
+	.carousel-indicators{
+		bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	.col-sm-6 {
+		width: 100%;
+	}
+	
+}

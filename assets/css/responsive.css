@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+/*
+  Description: Responsive stylesheets for Car Dojo HTML/CSS Template by Themes Dojo
+  Author: ThemesDojo
+  Coding: Pascaru Sergiu - Themes Dojo front-end developer
+*/
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+
+	/*! 2.1 Home Page */
+
+	/* top main carousel */
+	 .cd-carousel,
+	 .cd-carousel .item{height: 88vh;}
+
+	/* search ideas section */
+	.cd-short-search{margin-bottom: 30px;}
+
+
+	/*! 2.2 car-item.html */
+
+	.form-group label{
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.related-tabs .nav-tabs>li>a{padding: 10px;}
+	/*contact info*/
+	section.contact-info{padding: 0 30px;}
+	.contact-info .container{width: 100%;}
+
+	/*! 2.3 car-submit.html */
+	.color-list{
+		text-align: center;
+		margin-bottom: 23px;
+	}
+	.color-list li{
+		float: none;
+		margin-bottom: 5px;
+	}
+	.color-list li:first-child{padding-left: 5px;}
+	.form-group>label{
+		margin-bottom: 5px;
+		line-height: 1;
+	}
+	.contact-info .contact-form textarea.form-control{height: 150px;}
+
+	/*!2.5 My Account page - my-account.html */
+	.account-control li .btn{padding: 12px 6px;}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width: 991px) {
+
+	/*! 2.2 car-item.html */
+
+	/*carousel*/
+	#cd-item-slider .carousel-indicators,
+	.upload-list{text-align: center;}
+	#cd-item-slider .carousel-indicators .thumbnail{
+		width: calc(33.33% - 23px);
+		float: none;
+	}
+
+	/*contact info*/
+	section.contact-info{padding: 0 22px;}
+
+	/*! 2.3 car-submit.html */
+	.upload-list li{width: calc(33.33% - 23px);}
+	.upload-list .upload-blk{width: 100%;}
+	.color-list li{padding: 0 3px;}
+
+
+	/*!2.5 My Account page - my-account.html */
+	.account-control{max-height: 410px;}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 767px) {
+
+	/*! 2.1 Home Page */
+	#cd-page-content{padding-top: 0;}
+	/*dropdown menu*/
+	.dropdown.open .dropdown-menu{display: block;}
+
+	.navbar-default .navbar-nav>.open>a{background-color: transparent;}
+	.dropdown.dropdown-submenu.open .dropdown-toggle .fa,
+	.dropdown.dropdown-submenu:hover .dropdown-toggle .fa{
+	    -webkit-transform: rotate(-180deg);
+	    -ms-transform: rotate(-180deg);
+	    -o-transform: rotate(-180deg);
+	    transform: rotate(-180deg);
+	    transition: all .2s ease-in-out;
+	}
+	/*navbar inverse*/
+	.navbar-inverse,
+	.navbar-default{
+		position: relative;
+		top: 0;
+	}
+	.navbar-inverse > .container{width: 100%;}
+	/* header */
+	header{
+		position: relative;
+		overflow: hidden;
+	}
+	/* main navigation */
+	.cd-main-navigation .container{width: 100%;}
+	.navbar-brand{margin: 28px 0;}
+	.cd-main-navigation .container>.navbar-header{padding-left: 15px;}
+	.cd-main-navigation.affix .navbar-brand{margin: 30px 15px 15px;}
+	.cd-main-navigation.affix .navbar-collapse{
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		margin: 0;
+		left: 0;
+		background: #fff;
+		-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .15);
+		box-shadow: 0 0 3px 0 rgba(0, 0, 0, .15);
+	}
+
+	/*navigation drodown*/
+
+	.navbar-nav li{
+		padding: 0 15px;
+		text-align: center;
+	}
+	.navbar-nav .open .dropdown-menu>li>a{padding: 5px 0;}
+	.cd-main-navigation .nav>li>a.btn{margin-left: 0;}
+	/*navigation hamburger button*/
+	.navbar-toggle {
+		height: 34px;
+		border-radius: 0;
+		z-index: 1;
+		background: transparent !important;
+		border: none;
+		padding: 0;
+	}
+	.navbar-toggle .icon-bar {
+		width: 28px;
+		background-color: #333 !important;
+		transition: .5s ease;
+	}
+	.navbar-toggle .icon-bar+.icon-bar{margin-top: 6px;}
+	.navbar-toggle.collapsed .icon-bar:nth-child(2){transform: rotate(0)translateY(0)translateX(0);}
+	.navbar-toggle.collapsed .icon-bar:nth-child(3){opacity:1}
+	.navbar-toggle.collapsed .icon-bar:nth-child(4){transform:rotate(0)translateY(0)translateX(0);}
+	.navbar-toggle .icon-bar:nth-child(2){transform: rotate(-45deg)translateY(5px)translateX(-5px);}
+	.navbar-toggle .icon-bar:nth-child(3){opacity: 0}
+	.navbar-toggle .icon-bar:nth-child(4){transform:rotate(45deg)translateY(-6px)translateX(-6px);}
+
+	 /* search box form */
+	 .cd-top-container{
+	 	display: block;
+	 	height: 100%;
+	 	padding-top: 15px;
+	 }
+	 .cd-top-search .form-group{
+	 	width: 100%;
+	 }
+
+	 /* top main carousel */
+	 .cd-carousel,
+	 .cd-carousel .item{height: 200vh;}
+
+	 /* inline car offers */
+	 .cd-offer-inline .cd-offer-img{
+	 	width: 100%;
+	 	margin-right: 0;
+	 }
+
+	/*! 2.2 Item page - car-item.html*/
+
+	/*price with discount*/
+	.cd-sidebar .cd-price-list li.pull-right{
+		display: inline-block;
+		line-height: 30px;
+	}
+	.cd-sidebar .cd-price-list .show-hint{display: none;}
+	.money-save, .money-discount{
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.money-discount{margin-bottom: 25px;}
+
+	/*nav tabs*/
+	.related-tabs .nav-tabs>li{padding: 0;}
+	.related-tabs .nav-tabs>li>a{padding: 12px 9px;}
+
+	/*carousel*/
+	#cd-mobile-slider .item{
+		height: 35vh;
+		min-height: 200px;
+		background-size: cover;
+		background-position: center;
+	}
+	#cd-mobile-slider .carousel-indicators{
+		position: absolute;
+		bottom: 5px;
+		left: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+	#cd-mobile-slider .carousel-indicators .active{margin: 0 !important;}
+
+	/*car condition blk*/
+	.cd-condition-blk{flex-direction: column;}
+	.cd-condition-blk .blk{margin-bottom: 30px;}
+	.cd-condition-blk .blk:last-of-type{margin-bottom: 0;}
+	.cd-widget-content{padding: 0 4% 11px;}
+
+	/*listing description panels*/
+	.cd-listing-description.panel-group{
+		padding: 28px 30px;
+		margin-bottom: 0;
+	}
+	.cd-listing-description .panel-heading{position: relative;}
+	.cd-listing-description .panel{
+		border: none;
+		box-shadow: none;
+	}
+	.cd-listing-description>.heading{
+		margin-top: 0;
+		margin-bottom: 28px;
+	}
+	.cd-listing-description .panel-heading{
+		padding: 0;
+		background: transparent;
+	}
+	.cd-listing-description .listing-title{
+		padding: 15px 0;
+		border: none;
+		border-bottom: 1px solid #e5e7ea;
+	}
+	.cd-listing-description a[data-toggle="collapse"] {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	.cd-listing-description .panel-body{
+		border: none !important;
+		padding: 0;
+	}
+	.listing-content,
+	.certified-list,
+	.cd-listing-description .panel-body > ul,
+	.cd-listing-description .panel-body > ol{
+		padding: 22px 0;
+		border-bottom: 1px solid #e5e7ea;
+		margin: 0;
+	}
+	.certified-list{display: block;}
+	.certified-list li .btn{white-space: normal;}
+
+	/*contact info*/
+	section.contact-info{padding: 0 15px;}
+	.contact-info .container{width: 100%;}
+	.contact-info .contact-form .inputs-side,
+	.contact-info .contact-form .control-side{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+	.contact-info .contact-form .control-side{margin-bottom: 30px;}
+
+
+	/*!2.3 Item submit page - car-submit.html */
+
+	/*labels*/
+	.form-group>label{
+		margin-bottom: 10px;
+		overflow: visible;
+		line-height: inherit;
+	}
+	/*separator*/
+	.separator.visible-xs{
+		height: 30px;
+		margin: 0;
+		border: none;
+		background: #f6f8f9;
+	}
+	/*add photo to gallery*/
+	.upload-list li {
+		width: calc(50% - 23px);
+		float: none;
+		margin-right: 20px;
+	}
+	.upload-list .upload-blk{
+		display: inline-block;
+		width: 136px;
+	}
+	/*add car condition*/
+	.add-car-form .form-group{width: 100%;}
+	/*add car characteristic*/
+	.color-list{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.color-list li{
+		float: none;
+		padding: 0 3px !important;
+		margin-bottom: 15px;
+	}
+	.add-caracteristic-blk .blk-content .list-inline.row .heading,
+	.add-caracteristic-blk .blk-content .interior-materials .heading{white-space: nowrap;}
+	.add-caracteristic-blk .blk-content .interior-materials{
+		padding-left: 0;
+		float: left !important;
+	}
+
+	/*add car listing description and spec*/
+	.price-row h5{margin-top: 20px;}
+	.cd-content-description .submit-blk .btn{width: 100%;}
+	.cd-content-description .submit-blk .custom-checkbox{margin-bottom: 25px;}
+
+	/*flex direction*/
+	.flex-between{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	/*!2.5 My Account page - my-account.html */
+	.cd-my-list .cd-offer-short img{
+		width: 100%;
+		height:inherit;
+		margin-bottom: 10px;
+	}
+
+
+}
+
+/* non standard monitors and devices ;-) */
+@media screen and (min-device-width : 768px) and (max-device-width : 1368px) {
+
+}
+
+/*extra large monitors*/
+@media screen and (min-device-height : 1440px) and (max-device-width : 2561px) {
+
+}

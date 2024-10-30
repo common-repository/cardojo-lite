@@ -1,0 +1,73 @@
+.button-clean{background-color:transparent!important;padding-left:0!important;padding-right:0!important;color:#00bacb!important;}.button-clean:hover{color:#01adbd!important;}.button-padding-right .fa{margin-left:60px;}.cardojo-setup-content h1{font-weight:bold;}.cardojo-setup-content p,.cardojo-setup-content table{font-size:1em;line-height:1.75em;color:#666}.align-left{float:left!important;}html{background-color:#00bacb;}body{box-shadow:none;max-width:900px;background-color:#00bacb;padding-top: 34px;margin:100px auto 24px;padding:0}#cardojo-setup-wizard-logo{border:0;margin:0 0 24px 0;padding:0;text-align:left}#cardojo-setup-wizard-logo span{float: right;color:#fff;font-weight:bold;font-size:36px;}#cardojo-setup-wizard-logo img{max-height:45px}.cardojo-setup-content{padding:10px 30px 0px 30px;background:#fff;overflow:hidden;zoom:1}.cardojo-setup-content h1,.cardojo-setup-content h2,.cardojo-setup-content h3,.cardojo-setup-content table{margin:0 0 24px;border:0;padding:0;color:#666;clear:none}.cardojo-setup-content p{margin:0 0 24px}.cardojo-setup-content a{color:#dc3545}.cardojo-setup-content a:focus,.cardojo-setup-content a:hover{color:#111}.cardojo-setup-content .form-table th{width:35%;vertical-align:top;font-weight:400}.cardojo-setup-content .form-table td{vertical-align:top}.cardojo-setup-content .form-table td input,.cardojo-setup-content .form-table td select{width:100%;box-sizing:border-box}.cardojo-setup-content .form-table td input[size]{width:auto}.cardojo-setup-content .form-table td .description{line-height:1.5em;display:block;margin-top:.25em;color:#999;font-style:italic}.cardojo-setup-content .form-table td .input-checkbox,.cardojo-setup-content .form-table td .input-radio{width:auto;box-sizing:inherit;padding:inherit;margin:0 .5em 0 0;box-shadow:none}.cardojo-setup-content .form-table .section_title td{padding:0}.cardojo-setup-content .form-table .section_title td h2,.cardojo-setup-content .form-table .section_title td p{margin:12px 0 0}.cardojo-setup-content .form-table td,.cardojo-setup-content .form-table th{padding:12px 0;margin:0;border:0}.cardojo-setup-content .form-table td:first-child,.cardojo-setup-content .form-table th:first-child{padding-right:1em}.cardojo-setup-content table.tax-rates{width:100%;font-size:.92em}.cardojo-setup-content table.tax-rates th{padding:0;text-align:center;width:auto;vertical-align:middle}.cardojo-setup-content table.tax-rates td{border:1px solid #f5f5f5;padding:6px;text-align:center;vertical-align:middle}.cardojo-setup-content table.tax-rates td input{outline:0;border:0;padding:0;box-shadow:none;text-align:center;width:100%}.cardojo-setup-content table.tax-rates .add,.cardojo-setup-content table.tax-rates .remove{padding:1em 0 0 1em;line-height:1em;width:0;height:0;display:inline-block;font-size:1em;overflow:hidden}.cardojo-setup-content table.tax-rates td.sort{cursor:move;color:#ccc}.cardojo-setup-content table.tax-rates td.sort::before{content:'\f333';font-family:dashicons}.cardojo-setup-content table.tax-rates td.readonly{background:#f5f5f5}.cardojo-setup-content table.tax-rates .add{margin:6px 0 0;position:relative}.cardojo-setup-content table.tax-rates .add::before{content:'\f502';font-family:dashicons;position:absolute;left:0;top:0}.cardojo-setup-content table.tax-rates .remove{margin:0;position:relative}.cardojo-setup-content table.tax-rates .remove::before{content:'\f182';font-family:dashicons;position:absolute;left:0;top:0}.cardojo-setup-content .cardojo-setup-pages{width:100%;border-top:1px solid #eee}.cardojo-setup-content .cardojo-setup-pages thead th{display:none}.cardojo-setup-content .cardojo-setup-pages .page-name{width:30%;font-weight:700}.cardojo-setup-content .cardojo-setup-pages td,.cardojo-setup-content .cardojo-setup-pages th{padding:14px 0;border-bottom:1px solid #eee}.cardojo-setup-content .cardojo-setup-pages td:first-child,.cardojo-setup-content .cardojo-setup-pages th:first-child{padding-right:9px}.cardojo-setup-content .cardojo-setup-pages th{padding-top:0}.cardojo-setup-content .cardojo-setup-pages .page-options p{color:#777;margin:6px 0 0 24px;line-height:1.75em}.cardojo-setup-content .cardojo-setup-pages .page-options p input{vertical-align:middle;margin:1px 0 0;height:1.75em;width:1.75em;line-height:1.75em}.cardojo-setup-content .cardojo-setup-pages .page-options p label{line-height:1}@media screen and (max-width:782px){.cardojo-setup-content .form-table tbody th{width:auto}}.cardojo-setup-content .twitter-share-button{float:right}.cardojo-setup-content .cardojo-setup-next-steps{overflow:hidden;margin:0 0 24px}.cardojo-setup-content .cardojo-setup-next-steps h2{margin-bottom:12px}.cardojo-setup-content .cardojo-setup-next-steps .cardojo-setup-next-steps-first{float:left;width:50%;box-sizing:border-box}.cardojo-setup-content .cardojo-setup-next-steps .cardojo-setup-next-steps-last{float:right;width:50%;box-sizing:border-box}.cardojo-setup-content .cardojo-setup-next-steps ul{padding:0 2em 0 0;list-style:none;margin:0 0 -.75em}.cardojo-setup-content .cardojo-setup-next-steps ul li a{display:block;padding:0 0 .75em}.cardojo-setup-content .cardojo-setup-next-steps ul .setup-product a{background-color:#bb77ae;border-color:#a36597;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #a36597;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #a36597;text-shadow:0 -1px 1px #a36597,1px 0 1px #a36597,0 1px 1px #a36597,-1px 0 1px #a36597;font-size:1em;height:auto;line-height:1.75em;margin:0 0 .75em;opacity:1;padding:1em;text-align:center}.cardojo-setup-content .cardojo-setup-next-steps ul .setup-product a:active,.cardojo-setup-content .cardojo-setup-next-steps ul .setup-product a:focus,.cardojo-setup-content .cardojo-setup-next-steps ul .setup-product a:hover{background:#a36597;border-color:#a36597;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #a36597;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #a36597}.cardojo-setup-content .cardojo-setup-next-steps ul li a::before{color:#82878c;font:400 20px/1 dashicons;speak:none;display:inline-block;padding:0 10px 0 0;top:1px;position:relative;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-decoration:none!important;vertical-align:top}.cardojo-setup-content .cardojo-setup-next-steps ul .learn-more a::before{content:'\f105'}.cardojo-setup-content .cardojo-setup-next-steps ul .video-walkthrough a::before{content:'\f126'}.cardojo-setup-content .cardojo-setup-next-steps ul .newsletter a::before{content:'\f465'}.cardojo-setup-content .updated,.cardojo-setup-content .cardojo-tracker{padding:24px 24px 0;margin:0 0 24px;overflow:hidden;background:#f5f5f5}.cardojo-setup-content .updated p,.cardojo-setup-content .cardojo-tracker p{padding:0;margin:0 0 12px}.cardojo-setup-content .updated p:last-child,.cardojo-setup-content .cardojo-tracker p:last-child{margin:0 0 24px}.cardojo-setup-steps{background-color:#fff;padding:24px 0 24px;margin:0;list-style:none;overflow:hidden;color:#ccc;width:100%;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex}.cardojo-setup-steps li{width:25%;float:left;padding:0 0 15px;margin:0;text-align:center;position:relative;border-bottom:4px solid #ccc;line-height:1.4em;color:#666;font-weight:bold;}.cardojo-setup-steps li::before{content:'';border:4px solid #ccc;border-radius:100%;width:10px;height:10px;position:absolute;bottom:0;left:50%;margin-left:-9px;margin-bottom:-11px;background:#fff}.cardojo-setup-steps li.active{border-color:#dc3545;color:#dc3545}.cardojo-setup-steps li.active::before{border-color:#dc3545}.cardojo-setup-steps li.done{border-color:#dc3545;color:#dc3545}.cardojo-setup-steps li.done::before{border-color:#dc3545;background:#dc3545}.cardojo-setup .cardojo-setup-actions{overflow:hidden;width:100%;padding-top: 30px;border-top:solid 1px #e5e7ea;}.cardojo-setup .cardojo-setup-actions .button{box-shadow:none;border:none;background-color:#00bacb;color:#fff;float:right;font-size:16px;padding:10px 20px;font-weight:bold;line-height:1em;margin-right:.5em;margin-bottom:2px;height:auto;border-radius:4px}.cardojo-setup .cardojo-setup-actions .button-primary{background-color:#dc3545;border:none;text-shadow:none;float:right;margin:0;opacity:1}.cardojo-setup .cardojo-setup-actions .button-primary:active,.cardojo-setup .cardojo-setup-actions .button-primary:focus,.cardojo-setup .cardojo-setup-actions .button-primary:hover{background:#c52e3d;}.cardojo-return-to-dashboard{font-size:.85em;color:#b5b5b5;margin:1.18em 0;display:block;text-align:center}ul.cardojo-wizard-payment-gateways{border:1px solid #eee;border-bottom-width:2px;padding:0;margin:0 0 1em;list-style:none;border-radius:4px}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway{padding:1.5em 1em 1em 4em;border-top:1px solid #eee;list-style:none;cursor:pointer;color:#555;box-sizing:border-box;clear:both}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway:first-child{border-top:0}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway.featured{width:50%;float:left;clear:none;border-right:1px solid #eee;border-top:0}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway.featured-row-last{border-right:0}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-settings{display:none;margin-bottom:0;cursor:default}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway.checked{background:#f7f1f6}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway.checked .cardojo-wizard-gateway-settings{display:table}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-description{font-style:italic}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-description p,ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable{margin:0 0 .5em}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable label{display:block;font-weight:700;vertical-align:middle}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable label img{max-height:2em;vertical-align:middle}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable label::before{content:'';background:#fff;border:2px solid #eee;display:inline-block;float:left;vertical-align:middle;width:2em;height:2em;padding:0;box-sizing:border-box;line-height:1.8em;text-align:center;margin:0 1em 0 -3em;border-radius:4px}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable input{opacity:0;width:0;position:absolute}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable input:checked+label::before{content:'\f147';font-family:dashicons;color:#fff;border-color:#a46497;background:#a46497}ul.cardojo-wizard-payment-gateways li.cardojo-wizard-gateway .cardojo-wizard-gateway-enable input:focus+label{outline:#ddd solid 1px}
+
+.middle {
+  	width: 100%;
+  	text-align: center;
+  	padding: 30px 0 60px 0;
+}
+.middle input[type="radio"] {
+  	display: none;
+}
+.middle input[type="radio"]:checked + .box {
+  	background-color: #00bacb;
+}
+.middle input[type="radio"]:checked + .box span {
+  	color: white;
+  	transform: translateY(70px);
+}
+.middle input[type="radio"]:checked + .box span:before {
+  	transform: translateY(0px);
+  	opacity: 1;
+}
+.middle .box {
+  	width: 260px;
+  	height: 200px;
+  	background-color: #f7f7f7;
+  	transition: all 250ms ease;
+  	will-change: transition;
+  	display: inline-block;
+  	text-align: center;
+  	cursor: pointer;
+  	position: relative;
+  	font-family: "Dax", sans-serif;
+  	font-weight: 900;
+}
+.middle .box:active {
+  	transform: translateY(10px);
+}
+.middle .box span {
+  	position: absolute;
+  	transform: translate(0, 60px);
+  	left: 0;
+  	right: 0;
+  	transition: all 300ms ease;
+  	font-size: 1.5em;
+  	user-select: none;
+  	color: #00bacb;
+}
+.middle .box span:before {
+  	font-size: 1.2em;
+  	font-family: FontAwesome;
+  	display: block;
+  	transform: translateY(-80px);
+  	opacity: 0;
+  	transition: all 300ms ease-in-out;
+  	font-weight: normal;
+  	color: white;
+}
+.middle .front-end span:before {
+  	content: '\f1b9';
+}
+.middle .back-end span:before {
+  	content: '\f1b9';
+}
+.middle p {
+  	color: #fff;
+  	font-family: "Dax", sans-serif;
+  	font-weight: 400;
+}
+.middle p span:after {
+  	content: '\f1b9';
+  	font-family: FontAwesome;
+  	color: yellow;
+}
